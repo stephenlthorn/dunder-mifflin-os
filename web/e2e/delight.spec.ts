@@ -81,13 +81,21 @@ test.describe('the delight layer', () => {
     await expect(page.locator('[data-toast]').last()).toContainText('— You');
     await page.keyboard.press('Escape');
 
-    await page.mouse.move(120, 560);
-    await page.mouse.down();
-    for (let i = 1; i <= 5; i += 1) {
-      await page.mouse.move(120 + i * 240, 560); // a flick: thousands of pixels a second
-      await page.waitForTimeout(10);
-    }
-    await page.mouse.up();
+    // A flick, dispatched inside the page 5 ms apart so its speed doesn't depend on how fast the test runner is.
+    await page.evaluate(async () => {
+      const target = document.elementFromPoint(120, 560);
+      if (!target) throw new Error('nothing to drag at (120, 560)');
+      const fire = (type: string, x: number, buttons: number) => target.dispatchEvent(new PointerEvent(type, {
+        bubbles: true, cancelable: true, composed: true, pointerId: 1, pointerType: 'mouse', isPrimary: true,
+        clientX: x, clientY: 560, button: 0, buttons,
+      }));
+      fire('pointerdown', 120, 1);
+      for (let i = 1; i <= 6; i += 1) {
+        await new Promise((r) => setTimeout(r, 5));
+        fire('pointermove', 120 + i * 150, 1);
+      }
+      fire('pointerup', 1020, 0);
+    });
     await expect(page.locator('[data-toast]').last()).toContainText('Parkour!');
   });
 
