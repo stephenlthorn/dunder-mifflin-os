@@ -1,0 +1,81 @@
+/* The documentary crew (a person's Timeline tab) and Angela's ledger (tokens and cost per bot). */
+
+.person-tabs > .tabs { margin-bottom: 10px; }
+.ledger-link {
+  display: block; width: 100%; margin: 0 0 10px; padding: 6px 10px; border: 1px solid #b9d8c3; border-radius: 8px;
+  background: #eef7f1; color: #24613a; font-weight: 600; font-size: 12.5px; text-align: left;
+}
+.ledger-link:hover { background: #e2f1e7; }
+
+/* talking head: a camera viewfinder with a lower third */
+.talking-head { margin: 0 0 10px; }
+.th-frame {
+  position: relative; display: flex; align-items: flex-end; gap: 10px; height: 116px; padding: 10px 12px; overflow: hidden;
+  border-radius: 10px; background: radial-gradient(circle at 25% 35%, #56606f, #22262d 75%);
+}
+.th-frame::before, .th-frame::after {
+  content: ''; position: absolute; width: 14px; height: 14px; border: 2px solid rgba(255, 255, 255, .7); pointer-events: none;
+}
+.th-frame::before { top: 7px; left: 7px; border-right: 0; border-bottom: 0; }
+.th-frame::after { bottom: 7px; right: 7px; border-left: 0; border-top: 0; }
+.th-frame .portrait { width: 80px; height: 92px; border-radius: 8px; border: 0; background: #dfe4ea; align-self: center; }
+.th-rec { position: absolute; top: 9px; right: 12px; color: #fff; font: 600 10.5px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .8px; }
+.th-rec i { display: inline-block; width: 7px; height: 7px; margin-right: 3px; border-radius: 50%; background: #e5484d; animation: th-blink 1.4s steps(2, start) infinite; }
+@keyframes th-blink { to { visibility: hidden; } }
+.reduce-motion .th-rec i { animation: none; }
+@media (prefers-reduced-motion: reduce) { .th-rec i { animation: none; } }
+.th-lower-third {
+  display: grid; margin-bottom: 4px; padding: 5px 26px 5px 10px; border-radius: 3px; color: #fff;
+  background: linear-gradient(90deg, #1f5fae 0%, #2468bd 72%, rgba(36, 104, 189, 0));
+}
+.th-lower-third strong { font-size: 13.5px; }
+.th-lower-third span { font-size: 11px; opacity: .92; }
+.th-quote {
+  margin: 8px 0 0; padding: 8px 11px; background: #fff; border: 1px solid var(--line); border-left: 3px solid var(--dm-blue);
+  border-radius: 6px; font-size: 13px; line-height: 1.5;
+}
+
+/* filters and the event list */
+.tl-controls { display: flex; flex-wrap: wrap; gap: 6px; justify-content: space-between; align-items: center; margin: 6px 0 8px; }
+.tl-chips, .tl-range { display: flex; flex-wrap: wrap; gap: 4px; }
+.chip-btn { border: 1px solid var(--line); background: #fff; border-radius: 999px; padding: 2px 9px; font-size: 12px; color: var(--muted); }
+.chip-btn:hover { border-color: #c8bfae; }
+.chip-btn[aria-pressed='true'] { background: var(--dm-blue); border-color: var(--dm-blue); color: #fff; }
+.tl-list { list-style: none; margin: 0; padding: 0; max-height: 300px; overflow: auto; border-top: 1px solid #efeae0; }
+.tl-event { display: grid; grid-template-columns: 22px 1fr auto; gap: 8px; align-items: start; padding: 6px 2px; border-bottom: 1px solid #efeae0; }
+.tl-glyph { width: 22px; height: 22px; border-radius: 6px; display: grid; place-items: center; font-size: 12px; background: #eef1f5; color: #4b5563; }
+.tone-ok .tl-glyph { background: #dcf3e3; color: #1f7a3b; }
+.tone-info .tl-glyph { background: #e3edf9; color: var(--dm-blue); }
+.tone-warn .tl-glyph { background: #fdf0d5; color: #8a5a00; }
+.tone-bad .tl-glyph { background: #fbe1e1; color: #a12d2d; }
+.tl-body { min-width: 0; }
+.tl-title { word-break: break-word; }
+.tl-kind { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .4px; color: var(--muted); margin-right: 2px; }
+.tone-bad .tl-kind { color: #a12d2d; }
+.tl-count { color: var(--muted); font-size: 12px; }
+.tl-detail { display: block; font-size: 12px; color: var(--muted); word-break: break-word; }
+.tl-time { font-size: 11.5px; color: var(--muted); white-space: nowrap; padding-top: 2px; }
+.tl-empty, .tl-note { font-size: 12.5px; }
+
+/* Angela's ledger */
+.window[data-window='ledger'], .window:has(.timeline-panel) { width: min(460px, calc(100vw - 24px)); }
+.ledger-window > .tabs { margin-bottom: 4px; }
+.ledger-list { list-style: none; margin: 0; padding: 0; border-top: 2px solid #b9d8c3; }
+.ledger-row {
+  display: grid; grid-template-columns: minmax(118px, 36%) 1fr 64px; grid-template-areas: 'who track value' 'who sub sub';
+  gap: 0 8px; align-items: center; padding: 3px 0; border-bottom: 1px solid #e6efe8;
+}
+.ledger-who { grid-area: who; color: var(--ink); text-decoration: none; font-weight: 600; text-align: left; min-width: 0; }
+.ledger-who:hover .ledger-name { text-decoration: underline; }
+.ledger-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ledger-track { grid-area: track; height: 12px; background: #f1f4f1; border-radius: 3px; overflow: hidden; }
+.ledger-bar { display: block; height: 100%; background: linear-gradient(90deg, #2f7d4a, #45a065); border-radius: 3px; }
+.ledger-value { grid-area: value; font-variant-numeric: tabular-nums; font-weight: 700; text-align: right; }
+.ledger-sub { grid-area: sub; font-size: 11px; line-height: 1.3; color: var(--muted); }
+.ledger-row.is-unavailable .ledger-none { grid-area: track / track / sub / value; font-style: italic; }
+.ledger-total { margin: 2px 0 6px; padding: 6px 8px; border-radius: 6px; background: #eef7f1; font-variant-numeric: tabular-nums; }
+.ledger-foot { margin-top: 6px; font-size: 11.5px; line-height: 1.4; }
+.ledger-foot code { font-size: 11px; background: rgba(0, 0, 0, .06); padding: 1px 4px; border-radius: 4px; }
+
+/* the accounting corner's sign on the map */
+.sign.is-room.ledger-sign .sign-plate { stroke: #9ccaae; }

@@ -1,0 +1,1563 @@
+{
+ "meta": {
+  "recordedAt": "2026-10-13T16:11:02.554Z",
+  "hermesVersion": "0.21.6",
+  "note": "Recorded from the live adapter and redacted by scripts/redact.ts: chat keys, task ids/titles, session titles, cron ids/names and group titles are synthetic; statuses, timestamps and structure are real. Message text is invented.",
+  "augmented": [
+   "cmo: running run on a council card (meeting in the Conference Room)",
+   "social: running run with a fresh heartbeat (working)",
+   "skool: run crashed 10 min before recording (error)",
+   "health: telegram platform disconnected (offline)",
+   "ops: a todo card created from Dunder Mifflin OS for campaigns (shared)"
+  ]
+ },
+ "state": {
+  "recordedAt": "2026-10-13T16:11:02.554Z",
+  "gateway": {
+   "running": true,
+   "platforms": [
+    {
+     "profile": "ai-strategist",
+     "state": "connected",
+     "errorCode": null,
+     "updatedAt": "2026-10-13T01:12:17.687539+00:00"
+    },
+    {
+     "profile": "campaigns",
+     "state": "connected",
+     "errorCode": null,
+     "updatedAt": "2026-10-13T01:12:10.714621+00:00"
+    },
+    {
+     "profile": "cfo",
+     "state": "connected",
+     "errorCode": null,
+     "updatedAt": "2026-10-13T01:14:28.602245+00:00"
+    },
+    {
+     "profile": "chief",
+     "state": "connected",
+     "errorCode": null,
+     "updatedAt": "2026-10-13T01:11:57.614059+00:00"
+    },
+    {
+     "profile": "cmo",
+     "state": "connected",
+     "errorCode": null,
+     "updatedAt": "2026-10-12T19:08:12.834047+00:00"
+    },
+    {
+     "profile": "general",
+     "state": "connected",
+     "errorCode": null,
+     "updatedAt": "2026-10-12T19:08:24.250448+00:00"
+    },
+    {
+     "profile": "health",
+     "state": "disconnected",
+     "errorCode": null,
+     "updatedAt": "2026-10-12T19:08:39.138373+00:00"
+    },
+    {
+     "profile": "skool",
+     "state": "connected",
+     "errorCode": null,
+     "updatedAt": "2026-10-12T19:08:50.581209+00:00"
+    },
+    {
+     "profile": "social",
+     "state": "connected",
+     "errorCode": null,
+     "updatedAt": "2026-10-12T19:09:02.013337+00:00"
+    },
+    {
+     "profile": "strategist",
+     "state": "connected",
+     "errorCode": null,
+     "updatedAt": "2026-10-13T01:11:47.373361+00:00"
+    },
+    {
+     "profile": "teacher",
+     "state": "connected",
+     "errorCode": null,
+     "updatedAt": "2026-10-12T19:09:24.920288+00:00"
+    },
+    {
+     "profile": "tech",
+     "state": "connected",
+     "errorCode": null,
+     "updatedAt": "2026-10-13T01:13:51.001435+00:00"
+    }
+   ]
+  },
+  "telegram": [
+   {
+    "profile": "chief",
+    "enabled": true,
+    "groupChats": [
+     "chat-hq",
+     "chat-council"
+    ],
+    "leadChats": [
+     "chat-hq",
+     "chat-council"
+    ],
+    "roomHints": {
+     "chat-hq": "HQ",
+     "chat-council": "Council"
+    }
+   },
+   {
+    "profile": "cmo",
+    "enabled": true,
+    "groupChats": [
+     "chat-council"
+    ],
+    "leadChats": [],
+    "roomHints": {
+     "chat-council": "Council"
+    }
+   },
+   {
+    "profile": "campaigns",
+    "enabled": true,
+    "groupChats": [
+     "chat-outreach"
+    ],
+    "leadChats": [
+     "chat-outreach"
+    ],
+    "roomHints": {
+     "chat-outreach": "Outreach"
+    }
+   },
+   {
+    "profile": "cfo",
+    "enabled": true,
+    "groupChats": [
+     "chat-council"
+    ],
+    "leadChats": [],
+    "roomHints": {
+     "chat-council": "Council"
+    }
+   },
+   {
+    "profile": "teacher",
+    "enabled": true,
+    "groupChats": [],
+    "leadChats": [],
+    "roomHints": {}
+   },
+   {
+    "profile": "social",
+    "enabled": true,
+    "groupChats": [
+     "chat-content"
+    ],
+    "leadChats": [
+     "chat-content"
+    ],
+    "roomHints": {
+     "chat-content": "Content"
+    }
+   },
+   {
+    "profile": "skool",
+    "enabled": true,
+    "groupChats": [
+     "chat-skool"
+    ],
+    "leadChats": [
+     "chat-skool"
+    ],
+    "roomHints": {
+     "chat-skool": "Skool"
+    }
+   },
+   {
+    "profile": "ai-strategist",
+    "enabled": true,
+    "groupChats": [
+     "chat-council",
+     "chat-rnd"
+    ],
+    "leadChats": [],
+    "roomHints": {
+     "chat-council": "Council",
+     "chat-rnd": "R&D"
+    }
+   },
+   {
+    "profile": "strategist",
+    "enabled": true,
+    "groupChats": [
+     "chat-council"
+    ],
+    "leadChats": [],
+    "roomHints": {
+     "chat-council": "Council"
+    }
+   },
+   {
+    "profile": "tech",
+    "enabled": true,
+    "groupChats": [
+     "chat-ops",
+     "chat-rnd",
+     "chat-council"
+    ],
+    "leadChats": [
+     "chat-ops",
+     "chat-rnd"
+    ],
+    "roomHints": {
+     "chat-ops": "Ops",
+     "chat-rnd": "R&D",
+     "chat-council": "Council"
+    }
+   },
+   {
+    "profile": "general",
+    "enabled": true,
+    "groupChats": [],
+    "leadChats": [],
+    "roomHints": {}
+   },
+   {
+    "profile": "health",
+    "enabled": true,
+    "groupChats": [],
+    "leadChats": [],
+    "roomHints": {}
+   }
+  ],
+  "chatNames": {
+   "chat-hq": "Dunder Mifflin HQ",
+   "chat-council": "Dunder Mifflin Council",
+   "chat-outreach": "Dunder Mifflin Outreach",
+   "chat-content": "Dunder Mifflin Content",
+   "chat-skool": "Dunder Mifflin Skool",
+   "chat-ops": "Dunder Mifflin Ops",
+   "chat-rnd": "Dunder Mifflin R&D"
+  },
+  "kanban": {
+   "tasks": [
+    {
+     "id": "t_demo1",
+     "title": "Council round: Q4 paper pricing",
+     "assignee": "cmo",
+     "status": "running",
+     "createdBy": "council",
+     "tenant": null,
+     "createdAt": 1791906062.554,
+     "startedAt": 1791907262.554,
+     "completedAt": null,
+     "lastHeartbeatAt": null
+    },
+    {
+     "id": "t_demo2",
+     "title": "Draft the Dundies recap post",
+     "assignee": "social",
+     "status": "running",
+     "createdBy": "user",
+     "tenant": null,
+     "createdAt": 1791906062.554,
+     "startedAt": 1791907442.554,
+     "completedAt": null,
+     "lastHeartbeatAt": null
+    },
+    {
+     "id": "t_demo3",
+     "title": "Import the Skool member list",
+     "assignee": "skool",
+     "status": "ready",
+     "createdBy": "user",
+     "tenant": null,
+     "createdAt": 1791906062.554,
+     "startedAt": null,
+     "completedAt": null,
+     "lastHeartbeatAt": null
+    },
+    {
+     "id": "t_demo4",
+     "title": "Restock the conference room paper",
+     "assignee": "campaigns",
+     "status": "ready",
+     "createdBy": "dmos-ops",
+     "tenant": null,
+     "createdAt": 1791906062.554,
+     "startedAt": null,
+     "completedAt": null,
+     "lastHeartbeatAt": null
+    },
+    {
+     "id": "t_fx001",
+     "status": "done",
+     "createdAt": 1791906288,
+     "title": "Reconcile the paper invoices",
+     "assignee": "chief",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791906319,
+     "completedAt": 1791906521,
+     "lastHeartbeatAt": 1791906509
+    },
+    {
+     "id": "t_fx002",
+     "status": "done",
+     "createdAt": 1791905947,
+     "title": "Prep the quarterly sales deck",
+     "assignee": "chief",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791905958,
+     "completedAt": 1791906226,
+     "lastHeartbeatAt": 1791906214
+    },
+    {
+     "id": "t_fx003",
+     "status": "blocked",
+     "createdAt": 1791897155,
+     "title": "Order toner for the copier",
+     "assignee": null,
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": null,
+     "completedAt": null,
+     "lastHeartbeatAt": null
+    },
+    {
+     "id": "t_fx004",
+     "status": "blocked",
+     "createdAt": 1791897154,
+     "title": "Draft the client follow-up",
+     "assignee": null,
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": null,
+     "completedAt": null,
+     "lastHeartbeatAt": null
+    },
+    {
+     "id": "t_fx005",
+     "status": "done",
+     "createdAt": 1791897130,
+     "title": "Plan the Dundies agenda",
+     "assignee": "chief",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791897169,
+     "completedAt": 1791898520,
+     "lastHeartbeatAt": 1791898491
+    },
+    {
+     "id": "t_fx006",
+     "status": "done",
+     "createdAt": 1791897032,
+     "title": "Audit the warehouse inventory",
+     "assignee": "chief",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791897048,
+     "completedAt": 1791897259,
+     "lastHeartbeatAt": 1791897232
+    },
+    {
+     "id": "t_fx007",
+     "status": "done",
+     "createdAt": 1791890633,
+     "title": "Update the price sheet",
+     "assignee": "chief",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791890666,
+     "completedAt": 1791891920,
+     "lastHeartbeatAt": 1791891865
+    },
+    {
+     "id": "t_fx008",
+     "status": "done",
+     "createdAt": 1791889773,
+     "title": "Write the safety training memo",
+     "assignee": "campaigns",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791889823,
+     "completedAt": 1791889990,
+     "lastHeartbeatAt": 1791889947
+    },
+    {
+     "id": "t_fx009",
+     "status": "done",
+     "createdAt": 1791859335,
+     "title": "Schedule the party planning committee",
+     "assignee": "tech",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791859374,
+     "completedAt": 1791860050,
+     "lastHeartbeatAt": 1791860001
+    },
+    {
+     "id": "t_fx010",
+     "status": "done",
+     "createdAt": 1791856054,
+     "title": "Refresh the website banner",
+     "assignee": "campaigns",
+     "createdBy": "council",
+     "tenant": null,
+     "startedAt": 1791856065,
+     "completedAt": 1791859110,
+     "lastHeartbeatAt": 1791859079
+    },
+    {
+     "id": "t_fx011",
+     "status": "done",
+     "createdAt": 1791856044,
+     "title": "Review the expense reports",
+     "assignee": "campaigns",
+     "createdBy": "council",
+     "tenant": null,
+     "startedAt": 1791856065,
+     "completedAt": 1791856434,
+     "lastHeartbeatAt": 1791856434
+    },
+    {
+     "id": "t_fx012",
+     "status": "done",
+     "createdAt": 1791856034,
+     "title": "Call back the Scranton prospects",
+     "assignee": "tech",
+     "createdBy": "council",
+     "tenant": null,
+     "startedAt": 1791856064,
+     "completedAt": 1791859372,
+     "lastHeartbeatAt": 1791859361
+    },
+    {
+     "id": "t_fx013",
+     "status": "done",
+     "createdAt": 1791835559,
+     "title": "Fix the conference room TV",
+     "assignee": "social",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791835611,
+     "completedAt": 1791835655,
+     "lastHeartbeatAt": 1791835613
+    },
+    {
+     "id": "t_fx014",
+     "status": "done",
+     "createdAt": 1791835107,
+     "title": "Summarise the board meeting",
+     "assignee": "social",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791835128,
+     "completedAt": 1791835303,
+     "lastHeartbeatAt": 1791835256
+    },
+    {
+     "id": "t_fx015",
+     "status": "done",
+     "createdAt": 1791835107,
+     "title": "Test the new phone system",
+     "assignee": "campaigns",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791835128,
+     "completedAt": 1791835378,
+     "lastHeartbeatAt": 1791835378
+    },
+    {
+     "id": "t_fx016",
+     "status": "done",
+     "createdAt": 1791813769,
+     "title": "Clean up the shared drive",
+     "assignee": "campaigns",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791813770,
+     "completedAt": 1791813829,
+     "lastHeartbeatAt": 1791813793
+    },
+    {
+     "id": "t_fx017",
+     "status": "done",
+     "createdAt": 1791813768,
+     "title": "Reconcile the paper invoices",
+     "assignee": "tech",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791813770,
+     "completedAt": 1791813839,
+     "lastHeartbeatAt": 1791813789
+    },
+    {
+     "id": "t_fx018",
+     "status": "done",
+     "createdAt": 1791813767,
+     "title": "Prep the quarterly sales deck",
+     "assignee": "ai-strategist",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791813770,
+     "completedAt": 1791813813,
+     "lastHeartbeatAt": 1791813793
+    },
+    {
+     "id": "t_fx019",
+     "status": "done",
+     "createdAt": 1791813766,
+     "title": "Order toner for the copier",
+     "assignee": "strategist",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791813770,
+     "completedAt": 1791813813,
+     "lastHeartbeatAt": 1791813792
+    },
+    {
+     "id": "t_fx020",
+     "status": "done",
+     "createdAt": 1791813764,
+     "title": "Draft the client follow-up",
+     "assignee": "cmo",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791813770,
+     "completedAt": 1791813814,
+     "lastHeartbeatAt": 1791813791
+    },
+    {
+     "id": "t_fx021",
+     "status": "done",
+     "createdAt": 1791813763,
+     "title": "Plan the Dundies agenda",
+     "assignee": "cfo",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791813770,
+     "completedAt": 1791813813,
+     "lastHeartbeatAt": 1791813792
+    },
+    {
+     "id": "t_fx022",
+     "status": "done",
+     "createdAt": 1791813762,
+     "title": "Audit the warehouse inventory",
+     "assignee": "teacher",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791813770,
+     "completedAt": 1791813851,
+     "lastHeartbeatAt": 1791813850
+    },
+    {
+     "id": "t_fx023",
+     "status": "done",
+     "createdAt": 1791813760,
+     "title": "Update the price sheet",
+     "assignee": "skool",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791813770,
+     "completedAt": 1791813825,
+     "lastHeartbeatAt": 1791813794
+    },
+    {
+     "id": "t_fx024",
+     "status": "done",
+     "createdAt": 1791813759,
+     "title": "Write the safety training memo",
+     "assignee": "social",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791813770,
+     "completedAt": 1791813814,
+     "lastHeartbeatAt": 1791813792
+    },
+    {
+     "id": "t_fx025",
+     "status": "done",
+     "createdAt": 1791813758,
+     "title": "Schedule the party planning committee",
+     "assignee": "chief",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791813769,
+     "completedAt": 1791813848,
+     "lastHeartbeatAt": 1791813791
+    },
+    {
+     "id": "t_fx026",
+     "status": "done",
+     "createdAt": 1791805208,
+     "title": "Refresh the website banner",
+     "assignee": "social",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791805221,
+     "completedAt": 1791805306,
+     "lastHeartbeatAt": 1791805263
+    },
+    {
+     "id": "t_fx027",
+     "status": "done",
+     "createdAt": 1791803434,
+     "title": "Review the expense reports",
+     "assignee": "tech",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791803527,
+     "completedAt": 1791804158,
+     "lastHeartbeatAt": 1791804143
+    },
+    {
+     "id": "t_fx028",
+     "status": "done",
+     "createdAt": 1791802955,
+     "title": "Call back the Scranton prospects",
+     "assignee": "social",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791803286,
+     "completedAt": 1791803482,
+     "lastHeartbeatAt": 1791803469
+    },
+    {
+     "id": "t_fx029",
+     "status": "done",
+     "createdAt": 1791802934,
+     "title": "Fix the conference room TV",
+     "assignee": null,
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791802985,
+     "completedAt": 1791803144,
+     "lastHeartbeatAt": 1791803110
+    },
+    {
+     "id": "t_fx030",
+     "status": "done",
+     "createdAt": 1791802933,
+     "title": "Summarise the board meeting",
+     "assignee": null,
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791802985,
+     "completedAt": 1791803181,
+     "lastHeartbeatAt": 1791803170
+    },
+    {
+     "id": "t_fx031",
+     "status": "done",
+     "createdAt": 1791802932,
+     "title": "Test the new phone system",
+     "assignee": null,
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791802985,
+     "completedAt": 1791803220,
+     "lastHeartbeatAt": 1791803182
+    },
+    {
+     "id": "t_fx032",
+     "status": "done",
+     "createdAt": 1791802931,
+     "title": "Clean up the shared drive",
+     "assignee": null,
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791802985,
+     "completedAt": 1791803268,
+     "lastHeartbeatAt": 1791803231
+    },
+    {
+     "id": "t_fx033",
+     "status": "done",
+     "createdAt": 1791802929,
+     "title": "Reconcile the paper invoices",
+     "assignee": null,
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791802985,
+     "completedAt": 1791803211,
+     "lastHeartbeatAt": 1791803171
+    },
+    {
+     "id": "t_fx034",
+     "status": "done",
+     "createdAt": 1791770415,
+     "title": "Prep the quarterly sales deck",
+     "assignee": "chief",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791770444,
+     "completedAt": 1791770948,
+     "lastHeartbeatAt": 1791770937
+    },
+    {
+     "id": "t_fx035",
+     "status": "done",
+     "createdAt": 1791770313,
+     "title": "Order toner for the copier",
+     "assignee": "campaigns",
+     "createdBy": "council",
+     "tenant": null,
+     "startedAt": 1791770324,
+     "completedAt": 1791771124,
+     "lastHeartbeatAt": 1791771073
+    },
+    {
+     "id": "t_fx036",
+     "status": "done",
+     "createdAt": 1791770303,
+     "title": "Draft the client follow-up",
+     "assignee": "social",
+     "createdBy": "council",
+     "tenant": null,
+     "startedAt": 1791770324,
+     "completedAt": 1791770433,
+     "lastHeartbeatAt": 1791770389
+    },
+    {
+     "id": "t_fx037",
+     "status": "done",
+     "createdAt": 1791770292,
+     "title": "Plan the Dundies agenda",
+     "assignee": "tech",
+     "createdBy": "council",
+     "tenant": null,
+     "startedAt": 1791770324,
+     "completedAt": 1791772867,
+     "lastHeartbeatAt": 1791772847
+    },
+    {
+     "id": "t_fx038",
+     "status": "done",
+     "createdAt": 1791759820,
+     "title": "Audit the warehouse inventory",
+     "assignee": "social",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791759861,
+     "completedAt": 1791760228,
+     "lastHeartbeatAt": 1791760171
+    },
+    {
+     "id": "t_fx039",
+     "status": "done",
+     "createdAt": 1791759815,
+     "title": "Update the price sheet",
+     "assignee": "tech",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791759861,
+     "completedAt": 1791760235,
+     "lastHeartbeatAt": 1791760176
+    },
+    {
+     "id": "t_fx040",
+     "status": "done",
+     "createdAt": 1791759808,
+     "title": "Write the safety training memo",
+     "assignee": "campaigns",
+     "createdBy": "user",
+     "tenant": null,
+     "startedAt": 1791759861,
+     "completedAt": 1791760248,
+     "lastHeartbeatAt": 1791760239
+    }
+   ],
+   "runs": [
+    {
+     "taskId": "t_demo1",
+     "profile": "cmo",
+     "status": "running",
+     "outcome": null,
+     "startedAt": 1791907262.554,
+     "endedAt": null,
+     "lastHeartbeatAt": 1791907822.554
+    },
+    {
+     "taskId": "t_demo2",
+     "profile": "social",
+     "status": "running",
+     "outcome": null,
+     "startedAt": 1791907442.554,
+     "endedAt": null,
+     "lastHeartbeatAt": 1791907837.554
+    },
+    {
+     "taskId": "t_demo3",
+     "profile": "skool",
+     "status": "crashed",
+     "outcome": "crashed",
+     "startedAt": 1791906362.554,
+     "endedAt": 1791907262.554,
+     "lastHeartbeatAt": null
+    },
+    {
+     "taskId": "t_fx001",
+     "status": "done",
+     "startedAt": 1791906319,
+     "profile": "chief",
+     "outcome": "completed",
+     "endedAt": 1791906521,
+     "lastHeartbeatAt": 1791906509
+    },
+    {
+     "taskId": "t_fx002",
+     "status": "done",
+     "startedAt": 1791905958,
+     "profile": "chief",
+     "outcome": "completed",
+     "endedAt": 1791906226,
+     "lastHeartbeatAt": 1791906214
+    }
+   ],
+   "subs": [
+    {
+     "taskId": "t_fx014",
+     "chatKey": "chat-rnd",
+     "chatType": "group",
+     "notifierProfile": "tech"
+    },
+    {
+     "taskId": "t_fx015",
+     "chatKey": "chat-rnd",
+     "chatType": "group",
+     "notifierProfile": "tech"
+    },
+    {
+     "taskId": "t_fx013",
+     "chatKey": "chat-rnd",
+     "chatType": "group",
+     "notifierProfile": "tech"
+    },
+    {
+     "taskId": "t_fx008",
+     "chatKey": "chat-x3",
+     "chatType": "dm",
+     "notifierProfile": "general"
+    }
+   ],
+   "links": [
+    {
+     "parentId": "t_fx036",
+     "childId": "t_fx034",
+     "parentAssignee": "social",
+     "childAssignee": "chief"
+    },
+    {
+     "parentId": "t_fx033",
+     "childId": "t_fx028",
+     "parentAssignee": null,
+     "childAssignee": "social"
+    },
+    {
+     "parentId": "t_fx032",
+     "childId": "t_fx028",
+     "parentAssignee": null,
+     "childAssignee": "social"
+    },
+    {
+     "parentId": "t_fx031",
+     "childId": "t_fx028",
+     "parentAssignee": null,
+     "childAssignee": "social"
+    },
+    {
+     "parentId": "t_fx030",
+     "childId": "t_fx028",
+     "parentAssignee": null,
+     "childAssignee": "social"
+    },
+    {
+     "parentId": "t_fx029",
+     "childId": "t_fx028",
+     "parentAssignee": null,
+     "childAssignee": "social"
+    },
+    {
+     "parentId": "t_fx028",
+     "childId": "t_fx027",
+     "parentAssignee": "social",
+     "childAssignee": "tech"
+    },
+    {
+     "parentId": "t_fx014",
+     "childId": "t_fx013",
+     "parentAssignee": "social",
+     "childAssignee": "social"
+    },
+    {
+     "parentId": "t_fx012",
+     "childId": "t_fx009",
+     "parentAssignee": "tech",
+     "childAssignee": "tech"
+    }
+   ]
+  },
+  "sessions": [
+   {
+    "profile": "chief",
+    "lastActivityAt": 1791906509.3843358,
+    "title": "Working a kanban card",
+    "source": "kanban"
+   },
+   {
+    "profile": "cmo",
+    "lastActivityAt": 1791813797.649581,
+    "title": "Working a kanban card",
+    "source": "kanban"
+   },
+   {
+    "profile": "campaigns",
+    "lastActivityAt": 1791907572.554924,
+    "title": "Scheduled job",
+    "source": "cron"
+   },
+   {
+    "profile": "cfo",
+    "lastActivityAt": 1791813796.692343,
+    "title": "Working a kanban card",
+    "source": "kanban"
+   },
+   {
+    "profile": "teacher",
+    "lastActivityAt": 1791813928.087759,
+    "title": null,
+    "source": "oneshot"
+   },
+   {
+    "profile": "social",
+    "lastActivityAt": 1791835614.207288,
+    "title": "Working a kanban card",
+    "source": "kanban"
+   },
+   {
+    "profile": "skool",
+    "lastActivityAt": 1791831129.067271,
+    "title": "Direct chat",
+    "source": "telegram"
+   },
+   {
+    "profile": "ai-strategist",
+    "lastActivityAt": 1791883840.403929,
+    "title": "Scheduled job",
+    "source": "cron"
+   },
+   {
+    "profile": "strategist",
+    "lastActivityAt": 1791813797.97561,
+    "title": "Working a kanban card",
+    "source": "kanban"
+   },
+   {
+    "profile": "tech",
+    "lastActivityAt": 1791905959.807182,
+    "title": "Direct chat",
+    "source": "telegram"
+   },
+   {
+    "profile": "general",
+    "lastActivityAt": 1791889994.427296,
+    "title": "Direct chat",
+    "source": "telegram"
+   },
+   {
+    "profile": "health",
+    "lastActivityAt": 1791887127.397401,
+    "title": "Direct chat",
+    "source": "telegram"
+   }
+  ],
+  "cron": [
+   {
+    "profile": "chief",
+    "id": "j1",
+    "name": "Morning report",
+    "enabled": true,
+    "schedule": "30 8 * * 1-5",
+    "nextRunAt": "2026-10-14T08:30:00-04:00",
+    "lastRunAt": "2026-10-13T08:30:38.324832-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "chief",
+    "id": "j2",
+    "name": "Evening wrap-up",
+    "enabled": true,
+    "schedule": "0 18 * * 0",
+    "nextRunAt": "2026-10-18T18:00:00-04:00",
+    "lastRunAt": "2026-10-11T18:00:47.727816-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "chief",
+    "id": "j3",
+    "name": "Weekly review",
+    "enabled": false,
+    "schedule": "0 23 * * *",
+    "nextRunAt": "2026-10-09T23:00:00-04:00",
+    "lastRunAt": "2026-10-08T23:00:39.708587-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "chief",
+    "id": "j4",
+    "name": "Inbox sweep",
+    "enabled": false,
+    "schedule": "*/2 21-23 * * *",
+    "nextRunAt": "2026-10-09T21:00:00-04:00",
+    "lastRunAt": "2026-10-08T23:58:02.776607-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "chief",
+    "id": "j5",
+    "name": "Nightly backup check",
+    "enabled": true,
+    "schedule": "0 10,14,18 * * *",
+    "nextRunAt": "2026-10-13T14:00:00-04:00",
+    "lastRunAt": "2026-10-13T10:00:38.567337-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "chief",
+    "id": "j6",
+    "name": "Lead digest",
+    "enabled": true,
+    "schedule": "0 19 * * 0",
+    "nextRunAt": "2026-10-18T19:00:00-04:00",
+    "lastRunAt": "2026-10-11T19:04:00.412333-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "campaigns",
+    "id": "j7",
+    "name": "Health check",
+    "enabled": true,
+    "schedule": "0 9 * * 1-5",
+    "nextRunAt": "2026-10-14T09:00:00-04:00",
+    "lastRunAt": "2026-10-13T09:04:13.971984-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "campaigns",
+    "id": "j8",
+    "name": "Friday briefing",
+    "enabled": true,
+    "schedule": "0 17 * * *",
+    "nextRunAt": "2026-10-13T17:00:00-04:00",
+    "lastRunAt": "2026-10-12T17:19:59.653930-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "campaigns",
+    "id": "j9",
+    "name": "Morning report",
+    "enabled": true,
+    "schedule": "every friday 9am",
+    "nextRunAt": "2026-10-16T09:00:00-04:00",
+    "lastRunAt": "2026-10-09T09:04:02.240294-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "campaigns",
+    "id": "j10",
+    "name": "Evening wrap-up",
+    "enabled": false,
+    "schedule": "every 5m",
+    "nextRunAt": "2026-10-06T16:03:32.575673-04:00",
+    "lastRunAt": "2026-10-06T15:58:32.575673-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "campaigns",
+    "id": "j11",
+    "name": "Weekly review",
+    "enabled": true,
+    "schedule": "every 30m",
+    "nextRunAt": "2026-10-13T12:36:48.791278-04:00",
+    "lastRunAt": "2026-10-13T12:06:48.791278-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "campaigns",
+    "id": "j12",
+    "name": "Inbox sweep",
+    "enabled": false,
+    "schedule": "once at 2026-10-06 12:30",
+    "nextRunAt": null,
+    "lastRunAt": "2026-10-06T12:31:59.556261-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "campaigns",
+    "id": "j13",
+    "name": "Nightly backup check",
+    "enabled": false,
+    "schedule": "once at 2026-10-09 14:00",
+    "nextRunAt": null,
+    "lastRunAt": "2026-10-09T14:01:43.344922-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "campaigns",
+    "id": "j14",
+    "name": "Lead digest",
+    "enabled": true,
+    "schedule": "0 8 * * *",
+    "nextRunAt": "2026-10-14T08:00:00-04:00",
+    "lastRunAt": "2026-10-13T08:01:42.708776-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "campaigns",
+    "id": "j15",
+    "name": "Health check",
+    "enabled": true,
+    "schedule": "30 17 * * 1-5",
+    "nextRunAt": "2026-10-13T17:30:00-04:00",
+    "lastRunAt": "2026-10-12T17:48:47.256575-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "campaigns",
+    "id": "j16",
+    "name": "Friday briefing",
+    "enabled": true,
+    "schedule": "every 30m",
+    "nextRunAt": "2026-10-13T12:30:00.675462-04:00",
+    "lastRunAt": "2026-10-13T12:00:00.675462-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "campaigns",
+    "id": "j17",
+    "name": "Morning report",
+    "enabled": false,
+    "schedule": "once at 2026-10-13 10:00",
+    "nextRunAt": null,
+    "lastRunAt": "2026-10-13T10:17:43.863423-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "social",
+    "id": "j18",
+    "name": "Evening wrap-up",
+    "enabled": true,
+    "schedule": "0 11 * * 1",
+    "nextRunAt": "2026-10-19T11:00:00-04:00",
+    "lastRunAt": "2026-10-12T11:00:49.875307-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "social",
+    "id": "j19",
+    "name": "Weekly review",
+    "enabled": true,
+    "schedule": "0 7 * * 1",
+    "nextRunAt": "2026-10-19T07:00:00-04:00",
+    "lastRunAt": "2026-10-12T07:02:40.100689-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "social",
+    "id": "j20",
+    "name": "Inbox sweep",
+    "enabled": true,
+    "schedule": "0 15 * * 5",
+    "nextRunAt": "2026-10-16T15:00:00-04:00",
+    "lastRunAt": "2026-10-09T15:14:33.163481-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "skool",
+    "id": "j21",
+    "name": "Nightly backup check",
+    "enabled": true,
+    "schedule": "0 * * * *",
+    "nextRunAt": "2026-10-13T13:00:00-04:00",
+    "lastRunAt": "2026-10-13T12:00:38.874980-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "ai-strategist",
+    "id": "j22",
+    "name": "Lead digest",
+    "enabled": true,
+    "schedule": "30 5 * * 2,5",
+    "nextRunAt": "2026-10-16T05:30:00-04:00",
+    "lastRunAt": "2026-10-13T05:31:17.401302-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "tech",
+    "id": "j23",
+    "name": "Health check",
+    "enabled": false,
+    "schedule": "*/30 * * * *",
+    "nextRunAt": "2026-10-13T12:00:00-04:00",
+    "lastRunAt": "2026-10-13T11:30:39.566573-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "tech",
+    "id": "j24",
+    "name": "Friday briefing",
+    "enabled": true,
+    "schedule": "0 9 * * *",
+    "nextRunAt": "2026-10-14T09:00:00-04:00",
+    "lastRunAt": "2026-10-13T09:00:40.398682-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "tech",
+    "id": "j25",
+    "name": "Morning report",
+    "enabled": true,
+    "schedule": "17 3 * * *",
+    "nextRunAt": "2026-10-14T03:17:00-04:00",
+    "lastRunAt": "2026-10-13T03:17:38.759390-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "tech",
+    "id": "j26",
+    "name": "Evening wrap-up",
+    "enabled": true,
+    "schedule": "23 3 * * *",
+    "nextRunAt": "2026-10-14T03:23:00-04:00",
+    "lastRunAt": "2026-10-13T03:23:38.705933-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "tech",
+    "id": "j27",
+    "name": "Weekly review",
+    "enabled": true,
+    "schedule": "40 3 * * *",
+    "nextRunAt": "2026-10-14T03:40:00-04:00",
+    "lastRunAt": "2026-10-13T03:40:40.768412-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "general",
+    "id": "j28",
+    "name": "Inbox sweep",
+    "enabled": true,
+    "schedule": "0 0 * * 5",
+    "nextRunAt": "2026-10-16T00:00:00-04:00",
+    "lastRunAt": "2026-10-09T00:09:25.106946-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "general",
+    "id": "j29",
+    "name": "Nightly backup check",
+    "enabled": true,
+    "schedule": "0 7 * * *",
+    "nextRunAt": "2026-10-14T07:00:00-04:00",
+    "lastRunAt": "2026-10-13T07:03:48.253230-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "general",
+    "id": "j30",
+    "name": "Lead digest",
+    "enabled": false,
+    "schedule": "10 7 * * *",
+    "nextRunAt": "2026-10-07T07:10:00-04:00",
+    "lastRunAt": null,
+    "lastStatus": null
+   },
+   {
+    "profile": "health",
+    "id": "j31",
+    "name": "Health check",
+    "enabled": true,
+    "schedule": "0 19 * * 0-4",
+    "nextRunAt": "2026-10-13T19:00:00-04:00",
+    "lastRunAt": "2026-10-12T19:00:53.621052-04:00",
+    "lastStatus": "ok"
+   },
+   {
+    "profile": "health",
+    "id": "j32",
+    "name": "Friday briefing",
+    "enabled": true,
+    "schedule": "0 4 * * 1-5",
+    "nextRunAt": "2026-10-14T04:00:00-04:00",
+    "lastRunAt": "2026-10-13T04:01:11.297055-04:00",
+    "lastStatus": "ok"
+   }
+  ],
+  "personas": {
+   "chief": "Pam Beesly",
+   "social": "Kelly Kapoor",
+   "strategist": "David Wallace",
+   "general": "J.A.R.V.I.S.",
+   "tech": "Sadiq",
+   "cfo": "Angela Martin",
+   "cmo": "Michael Scott",
+   "ai-strategist": "Ryan Howard",
+   "campaigns": "Dwight Schrute",
+   "skool": "Andy Bernard",
+   "teacher": "Oscar Martinez"
+  }
+ },
+ "messages": [
+  {
+   "profile": "tech",
+   "target": "group:chat-ops",
+   "messages": [
+    {
+     "uid": "fx-tech-groupchatops-1",
+     "profile": "tech",
+     "role": "user",
+     "text": "Morning. Anything on fire?",
+     "at": 1791886262.554,
+     "origin": "telegram",
+     "platformMessageId": "fx-group:chat-ops-1"
+    },
+    {
+     "uid": "fx-tech-groupchatops-2",
+     "profile": "tech",
+     "role": "assistant",
+     "text": "Two cards running, nothing blocked. The copier jam is fixed.",
+     "at": 1791886352.554,
+     "origin": "telegram",
+     "platformMessageId": null
+    }
+   ]
+  },
+  {
+   "profile": "tech",
+   "target": "os:dmos-ops",
+   "messages": [
+    {
+     "uid": "fx-tech-osdmosops-1",
+     "profile": "tech",
+     "role": "user",
+     "text": "[Ops room] Who is on the paper pricing card?",
+     "at": 1791889862.554,
+     "origin": "os",
+     "platformMessageId": null
+    },
+    {
+     "uid": "fx-tech-osdmosops-2",
+     "profile": "tech",
+     "role": "assistant",
+     "text": "Michael has it in the Council round; results by 9pm.",
+     "at": 1791889952.554,
+     "origin": "os",
+     "platformMessageId": null
+    }
+   ]
+  },
+  {
+   "profile": "chief",
+   "target": "group:chat-council",
+   "messages": [
+    {
+     "uid": "fx-chief-groupchatcouncil-1",
+     "profile": "chief",
+     "role": "user",
+     "text": "Council: should we raise prices 5%?",
+     "at": 1791886862.554,
+     "origin": "telegram",
+     "platformMessageId": "fx-group:chat-council-1"
+    },
+    {
+     "uid": "fx-chief-groupchatcouncil-2",
+     "profile": "chief",
+     "role": "assistant",
+     "text": "Round 1 is running. Minutes follow tonight.",
+     "at": 1791886952.554,
+     "origin": "telegram",
+     "platformMessageId": null
+    }
+   ]
+  },
+  {
+   "profile": "cmo",
+   "target": "group:chat-council",
+   "messages": [
+    {
+     "uid": "fx-cmo-groupchatcouncil-1",
+     "profile": "cmo",
+     "role": "assistant",
+     "text": "Raise them. Nobody ever lost money by charging more for great paper.",
+     "at": 1791886962.554,
+     "origin": "telegram",
+     "platformMessageId": null
+    }
+   ]
+  },
+  {
+   "profile": "cfo",
+   "target": "group:chat-council",
+   "messages": [
+    {
+     "uid": "fx-cfo-groupchatcouncil-1",
+     "profile": "cfo",
+     "role": "assistant",
+     "text": "Margins support 3%, not 5%. Not known: competitor response.",
+     "at": 1791887022.554,
+     "origin": "telegram",
+     "platformMessageId": null
+    }
+   ]
+  },
+  {
+   "profile": "chief",
+   "target": "group:chat-hq",
+   "messages": [
+    {
+     "uid": "fx-chief-groupchathq-1",
+     "profile": "chief",
+     "role": "user",
+     "text": "What is waiting on me today?",
+     "at": 1791887462.554,
+     "origin": "telegram",
+     "platformMessageId": "fx-group:chat-hq-1"
+    },
+    {
+     "uid": "fx-chief-groupchathq-2",
+     "profile": "chief",
+     "role": "assistant",
+     "text": "Two approvals: the Dundies budget and the warehouse rota.",
+     "at": 1791887552.554,
+     "origin": "telegram",
+     "platformMessageId": null
+    }
+   ]
+  },
+  {
+   "profile": "social",
+   "target": "group:chat-content",
+   "messages": [
+    {
+     "uid": "fx-social-groupchatcontent-1",
+     "profile": "social",
+     "role": "user",
+     "text": "Post ideas for this week?",
+     "at": 1791888062.554,
+     "origin": "telegram",
+     "platformMessageId": "fx-group:chat-content-1"
+    },
+    {
+     "uid": "fx-social-groupchatcontent-2",
+     "profile": "social",
+     "role": "assistant",
+     "text": "Three drafts queued: Dundies recap, paper facts, a Scranton shout-out.",
+     "at": 1791888152.554,
+     "origin": "telegram",
+     "platformMessageId": null
+    }
+   ]
+  },
+  {
+   "profile": "campaigns",
+   "target": "group:chat-outreach",
+   "messages": [
+    {
+     "uid": "fx-campaigns-groupchatoutreach-1",
+     "profile": "campaigns",
+     "role": "user",
+     "text": "How did the paper mailer do?",
+     "at": 1791888662.554,
+     "origin": "telegram",
+     "platformMessageId": "fx-group:chat-outreach-1"
+    },
+    {
+     "uid": "fx-campaigns-groupchatoutreach-2",
+     "profile": "campaigns",
+     "role": "assistant",
+     "text": "Fact: 40 sent, 5 replies, 1 meeting. Bears were not involved.",
+     "at": 1791888752.554,
+     "origin": "telegram",
+     "platformMessageId": null
+    }
+   ]
+  },
+  {
+   "profile": "skool",
+   "target": "group:chat-skool",
+   "messages": [
+    {
+     "uid": "fx-skool-groupchatskool-1",
+     "profile": "skool",
+     "role": "user",
+     "text": "New members this week?",
+     "at": 1791889262.554,
+     "origin": "telegram",
+     "platformMessageId": "fx-group:chat-skool-1"
+    },
+    {
+     "uid": "fx-skool-groupchatskool-2",
+     "profile": "skool",
+     "role": "assistant",
+     "text": "Twelve new members. Rit dit dit di doo.",
+     "at": 1791889352.554,
+     "origin": "telegram",
+     "platformMessageId": null
+    }
+   ]
+  },
+  {
+   "profile": "tech",
+   "target": "group:chat-rnd",
+   "messages": [
+    {
+     "uid": "fx-tech-groupchatrnd-1",
+     "profile": "tech",
+     "role": "user",
+     "text": "Try the new local model?",
+     "at": 1791890462.554,
+     "origin": "telegram",
+     "platformMessageId": "fx-group:chat-rnd-1"
+    },
+    {
+     "uid": "fx-tech-groupchatrnd-2",
+     "profile": "tech",
+     "role": "assistant",
+     "text": "Benchmarked it: faster, slightly worse at tool calls. Write-up in the card.",
+     "at": 1791890552.554,
+     "origin": "telegram",
+     "platformMessageId": null
+    }
+   ]
+  },
+  {
+   "profile": "general",
+   "target": "dm",
+   "messages": [
+    {
+     "uid": "fx-general-dm-1",
+     "profile": "general",
+     "role": "user",
+     "text": "Remind me what is on tomorrow.",
+     "at": 1791891262.554,
+     "origin": "telegram",
+     "platformMessageId": "fx-dm-1"
+    },
+    {
+     "uid": "fx-general-dm-2",
+     "profile": "general",
+     "role": "assistant",
+     "text": "Two meetings and the weekly review at 4pm, sir.",
+     "at": 1791891352.554,
+     "origin": "telegram",
+     "platformMessageId": null
+    }
+   ]
+  }
+ ]
+}

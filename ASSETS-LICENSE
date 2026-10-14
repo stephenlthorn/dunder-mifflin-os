@@ -1,0 +1,39 @@
+Dunder Mifflin OS: original artwork and map data
+================================================
+
+Copyright (c) 2026 Stephen Thorn and contributors.
+
+The original artwork and map data in this repository are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+What this covers
+----------------
+- The drawn mini characters: their designs and the drawing parameters ("looks")
+  in web/src/chars/ and the `look` entries in shared/office/staff.ts.
+- The floor-plan data: areas, walls, seats and furniture in shared/office/,
+  and the isometric furniture and room drawings in web/src/map/.
+- Icons, badges and other original graphics drawn by the web app.
+- The demo screenshots in docs/screenshots/, which show only the above.
+
+Where this artwork is expressed as source code (SVG drawing code, TypeScript
+data files), that code is also available under the MIT License in LICENSE. You
+may use it under either licence.
+
+How to credit
+-------------
+"Artwork from Dunder Mifflin OS by Stephen Thorn and contributors, CC BY 4.0",
+with a link to the licence and, where practical, to the project, and a note of
+any changes you made.
+
+What this does NOT cover
+------------------------
+Dunder Mifflin OS is an unofficial fan project. It is not affiliated with,
+endorsed by or sponsored by NBCUniversal or The Office. "The Office", "Dunder
+Mifflin", the show's characters, names and likenesses, and any logos, stills,
+photos or audio from the show belong to their owners. Neither this file nor
+LICENSE grants any rights in them.
+
+The repository ships no photos. Portraits you add locally (see the README) stay
+on your machine and are not covered by, or distributed under, either licence.

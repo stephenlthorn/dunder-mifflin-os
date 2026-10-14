@@ -1,0 +1,30 @@
+/* the demo day's badge, office clock and speed control in the top bar */
+.demo-bar { display: flex; align-items: center; gap: 8px; flex: none; }
+.demo-badge { white-space: nowrap; }
+.demo-title { text-transform: none; letter-spacing: 0.2px; }
+.demo-clock { min-width: 62px; text-align: right; }
+.demo-speed { display: inline-flex; border: 1px solid rgba(255,255,255,.35); border-radius: 6px; overflow: hidden; }
+.demo-speed button {
+  background: transparent; border: 0; color: #fff; padding: 3px 8px; font-size: 12px; font-variant-numeric: tabular-nums;
+}
+.demo-speed button + button { border-left: 1px solid rgba(255,255,255,.25); }
+.demo-speed button:hover:not(:disabled) { background: rgba(255,255,255,.16); }
+.demo-speed button[aria-pressed='true'] { background: #f2b632; color: #3a2a05; font-weight: 700; }
+.demo-speed button:disabled { cursor: not-allowed; opacity: .6; }
+.demo-speed button[aria-pressed='true']:disabled { opacity: .85; }
+
+/* laptops: the demo bar takes room, so the other top-bar buttons go icon-only and the fleet summary keeps its chips */
+@media (max-width: 1500px) {
+  .topbar:has(.demo-bar) .btn-label, .topbar:has(.demo-bar) .ask-pam-btn kbd { display: none; }
+}
+@media (max-width: 1100px) {
+  .demo-title { display: none; }
+}
+/* phones: the demo strip (badge, office clock, speed) gets a second row of the top bar */
+@media (max-width: 600px) {
+  .os:has(.demo-bar) { --topbar-h: 86px; }
+  .topbar:has(.demo-bar) { flex-wrap: wrap; align-content: center; row-gap: 6px; }
+  .topbar:has(.demo-bar) .brand-name { display: none; }
+  .demo-bar { order: 10; flex: 1 0 100%; gap: 10px; }
+  .demo-bar .demo-clock { display: inline; min-width: 0; }
+}

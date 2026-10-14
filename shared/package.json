@@ -1,0 +1,1 @@
+{ "name": "@dmos/shared", "private": true, "type": "module", "main": "contract.ts", "types": "contract.ts" }

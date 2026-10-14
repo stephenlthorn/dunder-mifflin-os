@@ -1,0 +1,3797 @@
+{
+ "meta": {
+  "hermesVersion": "0.21.6",
+  "note": "Meeting records of 7 days, recorded from kanban.db (read-only) and redacted by scripts/redactMeetings.ts: task ids, titles (except council process titles like \"round 2 cfo\"), comments, run summaries, block reasons and chat keys are synthetic; statuses, event kinds, who did what and timestamps are real."
+ },
+ "recordedAt": "2026-10-13T21:49:29.600Z",
+ "records": {
+  "tasks": [
+   {
+    "id": "t_mtg001",
+    "status": "done",
+    "createdAt": 1791334855,
+    "title": "Council 2026-10-06: round 1 cto",
+    "assignee": "tech",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791334868,
+    "completedAt": 1791335218,
+    "lastHeartbeatAt": 1791335172
+   },
+   {
+    "id": "t_mtg002",
+    "status": "done",
+    "createdAt": 1791334860,
+    "title": "Council 2026-10-06: round 1 strategist",
+    "assignee": "strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791334868,
+    "completedAt": 1791334967,
+    "lastHeartbeatAt": 1791334955
+   },
+   {
+    "id": "t_mtg003",
+    "status": "done",
+    "createdAt": 1791334874,
+    "title": "Council 2026-10-06: round 1 ai-strategist",
+    "assignee": "ai-strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791334928,
+    "completedAt": 1791334965,
+    "lastHeartbeatAt": 1791334934
+   },
+   {
+    "id": "t_mtg004",
+    "status": "done",
+    "createdAt": 1791334884,
+    "title": "Council 2026-10-06: round 1 cmo",
+    "assignee": "cmo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791334928,
+    "completedAt": 1791334953,
+    "lastHeartbeatAt": 1791334933
+   },
+   {
+    "id": "t_mtg005",
+    "status": "done",
+    "createdAt": 1791334888,
+    "title": "Council 2026-10-06: round 1 cfo",
+    "assignee": "cfo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791334928,
+    "completedAt": 1791334955,
+    "lastHeartbeatAt": 1791334932
+   },
+   {
+    "id": "t_mtg006",
+    "status": "done",
+    "createdAt": 1791335325,
+    "title": "Council 2026-10-06: round 2 strategist",
+    "assignee": "strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791335349,
+    "completedAt": 1791335363,
+    "lastHeartbeatAt": 1791335353
+   },
+   {
+    "id": "t_mtg007",
+    "status": "done",
+    "createdAt": 1791335566,
+    "title": "Council 2026-10-06: round 2 ai-strategist",
+    "assignee": "ai-strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791335591,
+    "completedAt": 1791335610,
+    "lastHeartbeatAt": 1791335595
+   },
+   {
+    "id": "t_mtg008",
+    "status": "done",
+    "createdAt": 1791335808,
+    "title": "Council 2026-10-06: round 2 cmo",
+    "assignee": "cmo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791335832,
+    "completedAt": 1791335855,
+    "lastHeartbeatAt": 1791335835
+   },
+   {
+    "id": "t_mtg009",
+    "status": "done",
+    "createdAt": 1791336049,
+    "title": "Council 2026-10-06: round 2 cfo",
+    "assignee": "cfo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791336073,
+    "completedAt": 1791336086,
+    "lastHeartbeatAt": 1791336077
+   },
+   {
+    "id": "t_mtg010",
+    "status": "done",
+    "createdAt": 1791336291,
+    "title": "Council 2026-10-06: round 2 cto",
+    "assignee": "tech",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791336314,
+    "completedAt": 1791336481,
+    "lastHeartbeatAt": 1791336438
+   },
+   {
+    "id": "t_mtg011",
+    "status": "done",
+    "createdAt": 1791336653,
+    "title": "Council 2026-10-06: chair",
+    "assignee": "chief",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791336676,
+    "completedAt": 1791336834,
+    "lastHeartbeatAt": 1791336801
+   },
+   {
+    "id": "t_mtg012",
+    "status": "done",
+    "createdAt": 1791336896,
+    "title": "Council 2026-10-06: round 3 strategist",
+    "assignee": "strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791336917,
+    "completedAt": 1791336937,
+    "lastHeartbeatAt": 1791336924
+   },
+   {
+    "id": "t_mtg013",
+    "status": "done",
+    "createdAt": 1791336896,
+    "title": "Council 2026-10-06: round 3 cto",
+    "assignee": "tech",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791336917,
+    "completedAt": 1791337144,
+    "lastHeartbeatAt": 1791337104
+   },
+   {
+    "id": "t_mtg014",
+    "status": "done",
+    "createdAt": 1791336896,
+    "title": "Council 2026-10-06: round 3 ai-strategist",
+    "assignee": "ai-strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791336917,
+    "completedAt": 1791337548,
+    "lastHeartbeatAt": 1791337525
+   },
+   {
+    "id": "t_mtg015",
+    "status": "done",
+    "createdAt": 1791336897,
+    "title": "Council 2026-10-06: round 3 cfo",
+    "assignee": "cfo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791336917,
+    "completedAt": 1791336948,
+    "lastHeartbeatAt": 1791336925
+   },
+   {
+    "id": "t_mtg016",
+    "status": "done",
+    "createdAt": 1791336897,
+    "title": "Council 2026-10-06: round 3 cmo",
+    "assignee": "cmo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791336917,
+    "completedAt": 1791336944,
+    "lastHeartbeatAt": 1791336922
+   },
+   {
+    "id": "t_mtg017",
+    "status": "done",
+    "createdAt": 1791337561,
+    "title": "Council 2026-10-06: minutes",
+    "assignee": "chief",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791337580,
+    "completedAt": 1791337856,
+    "lastHeartbeatAt": 1791337825
+   },
+   {
+    "id": "t_mtg018",
+    "status": "done",
+    "createdAt": 1791337637,
+    "title": "Audit the warehouse inventory",
+    "assignee": "tech",
+    "createdBy": "chief",
+    "tenant": null,
+    "startedAt": 1791337641,
+    "completedAt": 1791338406,
+    "lastHeartbeatAt": 1791338387
+   },
+   {
+    "id": "t_mtg019",
+    "status": "done",
+    "createdAt": 1791338401,
+    "title": "Update the price sheet",
+    "assignee": "chief",
+    "createdBy": "tech",
+    "tenant": null,
+    "startedAt": 1791338424,
+    "completedAt": 1791382463,
+    "lastHeartbeatAt": 1791338552
+   },
+   {
+    "id": "t_mtg020",
+    "status": "done",
+    "createdAt": 1791384221,
+    "title": "Write the safety training memo",
+    "assignee": "social",
+    "createdBy": "worker",
+    "tenant": null,
+    "startedAt": 1791384246,
+    "completedAt": 1791384735,
+    "lastHeartbeatAt": 1791384717
+   },
+   {
+    "id": "t_mtg021",
+    "status": "done",
+    "createdAt": 1791384235,
+    "title": "Fix the conference room TV",
+    "assignee": "tech",
+    "createdBy": "worker",
+    "tenant": null,
+    "startedAt": 1791384246,
+    "completedAt": 1791385205,
+    "lastHeartbeatAt": 1791385205
+   },
+   {
+    "id": "t_mtg022",
+    "status": "done",
+    "createdAt": 1791421225,
+    "title": "Council 2026-10-07: round 1 cto",
+    "assignee": "tech",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791421261,
+    "completedAt": 1791421455,
+    "lastHeartbeatAt": 1791421446
+   },
+   {
+    "id": "t_mtg023",
+    "status": "done",
+    "createdAt": 1791421230,
+    "title": "Council 2026-10-07: round 1 strategist",
+    "assignee": "strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791421261,
+    "completedAt": 1791421282,
+    "lastHeartbeatAt": 1791421267
+   },
+   {
+    "id": "t_mtg024",
+    "status": "done",
+    "createdAt": 1791421236,
+    "title": "Council 2026-10-07: round 1 ai-strategist",
+    "assignee": "ai-strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791421261,
+    "completedAt": 1791421282,
+    "lastHeartbeatAt": 1791421270
+   },
+   {
+    "id": "t_mtg025",
+    "status": "done",
+    "createdAt": 1791421245,
+    "title": "Council 2026-10-07: round 1 cmo",
+    "assignee": "cmo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791421261,
+    "completedAt": 1791421285,
+    "lastHeartbeatAt": 1791421268
+   },
+   {
+    "id": "t_mtg026",
+    "status": "done",
+    "createdAt": 1791421248,
+    "title": "Council 2026-10-07: round 1 cfo",
+    "assignee": "cfo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791421261,
+    "completedAt": 1791421292,
+    "lastHeartbeatAt": 1791421269
+   },
+   {
+    "id": "t_mtg027",
+    "status": "done",
+    "createdAt": 1791421575,
+    "title": "Council 2026-10-07: round 2 ai-strategist",
+    "assignee": "ai-strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791421623,
+    "completedAt": 1791421639,
+    "lastHeartbeatAt": 1791421627
+   },
+   {
+    "id": "t_mtg028",
+    "status": "done",
+    "createdAt": 1791421816,
+    "title": "Council 2026-10-07: round 2 cmo",
+    "assignee": "cmo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791421864,
+    "completedAt": 1791421880,
+    "lastHeartbeatAt": 1791421868
+   },
+   {
+    "id": "t_mtg029",
+    "status": "done",
+    "createdAt": 1791422058,
+    "title": "Council 2026-10-07: round 2 cfo",
+    "assignee": "cfo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791422105,
+    "completedAt": 1791422118,
+    "lastHeartbeatAt": 1791422109
+   },
+   {
+    "id": "t_mtg030",
+    "status": "done",
+    "createdAt": 1791422299,
+    "title": "Council 2026-10-07: round 2 cto",
+    "assignee": "tech",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791422345,
+    "completedAt": 1791422470,
+    "lastHeartbeatAt": 1791422470
+   },
+   {
+    "id": "t_mtg031",
+    "status": "done",
+    "createdAt": 1791422661,
+    "title": "Council 2026-10-07: round 2 strategist",
+    "assignee": "strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791422707,
+    "completedAt": 1791422723,
+    "lastHeartbeatAt": 1791422711
+   },
+   {
+    "id": "t_mtg032",
+    "status": "done",
+    "createdAt": 1791422902,
+    "title": "Council 2026-10-07: chair",
+    "assignee": "chief",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791422948,
+    "completedAt": 1791423160,
+    "lastHeartbeatAt": 1791423137
+   },
+   {
+    "id": "t_mtg033",
+    "status": "done",
+    "createdAt": 1791423265,
+    "title": "Council 2026-10-07: round 3 cto",
+    "assignee": "tech",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791423310,
+    "completedAt": 1791423485,
+    "lastHeartbeatAt": 1791423436
+   },
+   {
+    "id": "t_mtg034",
+    "status": "done",
+    "createdAt": 1791423266,
+    "title": "Council 2026-10-07: round 3 cmo",
+    "assignee": "cmo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791423310,
+    "completedAt": 1791423328,
+    "lastHeartbeatAt": 1791423317
+   },
+   {
+    "id": "t_mtg035",
+    "status": "done",
+    "createdAt": 1791423266,
+    "title": "Council 2026-10-07: round 3 ai-strategist",
+    "assignee": "ai-strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791423310,
+    "completedAt": 1791423327,
+    "lastHeartbeatAt": 1791423318
+   },
+   {
+    "id": "t_mtg036",
+    "status": "done",
+    "createdAt": 1791423266,
+    "title": "Council 2026-10-07: round 3 cfo",
+    "assignee": "cfo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791423310,
+    "completedAt": 1791423328,
+    "lastHeartbeatAt": 1791423317
+   },
+   {
+    "id": "t_mtg037",
+    "status": "done",
+    "createdAt": 1791423266,
+    "title": "Council 2026-10-07: round 3 strategist",
+    "assignee": "strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791423310,
+    "completedAt": 1791423326,
+    "lastHeartbeatAt": 1791423315
+   },
+   {
+    "id": "t_mtg038",
+    "status": "done",
+    "createdAt": 1791423507,
+    "title": "Council 2026-10-07: minutes",
+    "assignee": "chief",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791423551,
+    "completedAt": 1791424004,
+    "lastHeartbeatAt": 1791424003
+   },
+   {
+    "id": "t_mtg039",
+    "status": "done",
+    "createdAt": 1791423789,
+    "title": "Plan the Dundies agenda",
+    "assignee": "tech",
+    "createdBy": "chief",
+    "tenant": null,
+    "startedAt": 1791424033,
+    "completedAt": 1791424851,
+    "lastHeartbeatAt": 1791424838
+   },
+   {
+    "id": "t_mtg040",
+    "status": "done",
+    "createdAt": 1791423801,
+    "title": "Order toner for the copier",
+    "assignee": "social",
+    "createdBy": "chief",
+    "tenant": null,
+    "startedAt": 1791424033,
+    "completedAt": 1791424547,
+    "lastHeartbeatAt": 1791424533
+   },
+   {
+    "id": "t_mtg041",
+    "status": "done",
+    "createdAt": 1791423810,
+    "title": "Draft the client follow-up",
+    "assignee": "campaigns",
+    "createdBy": "chief",
+    "tenant": null,
+    "startedAt": 1791424033,
+    "completedAt": 1791424335,
+    "lastHeartbeatAt": 1791424282
+   },
+   {
+    "id": "t_mtg042",
+    "status": "done",
+    "createdAt": 1791424110,
+    "title": "Council 2026-10-07: minutes (retry)",
+    "assignee": "chief",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791424154,
+    "completedAt": 1791424524,
+    "lastHeartbeatAt": 1791424474
+   },
+   {
+    "id": "t_mtg043",
+    "status": "done",
+    "createdAt": 1791424836,
+    "title": "Update the price sheet",
+    "assignee": "chief",
+    "createdBy": "tech",
+    "tenant": null,
+    "startedAt": 1791424877,
+    "completedAt": 1791425412,
+    "lastHeartbeatAt": 1791425370
+   },
+   {
+    "id": "t_mtg044",
+    "status": "done",
+    "createdAt": 1791425393,
+    "title": "Write the safety training memo",
+    "assignee": "tech",
+    "createdBy": "chief",
+    "tenant": null,
+    "startedAt": 1791425419,
+    "completedAt": 1791426250,
+    "lastHeartbeatAt": 1791426230
+   },
+   {
+    "id": "t_mtg045",
+    "status": "done",
+    "createdAt": 1791507666,
+    "title": "Council 2026-10-08: round 1 cto",
+    "assignee": "tech",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791507676,
+    "completedAt": 1791507890,
+    "lastHeartbeatAt": 1791507863
+   },
+   {
+    "id": "t_mtg046",
+    "status": "done",
+    "createdAt": 1791507673,
+    "title": "Council 2026-10-08: round 1 strategist",
+    "assignee": "strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791507676,
+    "completedAt": 1791507695,
+    "lastHeartbeatAt": 1791507681
+   },
+   {
+    "id": "t_mtg047",
+    "status": "done",
+    "createdAt": 1791507679,
+    "title": "Council 2026-10-08: round 1 ai-strategist",
+    "assignee": "ai-strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791507736,
+    "completedAt": 1791507767,
+    "lastHeartbeatAt": 1791507741
+   },
+   {
+    "id": "t_mtg048",
+    "status": "done",
+    "createdAt": 1791507688,
+    "title": "Council 2026-10-08: round 1 cmo",
+    "assignee": "cmo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791507736,
+    "completedAt": 1791507753,
+    "lastHeartbeatAt": 1791507742
+   },
+   {
+    "id": "t_mtg049",
+    "status": "done",
+    "createdAt": 1791507696,
+    "title": "Council 2026-10-08: round 1 cfo",
+    "assignee": "cfo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791507736,
+    "completedAt": 1791507756,
+    "lastHeartbeatAt": 1791507741
+   },
+   {
+    "id": "t_mtg050",
+    "status": "done",
+    "createdAt": 1791507895,
+    "title": "Council 2026-10-08: round 2 cmo",
+    "assignee": "cmo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791507917,
+    "completedAt": 1791507931,
+    "lastHeartbeatAt": 1791507921
+   },
+   {
+    "id": "t_mtg051",
+    "status": "done",
+    "createdAt": 1791508136,
+    "title": "Council 2026-10-08: round 2 cfo",
+    "assignee": "cfo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791508158,
+    "completedAt": 1791508171,
+    "lastHeartbeatAt": 1791508162
+   },
+   {
+    "id": "t_mtg052",
+    "status": "done",
+    "createdAt": 1791508378,
+    "title": "Council 2026-10-08: round 2 cto",
+    "assignee": "tech",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791508399,
+    "completedAt": 1791508506,
+    "lastHeartbeatAt": 1791508463
+   },
+   {
+    "id": "t_mtg053",
+    "status": "done",
+    "createdAt": 1791508740,
+    "title": "Council 2026-10-08: round 2 strategist",
+    "assignee": "strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791508761,
+    "completedAt": 1791508777,
+    "lastHeartbeatAt": 1791508765
+   },
+   {
+    "id": "t_mtg054",
+    "status": "done",
+    "createdAt": 1791508921,
+    "title": "Council 2026-10-08: round 2 ai-strategist",
+    "assignee": "ai-strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791508942,
+    "completedAt": 1791508958,
+    "lastHeartbeatAt": 1791508945
+   },
+   {
+    "id": "t_mtg055",
+    "status": "done",
+    "createdAt": 1791509163,
+    "title": "Council 2026-10-08: chair",
+    "assignee": "chief",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791509183,
+    "completedAt": 1791509260,
+    "lastHeartbeatAt": 1791509248
+   },
+   {
+    "id": "t_mtg056",
+    "status": "done",
+    "createdAt": 1791509284,
+    "title": "Council 2026-10-08: chair (retry)",
+    "assignee": "chief",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791509303,
+    "completedAt": 1791509343,
+    "lastHeartbeatAt": 1791509308
+   },
+   {
+    "id": "t_mtg057",
+    "status": "done",
+    "createdAt": 1791509405,
+    "title": "Council 2026-10-08: round 3 ai-strategist",
+    "assignee": "ai-strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791509424,
+    "completedAt": 1791509437,
+    "lastHeartbeatAt": 1791509429
+   },
+   {
+    "id": "t_mtg058",
+    "status": "done",
+    "createdAt": 1791509405,
+    "title": "Council 2026-10-08: round 3 cto",
+    "assignee": "tech",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791509424,
+    "completedAt": 1791509655,
+    "lastHeartbeatAt": 1791509611
+   },
+   {
+    "id": "t_mtg059",
+    "status": "done",
+    "createdAt": 1791509405,
+    "title": "Council 2026-10-08: round 3 strategist",
+    "assignee": "strategist",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791509424,
+    "completedAt": 1791509443,
+    "lastHeartbeatAt": 1791509430
+   },
+   {
+    "id": "t_mtg060",
+    "status": "done",
+    "createdAt": 1791509406,
+    "title": "Council 2026-10-08: round 3 cfo",
+    "assignee": "cfo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791509424,
+    "completedAt": 1791509448,
+    "lastHeartbeatAt": 1791509431
+   },
+   {
+    "id": "t_mtg061",
+    "status": "done",
+    "createdAt": 1791509406,
+    "title": "Council 2026-10-08: round 3 cmo",
+    "assignee": "cmo",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791509424,
+    "completedAt": 1791509444,
+    "lastHeartbeatAt": 1791509432
+   },
+   {
+    "id": "t_mtg062",
+    "status": "done",
+    "createdAt": 1791509767,
+    "title": "Council 2026-10-08: minutes",
+    "assignee": "chief",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791509785,
+    "completedAt": 1791510319,
+    "lastHeartbeatAt": 1791510285
+   },
+   {
+    "id": "t_mtg063",
+    "status": "done",
+    "createdAt": 1791509876,
+    "title": "Plan the Dundies agenda",
+    "assignee": "social",
+    "createdBy": "chief",
+    "tenant": null,
+    "startedAt": 1791510328,
+    "completedAt": 1791510536,
+    "lastHeartbeatAt": 1791510519
+   },
+   {
+    "id": "t_mtg064",
+    "status": "done",
+    "createdAt": 1791509876,
+    "title": "Order toner for the copier",
+    "assignee": "tech",
+    "createdBy": "chief",
+    "tenant": null,
+    "startedAt": 1791510328,
+    "completedAt": 1791510944,
+    "lastHeartbeatAt": 1791510900
+   },
+   {
+    "id": "t_mtg065",
+    "status": "done",
+    "createdAt": 1791509975,
+    "title": "Draft the client follow-up",
+    "assignee": "tech",
+    "createdBy": "chief",
+    "tenant": null,
+    "startedAt": 1791510328,
+    "completedAt": 1791511277,
+    "lastHeartbeatAt": 1791511220
+   },
+   {
+    "id": "t_mtg066",
+    "status": "done",
+    "createdAt": 1791572565,
+    "title": "Audit the warehouse inventory",
+    "assignee": null,
+    "createdBy": "user",
+    "tenant": null,
+    "startedAt": 1791572597,
+    "completedAt": 1791572987,
+    "lastHeartbeatAt": 1791572929
+   },
+   {
+    "id": "t_mtg067",
+    "status": "done",
+    "createdAt": 1791572568,
+    "title": "Update the price sheet",
+    "assignee": null,
+    "createdBy": "user",
+    "tenant": null,
+    "startedAt": 1791572598,
+    "completedAt": 1791572889,
+    "lastHeartbeatAt": 1791572853
+   },
+   {
+    "id": "t_mtg068",
+    "status": "done",
+    "createdAt": 1791572569,
+    "title": "Write the safety training memo",
+    "assignee": null,
+    "createdBy": "user",
+    "tenant": null,
+    "startedAt": 1791572599,
+    "completedAt": 1791572875,
+    "lastHeartbeatAt": 1791572854
+   },
+   {
+    "id": "t_mtg069",
+    "status": "done",
+    "createdAt": 1791572571,
+    "title": "Fix the conference room TV",
+    "assignee": null,
+    "createdBy": "user",
+    "tenant": null,
+    "startedAt": 1791572599,
+    "completedAt": 1791572778,
+    "lastHeartbeatAt": 1791572735
+   },
+   {
+    "id": "t_mtg070",
+    "status": "done",
+    "createdAt": 1791572573,
+    "title": "Call back the Scranton prospects",
+    "assignee": null,
+    "createdBy": "user",
+    "tenant": null,
+    "startedAt": 1791572599,
+    "completedAt": 1791572853,
+    "lastHeartbeatAt": 1791572798
+   },
+   {
+    "id": "t_mtg071",
+    "status": "done",
+    "createdAt": 1791572580,
+    "title": "Refresh the website banner",
+    "assignee": "social",
+    "createdBy": "user",
+    "tenant": null,
+    "startedAt": 1791573001,
+    "completedAt": 1791573059,
+    "lastHeartbeatAt": 1791573006
+   },
+   {
+    "id": "t_mtg072",
+    "status": "done",
+    "createdAt": 1791572862,
+    "title": "Review the expense reports",
+    "assignee": "tech",
+    "createdBy": "user",
+    "tenant": null,
+    "startedAt": 1791572922,
+    "completedAt": 1791573612,
+    "lastHeartbeatAt": 1791573578
+   },
+   {
+    "id": "t_mtg073",
+    "status": "done",
+    "createdAt": 1791770292,
+    "title": "Council 2026-10-11: draft the paper price letter",
+    "assignee": "tech",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791770324,
+    "completedAt": 1791772867,
+    "lastHeartbeatAt": 1791772847
+   },
+   {
+    "id": "t_mtg074",
+    "status": "done",
+    "createdAt": 1791770303,
+    "title": "Council 2026-10-11: call the three biggest clients",
+    "assignee": "social",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791770324,
+    "completedAt": 1791770433,
+    "lastHeartbeatAt": 1791770389
+   },
+   {
+    "id": "t_mtg075",
+    "status": "done",
+    "createdAt": 1791770313,
+    "title": "Council 2026-10-11: clean up the client list",
+    "assignee": "campaigns",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791770324,
+    "completedAt": 1791771124,
+    "lastHeartbeatAt": 1791771073
+   },
+   {
+    "id": "t_mtg076",
+    "status": "done",
+    "createdAt": 1791770415,
+    "title": "Order toner for the copier",
+    "assignee": "chief",
+    "createdBy": "social",
+    "tenant": null,
+    "startedAt": 1791770444,
+    "completedAt": 1791770948,
+    "lastHeartbeatAt": 1791770937
+   },
+   {
+    "id": "t_mtg077",
+    "status": "done",
+    "createdAt": 1791802929,
+    "title": "Draft the client follow-up",
+    "assignee": null,
+    "createdBy": "user",
+    "tenant": null,
+    "startedAt": 1791802985,
+    "completedAt": 1791803211,
+    "lastHeartbeatAt": 1791803171
+   },
+   {
+    "id": "t_mtg078",
+    "status": "done",
+    "createdAt": 1791802931,
+    "title": "Audit the warehouse inventory",
+    "assignee": null,
+    "createdBy": "user",
+    "tenant": null,
+    "startedAt": 1791802985,
+    "completedAt": 1791803268,
+    "lastHeartbeatAt": 1791803231
+   },
+   {
+    "id": "t_mtg079",
+    "status": "done",
+    "createdAt": 1791802932,
+    "title": "Update the price sheet",
+    "assignee": null,
+    "createdBy": "user",
+    "tenant": null,
+    "startedAt": 1791802985,
+    "completedAt": 1791803220,
+    "lastHeartbeatAt": 1791803182
+   },
+   {
+    "id": "t_mtg080",
+    "status": "done",
+    "createdAt": 1791802933,
+    "title": "Write the safety training memo",
+    "assignee": null,
+    "createdBy": "user",
+    "tenant": null,
+    "startedAt": 1791802985,
+    "completedAt": 1791803181,
+    "lastHeartbeatAt": 1791803170
+   },
+   {
+    "id": "t_mtg081",
+    "status": "done",
+    "createdAt": 1791802934,
+    "title": "Fix the conference room TV",
+    "assignee": null,
+    "createdBy": "user",
+    "tenant": null,
+    "startedAt": 1791802985,
+    "completedAt": 1791803144,
+    "lastHeartbeatAt": 1791803110
+   },
+   {
+    "id": "t_mtg082",
+    "status": "done",
+    "createdAt": 1791802955,
+    "title": "Call back the Scranton prospects",
+    "assignee": "social",
+    "createdBy": "user",
+    "tenant": null,
+    "startedAt": 1791803286,
+    "completedAt": 1791803482,
+    "lastHeartbeatAt": 1791803469
+   },
+   {
+    "id": "t_mtg083",
+    "status": "done",
+    "createdAt": 1791803434,
+    "title": "Refresh the website banner",
+    "assignee": "tech",
+    "createdBy": "social",
+    "tenant": null,
+    "startedAt": 1791803527,
+    "completedAt": 1791804158,
+    "lastHeartbeatAt": 1791804143
+   },
+   {
+    "id": "t_mtg084",
+    "status": "done",
+    "createdAt": 1791835107,
+    "title": "Review the expense reports",
+    "assignee": "campaigns",
+    "createdBy": "tech",
+    "tenant": null,
+    "startedAt": 1791835128,
+    "completedAt": 1791835378,
+    "lastHeartbeatAt": 1791835378
+   },
+   {
+    "id": "t_mtg085",
+    "status": "done",
+    "createdAt": 1791835107,
+    "title": "Restock the conference room paper",
+    "assignee": "social",
+    "createdBy": "tech",
+    "tenant": null,
+    "startedAt": 1791835128,
+    "completedAt": 1791835303,
+    "lastHeartbeatAt": 1791835256
+   },
+   {
+    "id": "t_mtg086",
+    "status": "done",
+    "createdAt": 1791835559,
+    "title": "Reconcile the Q4 paper invoices",
+    "assignee": "social",
+    "createdBy": "tech",
+    "tenant": null,
+    "startedAt": 1791835611,
+    "completedAt": 1791835655,
+    "lastHeartbeatAt": 1791835613
+   },
+   {
+    "id": "t_mtg087",
+    "status": "done",
+    "createdAt": 1791856034,
+    "title": "Council 2026-10-12: recut the sales video",
+    "assignee": "tech",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791856064,
+    "completedAt": 1791859372,
+    "lastHeartbeatAt": 1791859361
+   },
+   {
+    "id": "t_mtg088",
+    "status": "done",
+    "createdAt": 1791856044,
+    "title": "Council 2026-10-12: audit the toner spend",
+    "assignee": "campaigns",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791856065,
+    "completedAt": 1791856434,
+    "lastHeartbeatAt": 1791856434
+   },
+   {
+    "id": "t_mtg089",
+    "status": "done",
+    "createdAt": 1791856054,
+    "title": "Council 2026-10-12: draft the paper price letter",
+    "assignee": "campaigns",
+    "createdBy": "council",
+    "tenant": null,
+    "startedAt": 1791856065,
+    "completedAt": 1791859110,
+    "lastHeartbeatAt": 1791859079
+   },
+   {
+    "id": "t_mtg090",
+    "status": "done",
+    "createdAt": 1791859335,
+    "title": "Audit the warehouse inventory",
+    "assignee": "tech",
+    "createdBy": "tech",
+    "tenant": null,
+    "startedAt": 1791859374,
+    "completedAt": 1791860050,
+    "lastHeartbeatAt": 1791860001
+   },
+   {
+    "id": "t_mtg091",
+    "status": "done",
+    "createdAt": 1791889773,
+    "title": "Update the price sheet",
+    "assignee": "campaigns",
+    "createdBy": "general",
+    "tenant": null,
+    "startedAt": 1791889823,
+    "completedAt": 1791889990,
+    "lastHeartbeatAt": 1791889947
+   },
+   {
+    "id": "t_mtg092",
+    "status": "done",
+    "createdAt": 1791914004,
+    "title": "Write the safety training memo",
+    "assignee": "general",
+    "createdBy": "dmos-ops",
+    "tenant": null,
+    "startedAt": 1791914027,
+    "completedAt": 1791914033,
+    "lastHeartbeatAt": 1791914029
+   }
+  ],
+  "runs": [
+   {
+    "taskId": "t_mtg001",
+    "status": "done",
+    "startedAt": 1791334868,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791335218,
+    "lastHeartbeatAt": 1791335172,
+    "summary": "Recommended a 3% price rise for Q4, with a review in January."
+   },
+   {
+    "taskId": "t_mtg002",
+    "status": "done",
+    "startedAt": 1791334868,
+    "profile": "strategist",
+    "outcome": "completed",
+    "endedAt": 1791334967,
+    "lastHeartbeatAt": 1791334955,
+    "summary": "Wrote the follow-up and filed it on the card."
+   },
+   {
+    "taskId": "t_mtg003",
+    "status": "done",
+    "startedAt": 1791334928,
+    "profile": "ai-strategist",
+    "outcome": "completed",
+    "endedAt": 1791334965,
+    "lastHeartbeatAt": 1791334934,
+    "summary": "Checked the numbers: margins hold at 3%, not 5%."
+   },
+   {
+    "taskId": "t_mtg004",
+    "status": "done",
+    "startedAt": 1791334928,
+    "profile": "cmo",
+    "outcome": "completed",
+    "endedAt": 1791334953,
+    "lastHeartbeatAt": 1791334933,
+    "summary": "Drafted the agenda: five awards, one speech, no limbo."
+   },
+   {
+    "taskId": "t_mtg005",
+    "status": "done",
+    "startedAt": 1791334928,
+    "profile": "cfo",
+    "outcome": "completed",
+    "endedAt": 1791334955,
+    "lastHeartbeatAt": 1791334932,
+    "summary": "Found two duplicate invoices and flagged them."
+   },
+   {
+    "taskId": "t_mtg006",
+    "status": "done",
+    "startedAt": 1791335349,
+    "profile": "strategist",
+    "outcome": "completed",
+    "endedAt": 1791335363,
+    "lastHeartbeatAt": 1791335353,
+    "summary": "Booked the drill for Thursday; the warehouse agreed."
+   },
+   {
+    "taskId": "t_mtg007",
+    "status": "done",
+    "startedAt": 1791335591,
+    "profile": "ai-strategist",
+    "outcome": "completed",
+    "endedAt": 1791335610,
+    "lastHeartbeatAt": 1791335595,
+    "summary": "Ran the audit: toner spend is down 12% on last quarter."
+   },
+   {
+    "taskId": "t_mtg008",
+    "status": "done",
+    "startedAt": 1791335832,
+    "profile": "cmo",
+    "outcome": "completed",
+    "endedAt": 1791335855,
+    "lastHeartbeatAt": 1791335835,
+    "summary": "Summarised the round for the chair."
+   },
+   {
+    "taskId": "t_mtg009",
+    "status": "done",
+    "startedAt": 1791336073,
+    "profile": "cfo",
+    "outcome": "completed",
+    "endedAt": 1791336086,
+    "lastHeartbeatAt": 1791336077,
+    "summary": "Recommended a 3% price rise for Q4, with a review in January."
+   },
+   {
+    "taskId": "t_mtg010",
+    "status": "done",
+    "startedAt": 1791336314,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791336481,
+    "lastHeartbeatAt": 1791336438,
+    "summary": "Wrote the follow-up and filed it on the card."
+   },
+   {
+    "taskId": "t_mtg011",
+    "status": "done",
+    "startedAt": 1791336676,
+    "profile": "chief",
+    "outcome": "completed",
+    "endedAt": 1791336834,
+    "lastHeartbeatAt": 1791336801,
+    "summary": "Checked the numbers: margins hold at 3%, not 5%."
+   },
+   {
+    "taskId": "t_mtg013",
+    "status": "done",
+    "startedAt": 1791336917,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791337144,
+    "lastHeartbeatAt": 1791337104,
+    "summary": "Drafted the agenda: five awards, one speech, no limbo."
+   },
+   {
+    "taskId": "t_mtg012",
+    "status": "done",
+    "startedAt": 1791336917,
+    "profile": "strategist",
+    "outcome": "completed",
+    "endedAt": 1791336937,
+    "lastHeartbeatAt": 1791336924,
+    "summary": "Found two duplicate invoices and flagged them."
+   },
+   {
+    "taskId": "t_mtg014",
+    "status": "done",
+    "startedAt": 1791336917,
+    "profile": "ai-strategist",
+    "outcome": "completed",
+    "endedAt": 1791337548,
+    "lastHeartbeatAt": 1791337525,
+    "summary": "Booked the drill for Thursday; the warehouse agreed."
+   },
+   {
+    "taskId": "t_mtg016",
+    "status": "done",
+    "startedAt": 1791336917,
+    "profile": "cmo",
+    "outcome": "completed",
+    "endedAt": 1791336944,
+    "lastHeartbeatAt": 1791336922,
+    "summary": "Ran the audit: toner spend is down 12% on last quarter."
+   },
+   {
+    "taskId": "t_mtg015",
+    "status": "done",
+    "startedAt": 1791336917,
+    "profile": "cfo",
+    "outcome": "completed",
+    "endedAt": 1791336948,
+    "lastHeartbeatAt": 1791336925,
+    "summary": "Summarised the round for the chair."
+   },
+   {
+    "taskId": "t_mtg017",
+    "status": "done",
+    "startedAt": 1791337580,
+    "profile": "chief",
+    "outcome": "completed",
+    "endedAt": 1791337856,
+    "lastHeartbeatAt": 1791337825,
+    "summary": "Recommended a 3% price rise for Q4, with a review in January."
+   },
+   {
+    "taskId": "t_mtg018",
+    "status": "done",
+    "startedAt": 1791337641,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791338406,
+    "lastHeartbeatAt": 1791338387,
+    "summary": "Wrote the follow-up and filed it on the card."
+   },
+   {
+    "taskId": "t_mtg019",
+    "status": "blocked",
+    "startedAt": 1791338424,
+    "profile": "chief",
+    "outcome": "blocked",
+    "endedAt": 1791338598,
+    "lastHeartbeatAt": 1791338552,
+    "summary": "Checked the numbers: margins hold at 3%, not 5%."
+   },
+   {
+    "taskId": "t_mtg019",
+    "status": "completed",
+    "startedAt": 1791382463,
+    "profile": "chief",
+    "outcome": "completed",
+    "endedAt": 1791382463,
+    "lastHeartbeatAt": null,
+    "summary": "Drafted the agenda: five awards, one speech, no limbo."
+   },
+   {
+    "taskId": "t_mtg020",
+    "status": "done",
+    "startedAt": 1791384246,
+    "profile": "social",
+    "outcome": "completed",
+    "endedAt": 1791384735,
+    "lastHeartbeatAt": 1791384717,
+    "summary": "Found two duplicate invoices and flagged them."
+   },
+   {
+    "taskId": "t_mtg021",
+    "status": "done",
+    "startedAt": 1791384246,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791385205,
+    "lastHeartbeatAt": 1791385205,
+    "summary": "Booked the drill for Thursday; the warehouse agreed."
+   },
+   {
+    "taskId": "t_mtg022",
+    "status": "done",
+    "startedAt": 1791421261,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791421455,
+    "lastHeartbeatAt": 1791421446,
+    "summary": "Ran the audit: toner spend is down 12% on last quarter."
+   },
+   {
+    "taskId": "t_mtg023",
+    "status": "done",
+    "startedAt": 1791421261,
+    "profile": "strategist",
+    "outcome": "completed",
+    "endedAt": 1791421282,
+    "lastHeartbeatAt": 1791421267,
+    "summary": "Summarised the round for the chair."
+   },
+   {
+    "taskId": "t_mtg024",
+    "status": "done",
+    "startedAt": 1791421261,
+    "profile": "ai-strategist",
+    "outcome": "completed",
+    "endedAt": 1791421282,
+    "lastHeartbeatAt": 1791421270,
+    "summary": "Recommended a 3% price rise for Q4, with a review in January."
+   },
+   {
+    "taskId": "t_mtg025",
+    "status": "done",
+    "startedAt": 1791421261,
+    "profile": "cmo",
+    "outcome": "completed",
+    "endedAt": 1791421285,
+    "lastHeartbeatAt": 1791421268,
+    "summary": "Wrote the follow-up and filed it on the card."
+   },
+   {
+    "taskId": "t_mtg026",
+    "status": "done",
+    "startedAt": 1791421261,
+    "profile": "cfo",
+    "outcome": "completed",
+    "endedAt": 1791421292,
+    "lastHeartbeatAt": 1791421269,
+    "summary": "Checked the numbers: margins hold at 3%, not 5%."
+   },
+   {
+    "taskId": "t_mtg027",
+    "status": "done",
+    "startedAt": 1791421623,
+    "profile": "ai-strategist",
+    "outcome": "completed",
+    "endedAt": 1791421639,
+    "lastHeartbeatAt": 1791421627,
+    "summary": "Drafted the agenda: five awards, one speech, no limbo."
+   },
+   {
+    "taskId": "t_mtg028",
+    "status": "done",
+    "startedAt": 1791421864,
+    "profile": "cmo",
+    "outcome": "completed",
+    "endedAt": 1791421880,
+    "lastHeartbeatAt": 1791421868,
+    "summary": "Found two duplicate invoices and flagged them."
+   },
+   {
+    "taskId": "t_mtg029",
+    "status": "done",
+    "startedAt": 1791422105,
+    "profile": "cfo",
+    "outcome": "completed",
+    "endedAt": 1791422118,
+    "lastHeartbeatAt": 1791422109,
+    "summary": "Booked the drill for Thursday; the warehouse agreed."
+   },
+   {
+    "taskId": "t_mtg030",
+    "status": "done",
+    "startedAt": 1791422345,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791422470,
+    "lastHeartbeatAt": 1791422470,
+    "summary": "Ran the audit: toner spend is down 12% on last quarter."
+   },
+   {
+    "taskId": "t_mtg031",
+    "status": "done",
+    "startedAt": 1791422707,
+    "profile": "strategist",
+    "outcome": "completed",
+    "endedAt": 1791422723,
+    "lastHeartbeatAt": 1791422711,
+    "summary": "Summarised the round for the chair."
+   },
+   {
+    "taskId": "t_mtg032",
+    "status": "done",
+    "startedAt": 1791422948,
+    "profile": "chief",
+    "outcome": "completed",
+    "endedAt": 1791423160,
+    "lastHeartbeatAt": 1791423137,
+    "summary": "Recommended a 3% price rise for Q4, with a review in January."
+   },
+   {
+    "taskId": "t_mtg033",
+    "status": "done",
+    "startedAt": 1791423310,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791423485,
+    "lastHeartbeatAt": 1791423436,
+    "summary": "Wrote the follow-up and filed it on the card."
+   },
+   {
+    "taskId": "t_mtg037",
+    "status": "done",
+    "startedAt": 1791423310,
+    "profile": "strategist",
+    "outcome": "completed",
+    "endedAt": 1791423326,
+    "lastHeartbeatAt": 1791423315,
+    "summary": "Checked the numbers: margins hold at 3%, not 5%."
+   },
+   {
+    "taskId": "t_mtg035",
+    "status": "done",
+    "startedAt": 1791423310,
+    "profile": "ai-strategist",
+    "outcome": "completed",
+    "endedAt": 1791423327,
+    "lastHeartbeatAt": 1791423318,
+    "summary": "Drafted the agenda: five awards, one speech, no limbo."
+   },
+   {
+    "taskId": "t_mtg034",
+    "status": "done",
+    "startedAt": 1791423310,
+    "profile": "cmo",
+    "outcome": "completed",
+    "endedAt": 1791423328,
+    "lastHeartbeatAt": 1791423317,
+    "summary": "Found two duplicate invoices and flagged them."
+   },
+   {
+    "taskId": "t_mtg036",
+    "status": "done",
+    "startedAt": 1791423310,
+    "profile": "cfo",
+    "outcome": "completed",
+    "endedAt": 1791423328,
+    "lastHeartbeatAt": 1791423317,
+    "summary": "Booked the drill for Thursday; the warehouse agreed."
+   },
+   {
+    "taskId": "t_mtg038",
+    "status": "done",
+    "startedAt": 1791423551,
+    "profile": "chief",
+    "outcome": "completed",
+    "endedAt": 1791424004,
+    "lastHeartbeatAt": 1791424003,
+    "summary": "Ran the audit: toner spend is down 12% on last quarter."
+   },
+   {
+    "taskId": "t_mtg040",
+    "status": "done",
+    "startedAt": 1791424033,
+    "profile": "social",
+    "outcome": "completed",
+    "endedAt": 1791424547,
+    "lastHeartbeatAt": 1791424533,
+    "summary": "Summarised the round for the chair."
+   },
+   {
+    "taskId": "t_mtg039",
+    "status": "done",
+    "startedAt": 1791424033,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791424851,
+    "lastHeartbeatAt": 1791424838,
+    "summary": "Recommended a 3% price rise for Q4, with a review in January."
+   },
+   {
+    "taskId": "t_mtg041",
+    "status": "done",
+    "startedAt": 1791424033,
+    "profile": "campaigns",
+    "outcome": "completed",
+    "endedAt": 1791424335,
+    "lastHeartbeatAt": 1791424282,
+    "summary": "Wrote the follow-up and filed it on the card."
+   },
+   {
+    "taskId": "t_mtg042",
+    "status": "done",
+    "startedAt": 1791424154,
+    "profile": "chief",
+    "outcome": "completed",
+    "endedAt": 1791424524,
+    "lastHeartbeatAt": 1791424474,
+    "summary": "Checked the numbers: margins hold at 3%, not 5%."
+   },
+   {
+    "taskId": "t_mtg043",
+    "status": "done",
+    "startedAt": 1791424877,
+    "profile": "chief",
+    "outcome": "completed",
+    "endedAt": 1791425412,
+    "lastHeartbeatAt": 1791425370,
+    "summary": "Drafted the agenda: five awards, one speech, no limbo."
+   },
+   {
+    "taskId": "t_mtg044",
+    "status": "done",
+    "startedAt": 1791425419,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791426250,
+    "lastHeartbeatAt": 1791426230,
+    "summary": "Found two duplicate invoices and flagged them."
+   },
+   {
+    "taskId": "t_mtg045",
+    "status": "done",
+    "startedAt": 1791507676,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791507890,
+    "lastHeartbeatAt": 1791507863,
+    "summary": "Booked the drill for Thursday; the warehouse agreed."
+   },
+   {
+    "taskId": "t_mtg046",
+    "status": "done",
+    "startedAt": 1791507676,
+    "profile": "strategist",
+    "outcome": "completed",
+    "endedAt": 1791507695,
+    "lastHeartbeatAt": 1791507681,
+    "summary": "Ran the audit: toner spend is down 12% on last quarter."
+   },
+   {
+    "taskId": "t_mtg047",
+    "status": "done",
+    "startedAt": 1791507736,
+    "profile": "ai-strategist",
+    "outcome": "completed",
+    "endedAt": 1791507767,
+    "lastHeartbeatAt": 1791507741,
+    "summary": "Summarised the round for the chair."
+   },
+   {
+    "taskId": "t_mtg048",
+    "status": "done",
+    "startedAt": 1791507736,
+    "profile": "cmo",
+    "outcome": "completed",
+    "endedAt": 1791507753,
+    "lastHeartbeatAt": 1791507742,
+    "summary": "Recommended a 3% price rise for Q4, with a review in January."
+   },
+   {
+    "taskId": "t_mtg049",
+    "status": "done",
+    "startedAt": 1791507736,
+    "profile": "cfo",
+    "outcome": "completed",
+    "endedAt": 1791507756,
+    "lastHeartbeatAt": 1791507741,
+    "summary": "Wrote the follow-up and filed it on the card."
+   },
+   {
+    "taskId": "t_mtg050",
+    "status": "done",
+    "startedAt": 1791507917,
+    "profile": "cmo",
+    "outcome": "completed",
+    "endedAt": 1791507931,
+    "lastHeartbeatAt": 1791507921,
+    "summary": "Checked the numbers: margins hold at 3%, not 5%."
+   },
+   {
+    "taskId": "t_mtg051",
+    "status": "done",
+    "startedAt": 1791508158,
+    "profile": "cfo",
+    "outcome": "completed",
+    "endedAt": 1791508171,
+    "lastHeartbeatAt": 1791508162,
+    "summary": "Drafted the agenda: five awards, one speech, no limbo."
+   },
+   {
+    "taskId": "t_mtg052",
+    "status": "done",
+    "startedAt": 1791508399,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791508506,
+    "lastHeartbeatAt": 1791508463,
+    "summary": "Found two duplicate invoices and flagged them."
+   },
+   {
+    "taskId": "t_mtg053",
+    "status": "done",
+    "startedAt": 1791508761,
+    "profile": "strategist",
+    "outcome": "completed",
+    "endedAt": 1791508777,
+    "lastHeartbeatAt": 1791508765,
+    "summary": "Booked the drill for Thursday; the warehouse agreed."
+   },
+   {
+    "taskId": "t_mtg054",
+    "status": "done",
+    "startedAt": 1791508942,
+    "profile": "ai-strategist",
+    "outcome": "completed",
+    "endedAt": 1791508958,
+    "lastHeartbeatAt": 1791508945,
+    "summary": "Ran the audit: toner spend is down 12% on last quarter."
+   },
+   {
+    "taskId": "t_mtg055",
+    "status": "done",
+    "startedAt": 1791509183,
+    "profile": "chief",
+    "outcome": "completed",
+    "endedAt": 1791509260,
+    "lastHeartbeatAt": 1791509248,
+    "summary": "Summarised the round for the chair."
+   },
+   {
+    "taskId": "t_mtg056",
+    "status": "done",
+    "startedAt": 1791509303,
+    "profile": "chief",
+    "outcome": "completed",
+    "endedAt": 1791509343,
+    "lastHeartbeatAt": 1791509308,
+    "summary": "Recommended a 3% price rise for Q4, with a review in January."
+   },
+   {
+    "taskId": "t_mtg058",
+    "status": "done",
+    "startedAt": 1791509424,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791509655,
+    "lastHeartbeatAt": 1791509611,
+    "summary": "Wrote the follow-up and filed it on the card."
+   },
+   {
+    "taskId": "t_mtg059",
+    "status": "done",
+    "startedAt": 1791509424,
+    "profile": "strategist",
+    "outcome": "completed",
+    "endedAt": 1791509443,
+    "lastHeartbeatAt": 1791509430,
+    "summary": "Checked the numbers: margins hold at 3%, not 5%."
+   },
+   {
+    "taskId": "t_mtg057",
+    "status": "done",
+    "startedAt": 1791509424,
+    "profile": "ai-strategist",
+    "outcome": "completed",
+    "endedAt": 1791509437,
+    "lastHeartbeatAt": 1791509429,
+    "summary": "Drafted the agenda: five awards, one speech, no limbo."
+   },
+   {
+    "taskId": "t_mtg061",
+    "status": "done",
+    "startedAt": 1791509424,
+    "profile": "cmo",
+    "outcome": "completed",
+    "endedAt": 1791509444,
+    "lastHeartbeatAt": 1791509432,
+    "summary": "Found two duplicate invoices and flagged them."
+   },
+   {
+    "taskId": "t_mtg060",
+    "status": "done",
+    "startedAt": 1791509424,
+    "profile": "cfo",
+    "outcome": "completed",
+    "endedAt": 1791509448,
+    "lastHeartbeatAt": 1791509431,
+    "summary": "Booked the drill for Thursday; the warehouse agreed."
+   },
+   {
+    "taskId": "t_mtg062",
+    "status": "done",
+    "startedAt": 1791509785,
+    "profile": "chief",
+    "outcome": "completed",
+    "endedAt": 1791510319,
+    "lastHeartbeatAt": 1791510285,
+    "summary": "Ran the audit: toner spend is down 12% on last quarter."
+   },
+   {
+    "taskId": "t_mtg065",
+    "status": "done",
+    "startedAt": 1791510328,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791511277,
+    "lastHeartbeatAt": 1791511220,
+    "summary": "Summarised the round for the chair."
+   },
+   {
+    "taskId": "t_mtg064",
+    "status": "done",
+    "startedAt": 1791510328,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791510944,
+    "lastHeartbeatAt": 1791510900,
+    "summary": "Recommended a 3% price rise for Q4, with a review in January."
+   },
+   {
+    "taskId": "t_mtg063",
+    "status": "done",
+    "startedAt": 1791510328,
+    "profile": "social",
+    "outcome": "completed",
+    "endedAt": 1791510536,
+    "lastHeartbeatAt": 1791510519,
+    "summary": "Wrote the follow-up and filed it on the card."
+   },
+   {
+    "taskId": "t_mtg066",
+    "status": "done",
+    "startedAt": 1791572597,
+    "profile": null,
+    "outcome": "completed",
+    "endedAt": 1791572987,
+    "lastHeartbeatAt": 1791572929,
+    "summary": "Checked the numbers: margins hold at 3%, not 5%."
+   },
+   {
+    "taskId": "t_mtg067",
+    "status": "done",
+    "startedAt": 1791572598,
+    "profile": null,
+    "outcome": "completed",
+    "endedAt": 1791572889,
+    "lastHeartbeatAt": 1791572853,
+    "summary": "Drafted the agenda: five awards, one speech, no limbo."
+   },
+   {
+    "taskId": "t_mtg068",
+    "status": "done",
+    "startedAt": 1791572599,
+    "profile": null,
+    "outcome": "completed",
+    "endedAt": 1791572875,
+    "lastHeartbeatAt": 1791572854,
+    "summary": "Found two duplicate invoices and flagged them."
+   },
+   {
+    "taskId": "t_mtg069",
+    "status": "done",
+    "startedAt": 1791572599,
+    "profile": null,
+    "outcome": "completed",
+    "endedAt": 1791572778,
+    "lastHeartbeatAt": 1791572735,
+    "summary": "Booked the drill for Thursday; the warehouse agreed."
+   },
+   {
+    "taskId": "t_mtg070",
+    "status": "done",
+    "startedAt": 1791572599,
+    "profile": null,
+    "outcome": "completed",
+    "endedAt": 1791572853,
+    "lastHeartbeatAt": 1791572798,
+    "summary": "Ran the audit: toner spend is down 12% on last quarter."
+   },
+   {
+    "taskId": "t_mtg072",
+    "status": "done",
+    "startedAt": 1791572922,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791573612,
+    "lastHeartbeatAt": 1791573578,
+    "summary": "Summarised the round for the chair."
+   },
+   {
+    "taskId": "t_mtg071",
+    "status": "done",
+    "startedAt": 1791573001,
+    "profile": "social",
+    "outcome": "completed",
+    "endedAt": 1791573059,
+    "lastHeartbeatAt": 1791573006,
+    "summary": "Recommended a 3% price rise for Q4, with a review in January."
+   },
+   {
+    "taskId": "t_mtg073",
+    "status": "done",
+    "startedAt": 1791770324,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791772867,
+    "lastHeartbeatAt": 1791772847,
+    "summary": "Wrote the follow-up and filed it on the card."
+   },
+   {
+    "taskId": "t_mtg074",
+    "status": "done",
+    "startedAt": 1791770324,
+    "profile": "social",
+    "outcome": "completed",
+    "endedAt": 1791770433,
+    "lastHeartbeatAt": 1791770389,
+    "summary": "Checked the numbers: margins hold at 3%, not 5%."
+   },
+   {
+    "taskId": "t_mtg075",
+    "status": "done",
+    "startedAt": 1791770324,
+    "profile": "campaigns",
+    "outcome": "completed",
+    "endedAt": 1791771124,
+    "lastHeartbeatAt": 1791771073,
+    "summary": "Drafted the agenda: five awards, one speech, no limbo."
+   },
+   {
+    "taskId": "t_mtg076",
+    "status": "done",
+    "startedAt": 1791770444,
+    "profile": "chief",
+    "outcome": "completed",
+    "endedAt": 1791770948,
+    "lastHeartbeatAt": 1791770937,
+    "summary": "Found two duplicate invoices and flagged them."
+   },
+   {
+    "taskId": "t_mtg077",
+    "status": "done",
+    "startedAt": 1791802985,
+    "profile": null,
+    "outcome": "completed",
+    "endedAt": 1791803211,
+    "lastHeartbeatAt": 1791803171,
+    "summary": "Booked the drill for Thursday; the warehouse agreed."
+   },
+   {
+    "taskId": "t_mtg078",
+    "status": "done",
+    "startedAt": 1791802985,
+    "profile": null,
+    "outcome": "completed",
+    "endedAt": 1791803268,
+    "lastHeartbeatAt": 1791803231,
+    "summary": "Ran the audit: toner spend is down 12% on last quarter."
+   },
+   {
+    "taskId": "t_mtg079",
+    "status": "done",
+    "startedAt": 1791802985,
+    "profile": null,
+    "outcome": "completed",
+    "endedAt": 1791803220,
+    "lastHeartbeatAt": 1791803182,
+    "summary": "Summarised the round for the chair."
+   },
+   {
+    "taskId": "t_mtg080",
+    "status": "done",
+    "startedAt": 1791802985,
+    "profile": null,
+    "outcome": "completed",
+    "endedAt": 1791803181,
+    "lastHeartbeatAt": 1791803170,
+    "summary": "Recommended a 3% price rise for Q4, with a review in January."
+   },
+   {
+    "taskId": "t_mtg081",
+    "status": "done",
+    "startedAt": 1791802985,
+    "profile": null,
+    "outcome": "completed",
+    "endedAt": 1791803144,
+    "lastHeartbeatAt": 1791803110,
+    "summary": "Wrote the follow-up and filed it on the card."
+   },
+   {
+    "taskId": "t_mtg082",
+    "status": "done",
+    "startedAt": 1791803286,
+    "profile": "social",
+    "outcome": "completed",
+    "endedAt": 1791803482,
+    "lastHeartbeatAt": 1791803469,
+    "summary": "Checked the numbers: margins hold at 3%, not 5%."
+   },
+   {
+    "taskId": "t_mtg083",
+    "status": "done",
+    "startedAt": 1791803527,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791804158,
+    "lastHeartbeatAt": 1791804143,
+    "summary": "Drafted the agenda: five awards, one speech, no limbo."
+   },
+   {
+    "taskId": "t_mtg085",
+    "status": "done",
+    "startedAt": 1791835128,
+    "profile": "social",
+    "outcome": "completed",
+    "endedAt": 1791835303,
+    "lastHeartbeatAt": 1791835256,
+    "summary": "Found two duplicate invoices and flagged them."
+   },
+   {
+    "taskId": "t_mtg084",
+    "status": "done",
+    "startedAt": 1791835128,
+    "profile": "campaigns",
+    "outcome": "completed",
+    "endedAt": 1791835378,
+    "lastHeartbeatAt": 1791835378,
+    "summary": "Booked the drill for Thursday; the warehouse agreed."
+   },
+   {
+    "taskId": "t_mtg086",
+    "status": "done",
+    "startedAt": 1791835611,
+    "profile": "social",
+    "outcome": "completed",
+    "endedAt": 1791835655,
+    "lastHeartbeatAt": 1791835613,
+    "summary": "Ran the audit: toner spend is down 12% on last quarter."
+   },
+   {
+    "taskId": "t_mtg087",
+    "status": "done",
+    "startedAt": 1791856064,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791859372,
+    "lastHeartbeatAt": 1791859361,
+    "summary": "Summarised the round for the chair."
+   },
+   {
+    "taskId": "t_mtg088",
+    "status": "done",
+    "startedAt": 1791856065,
+    "profile": "campaigns",
+    "outcome": "completed",
+    "endedAt": 1791856434,
+    "lastHeartbeatAt": 1791856434,
+    "summary": "Recommended a 3% price rise for Q4, with a review in January."
+   },
+   {
+    "taskId": "t_mtg089",
+    "status": "timed_out",
+    "startedAt": 1791856065,
+    "profile": "campaigns",
+    "outcome": "timed_out",
+    "endedAt": 1791858796,
+    "lastHeartbeatAt": 1791858794,
+    "summary": null
+   },
+   {
+    "taskId": "t_mtg089",
+    "status": "done",
+    "startedAt": 1791858832,
+    "profile": "campaigns",
+    "outcome": "completed",
+    "endedAt": 1791859110,
+    "lastHeartbeatAt": 1791859079,
+    "summary": "Checked the numbers: margins hold at 3%, not 5%."
+   },
+   {
+    "taskId": "t_mtg090",
+    "status": "done",
+    "startedAt": 1791859374,
+    "profile": "tech",
+    "outcome": "completed",
+    "endedAt": 1791860050,
+    "lastHeartbeatAt": 1791860001,
+    "summary": "Drafted the agenda: five awards, one speech, no limbo."
+   },
+   {
+    "taskId": "t_mtg091",
+    "status": "done",
+    "startedAt": 1791889823,
+    "profile": "campaigns",
+    "outcome": "completed",
+    "endedAt": 1791889990,
+    "lastHeartbeatAt": 1791889947,
+    "summary": "Found two duplicate invoices and flagged them."
+   },
+   {
+    "taskId": "t_mtg092",
+    "status": "done",
+    "startedAt": 1791914027,
+    "profile": "general",
+    "outcome": "completed",
+    "endedAt": 1791914033,
+    "lastHeartbeatAt": 1791914029,
+    "summary": "Booked the drill for Thursday; the warehouse agreed."
+   }
+  ],
+  "subs": [
+   {
+    "taskId": "t_mtg084",
+    "chatKey": "chat-rnd",
+    "chatType": "group",
+    "notifierProfile": "tech"
+   },
+   {
+    "taskId": "t_mtg085",
+    "chatKey": "chat-rnd",
+    "chatType": "group",
+    "notifierProfile": "tech"
+   },
+   {
+    "taskId": "t_mtg021",
+    "chatKey": "chat-x1",
+    "chatType": "group",
+    "notifierProfile": "chief"
+   },
+   {
+    "taskId": "t_mtg091",
+    "chatKey": "chat-x2",
+    "chatType": "dm",
+    "notifierProfile": "general"
+   },
+   {
+    "taskId": "t_mtg086",
+    "chatKey": "chat-rnd",
+    "chatType": "group",
+    "notifierProfile": "tech"
+   },
+   {
+    "taskId": "t_mtg020",
+    "chatKey": "chat-x1",
+    "chatType": "group",
+    "notifierProfile": "chief"
+   }
+  ],
+  "links": [
+   {
+    "parentId": "t_mtg018",
+    "childId": "t_mtg019",
+    "parentAssignee": "tech",
+    "childAssignee": "chief"
+   },
+   {
+    "parentId": "t_mtg070",
+    "childId": "t_mtg071",
+    "parentAssignee": null,
+    "childAssignee": "social"
+   },
+   {
+    "parentId": "t_mtg081",
+    "childId": "t_mtg082",
+    "parentAssignee": null,
+    "childAssignee": "social"
+   },
+   {
+    "parentId": "t_mtg038",
+    "childId": "t_mtg041",
+    "parentAssignee": "chief",
+    "childAssignee": "campaigns"
+   },
+   {
+    "parentId": "t_mtg038",
+    "childId": "t_mtg039",
+    "parentAssignee": "chief",
+    "childAssignee": "tech"
+   },
+   {
+    "parentId": "t_mtg038",
+    "childId": "t_mtg040",
+    "parentAssignee": "chief",
+    "childAssignee": "social"
+   },
+   {
+    "parentId": "t_mtg082",
+    "childId": "t_mtg083",
+    "parentAssignee": "social",
+    "childAssignee": "tech"
+   },
+   {
+    "parentId": "t_mtg079",
+    "childId": "t_mtg082",
+    "parentAssignee": null,
+    "childAssignee": "social"
+   },
+   {
+    "parentId": "t_mtg080",
+    "childId": "t_mtg082",
+    "parentAssignee": null,
+    "childAssignee": "social"
+   },
+   {
+    "parentId": "t_mtg068",
+    "childId": "t_mtg071",
+    "parentAssignee": null,
+    "childAssignee": "social"
+   },
+   {
+    "parentId": "t_mtg068",
+    "childId": "t_mtg072",
+    "parentAssignee": null,
+    "childAssignee": "tech"
+   },
+   {
+    "parentId": "t_mtg062",
+    "childId": "t_mtg065",
+    "parentAssignee": "chief",
+    "childAssignee": "tech"
+   },
+   {
+    "parentId": "t_mtg062",
+    "childId": "t_mtg063",
+    "parentAssignee": "chief",
+    "childAssignee": "social"
+   },
+   {
+    "parentId": "t_mtg062",
+    "childId": "t_mtg064",
+    "parentAssignee": "chief",
+    "childAssignee": "tech"
+   },
+   {
+    "parentId": "t_mtg039",
+    "childId": "t_mtg043",
+    "parentAssignee": "tech",
+    "childAssignee": "chief"
+   },
+   {
+    "parentId": "t_mtg085",
+    "childId": "t_mtg086",
+    "parentAssignee": "social",
+    "childAssignee": "social"
+   },
+   {
+    "parentId": "t_mtg067",
+    "childId": "t_mtg071",
+    "parentAssignee": null,
+    "childAssignee": "social"
+   },
+   {
+    "parentId": "t_mtg087",
+    "childId": "t_mtg090",
+    "parentAssignee": "tech",
+    "childAssignee": "tech"
+   },
+   {
+    "parentId": "t_mtg066",
+    "childId": "t_mtg071",
+    "parentAssignee": null,
+    "childAssignee": "social"
+   },
+   {
+    "parentId": "t_mtg069",
+    "childId": "t_mtg071",
+    "parentAssignee": null,
+    "childAssignee": "social"
+   },
+   {
+    "parentId": "t_mtg077",
+    "childId": "t_mtg082",
+    "parentAssignee": null,
+    "childAssignee": "social"
+   },
+   {
+    "parentId": "t_mtg074",
+    "childId": "t_mtg076",
+    "parentAssignee": "social",
+    "childAssignee": "chief"
+   },
+   {
+    "parentId": "t_mtg043",
+    "childId": "t_mtg044",
+    "parentAssignee": "chief",
+    "childAssignee": "tech"
+   },
+   {
+    "parentId": "t_mtg078",
+    "childId": "t_mtg082",
+    "parentAssignee": null,
+    "childAssignee": "social"
+   }
+  ],
+  "comments": [
+   {
+    "taskId": "t_mtg011",
+    "author": "chief",
+    "body": "On it. Results by end of day.",
+    "createdAt": 1791336812
+   },
+   {
+    "taskId": "t_mtg013",
+    "author": "tech",
+    "body": "Blocked on the client list; asking Pam.",
+    "createdAt": 1791337131
+   },
+   {
+    "taskId": "t_mtg011",
+    "author": "tech",
+    "body": "Done. Notes are on the card.",
+    "createdAt": 1791337136
+   },
+   {
+    "taskId": "t_mtg019",
+    "author": "chief",
+    "body": "Moved this to tomorrow.",
+    "createdAt": 1791338594
+   },
+   {
+    "taskId": "t_mtg019",
+    "author": "chief",
+    "body": "Two numbers disagree; checking with Accounting.",
+    "createdAt": 1791382461
+   },
+   {
+    "taskId": "t_mtg020",
+    "author": "social",
+    "body": "Looks good to me.",
+    "createdAt": 1791384726
+   },
+   {
+    "taskId": "t_mtg021",
+    "author": "tech",
+    "body": "Needs a second pair of eyes.",
+    "createdAt": 1791385188
+   },
+   {
+    "taskId": "t_mtg041",
+    "author": "campaigns",
+    "body": "Handing this to the warehouse.",
+    "createdAt": 1791424327
+   },
+   {
+    "taskId": "t_mtg043",
+    "author": "chief",
+    "body": "On it. Results by end of day.",
+    "createdAt": 1791425374
+   },
+   {
+    "taskId": "t_mtg043",
+    "author": "chief",
+    "body": "Blocked on the client list; asking Pam.",
+    "createdAt": 1791425383
+   },
+   {
+    "taskId": "t_mtg064",
+    "author": "tech",
+    "body": "Done. Notes are on the card.",
+    "createdAt": 1791510898
+   },
+   {
+    "taskId": "t_mtg065",
+    "author": "tech",
+    "body": "Moved this to tomorrow.",
+    "createdAt": 1791511267
+   },
+   {
+    "taskId": "t_mtg076",
+    "author": "chief",
+    "body": "Two numbers disagree; checking with Accounting.",
+    "createdAt": 1791770822
+   },
+   {
+    "taskId": "t_mtg075",
+    "author": "campaigns",
+    "body": "Looks good to me.",
+    "createdAt": 1791771096
+   },
+   {
+    "taskId": "t_mtg073",
+    "author": "tech",
+    "body": "Needs a second pair of eyes.",
+    "createdAt": 1791772848
+   },
+   {
+    "taskId": "t_mtg084",
+    "author": "campaigns",
+    "body": "Handing this to the warehouse.",
+    "createdAt": 1791835374
+   }
+  ],
+  "events": [
+   {
+    "taskId": "t_mtg001",
+    "kind": "claimed",
+    "createdAt": 1791334868,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg002",
+    "kind": "claimed",
+    "createdAt": 1791334868,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg003",
+    "kind": "claimed",
+    "createdAt": 1791334928,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg004",
+    "kind": "claimed",
+    "createdAt": 1791334928,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg005",
+    "kind": "claimed",
+    "createdAt": 1791334928,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg004",
+    "kind": "completed",
+    "createdAt": 1791334953,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg005",
+    "kind": "completed",
+    "createdAt": 1791334955,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg003",
+    "kind": "completed",
+    "createdAt": 1791334965,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg002",
+    "kind": "completed",
+    "createdAt": 1791334967,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg001",
+    "kind": "completed",
+    "createdAt": 1791335218,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg006",
+    "kind": "claimed",
+    "createdAt": 1791335349,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg006",
+    "kind": "completed",
+    "createdAt": 1791335363,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg007",
+    "kind": "claimed",
+    "createdAt": 1791335591,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg007",
+    "kind": "completed",
+    "createdAt": 1791335610,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg008",
+    "kind": "claimed",
+    "createdAt": 1791335832,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg008",
+    "kind": "completed",
+    "createdAt": 1791335855,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg009",
+    "kind": "claimed",
+    "createdAt": 1791336073,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg009",
+    "kind": "completed",
+    "createdAt": 1791336086,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg010",
+    "kind": "claimed",
+    "createdAt": 1791336314,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg010",
+    "kind": "completed",
+    "createdAt": 1791336481,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg011",
+    "kind": "claimed",
+    "createdAt": 1791336676,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg011",
+    "kind": "completed",
+    "createdAt": 1791336834,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg013",
+    "kind": "claimed",
+    "createdAt": 1791336917,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg012",
+    "kind": "claimed",
+    "createdAt": 1791336917,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg014",
+    "kind": "claimed",
+    "createdAt": 1791336917,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg016",
+    "kind": "claimed",
+    "createdAt": 1791336917,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg015",
+    "kind": "claimed",
+    "createdAt": 1791336917,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg012",
+    "kind": "completed",
+    "createdAt": 1791336937,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg016",
+    "kind": "completed",
+    "createdAt": 1791336944,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg015",
+    "kind": "completed",
+    "createdAt": 1791336948,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg013",
+    "kind": "completed",
+    "createdAt": 1791337144,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg014",
+    "kind": "completed",
+    "createdAt": 1791337548,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg017",
+    "kind": "claimed",
+    "createdAt": 1791337580,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg018",
+    "kind": "claimed",
+    "createdAt": 1791337641,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg017",
+    "kind": "completed",
+    "createdAt": 1791337856,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg018",
+    "kind": "completed",
+    "createdAt": 1791338406,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg019",
+    "kind": "promoted",
+    "createdAt": 1791338406,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg019",
+    "kind": "claimed",
+    "createdAt": 1791338424,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg019",
+    "kind": "blocked",
+    "createdAt": 1791338598,
+    "profile": "chief",
+    "reason": "The copier is jammed again"
+   },
+   {
+    "taskId": "t_mtg019",
+    "kind": "completed",
+    "createdAt": 1791382463,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg020",
+    "kind": "claimed",
+    "createdAt": 1791384246,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg021",
+    "kind": "claimed",
+    "createdAt": 1791384246,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg020",
+    "kind": "completed",
+    "createdAt": 1791384735,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg021",
+    "kind": "completed",
+    "createdAt": 1791385205,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg022",
+    "kind": "claimed",
+    "createdAt": 1791421261,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg023",
+    "kind": "claimed",
+    "createdAt": 1791421261,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg024",
+    "kind": "claimed",
+    "createdAt": 1791421261,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg025",
+    "kind": "claimed",
+    "createdAt": 1791421261,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg026",
+    "kind": "claimed",
+    "createdAt": 1791421261,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg024",
+    "kind": "completed",
+    "createdAt": 1791421282,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg023",
+    "kind": "completed",
+    "createdAt": 1791421282,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg025",
+    "kind": "completed",
+    "createdAt": 1791421285,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg026",
+    "kind": "completed",
+    "createdAt": 1791421292,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg022",
+    "kind": "completed",
+    "createdAt": 1791421455,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg027",
+    "kind": "claimed",
+    "createdAt": 1791421623,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg027",
+    "kind": "completed",
+    "createdAt": 1791421639,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg028",
+    "kind": "claimed",
+    "createdAt": 1791421864,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg028",
+    "kind": "completed",
+    "createdAt": 1791421880,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg029",
+    "kind": "claimed",
+    "createdAt": 1791422105,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg029",
+    "kind": "completed",
+    "createdAt": 1791422118,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg030",
+    "kind": "claimed",
+    "createdAt": 1791422345,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg030",
+    "kind": "completed",
+    "createdAt": 1791422470,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg031",
+    "kind": "claimed",
+    "createdAt": 1791422707,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg031",
+    "kind": "completed",
+    "createdAt": 1791422723,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg032",
+    "kind": "claimed",
+    "createdAt": 1791422948,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg032",
+    "kind": "completed",
+    "createdAt": 1791423160,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg033",
+    "kind": "claimed",
+    "createdAt": 1791423310,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg037",
+    "kind": "claimed",
+    "createdAt": 1791423310,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg035",
+    "kind": "claimed",
+    "createdAt": 1791423310,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg034",
+    "kind": "claimed",
+    "createdAt": 1791423310,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg036",
+    "kind": "claimed",
+    "createdAt": 1791423310,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg037",
+    "kind": "completed",
+    "createdAt": 1791423326,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg035",
+    "kind": "completed",
+    "createdAt": 1791423327,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg036",
+    "kind": "completed",
+    "createdAt": 1791423328,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg034",
+    "kind": "completed",
+    "createdAt": 1791423328,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg033",
+    "kind": "completed",
+    "createdAt": 1791423485,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg038",
+    "kind": "claimed",
+    "createdAt": 1791423551,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg038",
+    "kind": "completed",
+    "createdAt": 1791424004,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg039",
+    "kind": "promoted",
+    "createdAt": 1791424004,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg040",
+    "kind": "promoted",
+    "createdAt": 1791424004,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg041",
+    "kind": "promoted",
+    "createdAt": 1791424004,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg040",
+    "kind": "claimed",
+    "createdAt": 1791424033,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg039",
+    "kind": "claimed",
+    "createdAt": 1791424033,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg041",
+    "kind": "claimed",
+    "createdAt": 1791424033,
+    "profile": "campaigns",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg042",
+    "kind": "claimed",
+    "createdAt": 1791424154,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg041",
+    "kind": "completed",
+    "createdAt": 1791424335,
+    "profile": "campaigns",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg042",
+    "kind": "completed",
+    "createdAt": 1791424524,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg040",
+    "kind": "completed",
+    "createdAt": 1791424547,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg039",
+    "kind": "completed",
+    "createdAt": 1791424851,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg043",
+    "kind": "promoted",
+    "createdAt": 1791424851,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg043",
+    "kind": "claimed",
+    "createdAt": 1791424877,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg043",
+    "kind": "completed",
+    "createdAt": 1791425412,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg044",
+    "kind": "promoted",
+    "createdAt": 1791425412,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg044",
+    "kind": "claimed",
+    "createdAt": 1791425419,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg044",
+    "kind": "completed",
+    "createdAt": 1791426250,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg045",
+    "kind": "claimed",
+    "createdAt": 1791507676,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg046",
+    "kind": "claimed",
+    "createdAt": 1791507676,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg046",
+    "kind": "completed",
+    "createdAt": 1791507695,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg047",
+    "kind": "claimed",
+    "createdAt": 1791507736,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg048",
+    "kind": "claimed",
+    "createdAt": 1791507736,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg049",
+    "kind": "claimed",
+    "createdAt": 1791507736,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg048",
+    "kind": "completed",
+    "createdAt": 1791507753,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg049",
+    "kind": "completed",
+    "createdAt": 1791507756,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg047",
+    "kind": "completed",
+    "createdAt": 1791507767,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg045",
+    "kind": "completed",
+    "createdAt": 1791507890,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg050",
+    "kind": "claimed",
+    "createdAt": 1791507917,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg050",
+    "kind": "completed",
+    "createdAt": 1791507931,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg051",
+    "kind": "claimed",
+    "createdAt": 1791508158,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg051",
+    "kind": "completed",
+    "createdAt": 1791508171,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg052",
+    "kind": "claimed",
+    "createdAt": 1791508399,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg052",
+    "kind": "completed",
+    "createdAt": 1791508506,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg053",
+    "kind": "claimed",
+    "createdAt": 1791508761,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg053",
+    "kind": "completed",
+    "createdAt": 1791508777,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg054",
+    "kind": "claimed",
+    "createdAt": 1791508942,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg054",
+    "kind": "completed",
+    "createdAt": 1791508958,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg055",
+    "kind": "claimed",
+    "createdAt": 1791509183,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg055",
+    "kind": "completed",
+    "createdAt": 1791509260,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg056",
+    "kind": "claimed",
+    "createdAt": 1791509303,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg056",
+    "kind": "completed",
+    "createdAt": 1791509343,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg058",
+    "kind": "claimed",
+    "createdAt": 1791509424,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg059",
+    "kind": "claimed",
+    "createdAt": 1791509424,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg057",
+    "kind": "claimed",
+    "createdAt": 1791509424,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg061",
+    "kind": "claimed",
+    "createdAt": 1791509424,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg060",
+    "kind": "claimed",
+    "createdAt": 1791509424,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg057",
+    "kind": "completed",
+    "createdAt": 1791509437,
+    "profile": "ai-strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg059",
+    "kind": "completed",
+    "createdAt": 1791509443,
+    "profile": "strategist",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg061",
+    "kind": "completed",
+    "createdAt": 1791509444,
+    "profile": "cmo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg060",
+    "kind": "completed",
+    "createdAt": 1791509448,
+    "profile": "cfo",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg058",
+    "kind": "completed",
+    "createdAt": 1791509655,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg062",
+    "kind": "claimed",
+    "createdAt": 1791509785,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg062",
+    "kind": "completed",
+    "createdAt": 1791510319,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg064",
+    "kind": "promoted",
+    "createdAt": 1791510319,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg063",
+    "kind": "promoted",
+    "createdAt": 1791510319,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg065",
+    "kind": "promoted",
+    "createdAt": 1791510319,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg065",
+    "kind": "claimed",
+    "createdAt": 1791510328,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg064",
+    "kind": "claimed",
+    "createdAt": 1791510328,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg063",
+    "kind": "claimed",
+    "createdAt": 1791510328,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg063",
+    "kind": "completed",
+    "createdAt": 1791510536,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg064",
+    "kind": "completed",
+    "createdAt": 1791510944,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg065",
+    "kind": "completed",
+    "createdAt": 1791511277,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg071",
+    "kind": "dependency_wait",
+    "createdAt": 1791572580,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg066",
+    "kind": "claimed",
+    "createdAt": 1791572597,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg067",
+    "kind": "claimed",
+    "createdAt": 1791572598,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg068",
+    "kind": "claimed",
+    "createdAt": 1791572599,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg069",
+    "kind": "claimed",
+    "createdAt": 1791572599,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg070",
+    "kind": "claimed",
+    "createdAt": 1791572599,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg069",
+    "kind": "completed",
+    "createdAt": 1791572778,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg070",
+    "kind": "completed",
+    "createdAt": 1791572853,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg072",
+    "kind": "dependency_wait",
+    "createdAt": 1791572862,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg068",
+    "kind": "completed",
+    "createdAt": 1791572875,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg072",
+    "kind": "promoted",
+    "createdAt": 1791572875,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg067",
+    "kind": "completed",
+    "createdAt": 1791572889,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg072",
+    "kind": "claimed",
+    "createdAt": 1791572922,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg066",
+    "kind": "completed",
+    "createdAt": 1791572987,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg071",
+    "kind": "promoted",
+    "createdAt": 1791572987,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg071",
+    "kind": "claimed",
+    "createdAt": 1791573001,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg071",
+    "kind": "completed",
+    "createdAt": 1791573059,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg072",
+    "kind": "completed",
+    "createdAt": 1791573612,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg073",
+    "kind": "claimed",
+    "createdAt": 1791770324,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg074",
+    "kind": "claimed",
+    "createdAt": 1791770324,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg075",
+    "kind": "claimed",
+    "createdAt": 1791770324,
+    "profile": "campaigns",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg076",
+    "kind": "dependency_wait",
+    "createdAt": 1791770415,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg074",
+    "kind": "completed",
+    "createdAt": 1791770433,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg076",
+    "kind": "promoted",
+    "createdAt": 1791770433,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg076",
+    "kind": "claimed",
+    "createdAt": 1791770444,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg076",
+    "kind": "completed",
+    "createdAt": 1791770948,
+    "profile": "chief",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg075",
+    "kind": "completed",
+    "createdAt": 1791771124,
+    "profile": "campaigns",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg073",
+    "kind": "completed",
+    "createdAt": 1791772867,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg082",
+    "kind": "dependency_wait",
+    "createdAt": 1791802955,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg077",
+    "kind": "claimed",
+    "createdAt": 1791802985,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg078",
+    "kind": "claimed",
+    "createdAt": 1791802985,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg079",
+    "kind": "claimed",
+    "createdAt": 1791802985,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg080",
+    "kind": "claimed",
+    "createdAt": 1791802985,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg081",
+    "kind": "claimed",
+    "createdAt": 1791802985,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg081",
+    "kind": "completed",
+    "createdAt": 1791803144,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg080",
+    "kind": "completed",
+    "createdAt": 1791803181,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg077",
+    "kind": "completed",
+    "createdAt": 1791803211,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg079",
+    "kind": "completed",
+    "createdAt": 1791803220,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg078",
+    "kind": "completed",
+    "createdAt": 1791803268,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg082",
+    "kind": "promoted",
+    "createdAt": 1791803268,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg082",
+    "kind": "claimed",
+    "createdAt": 1791803286,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg083",
+    "kind": "dependency_wait",
+    "createdAt": 1791803434,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg082",
+    "kind": "completed",
+    "createdAt": 1791803482,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg083",
+    "kind": "promoted",
+    "createdAt": 1791803482,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg083",
+    "kind": "claimed",
+    "createdAt": 1791803527,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg083",
+    "kind": "completed",
+    "createdAt": 1791804158,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg085",
+    "kind": "claimed",
+    "createdAt": 1791835128,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg084",
+    "kind": "claimed",
+    "createdAt": 1791835128,
+    "profile": "campaigns",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg085",
+    "kind": "completed",
+    "createdAt": 1791835303,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg084",
+    "kind": "completed",
+    "createdAt": 1791835378,
+    "profile": "campaigns",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg086",
+    "kind": "claimed",
+    "createdAt": 1791835611,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg086",
+    "kind": "completed",
+    "createdAt": 1791835655,
+    "profile": "social",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg087",
+    "kind": "claimed",
+    "createdAt": 1791856064,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg088",
+    "kind": "claimed",
+    "createdAt": 1791856065,
+    "profile": "campaigns",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg089",
+    "kind": "claimed",
+    "createdAt": 1791856065,
+    "profile": "campaigns",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg088",
+    "kind": "completed",
+    "createdAt": 1791856434,
+    "profile": "campaigns",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg089",
+    "kind": "timed_out",
+    "createdAt": 1791858796,
+    "profile": "campaigns",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg089",
+    "kind": "claimed",
+    "createdAt": 1791858832,
+    "profile": "campaigns",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg089",
+    "kind": "completed",
+    "createdAt": 1791859110,
+    "profile": "campaigns",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg090",
+    "kind": "dependency_wait",
+    "createdAt": 1791859335,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg087",
+    "kind": "completed",
+    "createdAt": 1791859372,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg090",
+    "kind": "promoted",
+    "createdAt": 1791859372,
+    "profile": null,
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg090",
+    "kind": "claimed",
+    "createdAt": 1791859374,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg090",
+    "kind": "completed",
+    "createdAt": 1791860050,
+    "profile": "tech",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg091",
+    "kind": "claimed",
+    "createdAt": 1791889823,
+    "profile": "campaigns",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg091",
+    "kind": "completed",
+    "createdAt": 1791889990,
+    "profile": "campaigns",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg092",
+    "kind": "claimed",
+    "createdAt": 1791914027,
+    "profile": "general",
+    "reason": null
+   },
+   {
+    "taskId": "t_mtg092",
+    "kind": "completed",
+    "createdAt": 1791914033,
+    "profile": "general",
+    "reason": null
+   }
+  ]
+ }
+}

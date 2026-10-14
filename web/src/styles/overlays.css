@@ -1,0 +1,88 @@
+/* Ask Pam, the shortcuts sheet, settings popover, the fleet filter bar and the "while you were away" card. */
+kbd {
+  display: inline-block; min-width: 1.6em; padding: 1px 5px; border: 1px solid #cfc6b6; border-bottom-width: 2px; border-radius: 4px;
+  background: #fff; color: #4b4237; font: 600 11px/1.4 var(--font); text-align: center;
+}
+
+.pam-backdrop, .sheet-backdrop {
+  position: fixed; inset: 0; z-index: 600; display: flex; justify-content: center; align-items: flex-start; padding: 11vh 12px 12px;
+  background: rgba(36, 30, 22, 0.3); backdrop-filter: blur(1.5px);
+}
+.pam {
+  width: min(640px, 100%); max-height: min(560px, 78vh); display: flex; flex-direction: column; overflow: hidden;
+  background: var(--paper); border: 1px solid #cfc6b6; border-radius: 14px; box-shadow: var(--shadow);
+}
+.pam-head { display: flex; align-items: center; gap: 10px; padding: 11px 14px; background: #fff; border-bottom: 1px solid var(--line); }
+.pam-head:focus-within { box-shadow: inset 0 -2px 0 var(--dm-blue); }
+.pam-head .portrait-sm { width: 30px; height: 30px; margin: 0; }
+.pam-input { flex: 1; min-width: 0; border: 0; outline: none; background: transparent; font-size: 17px; padding: 4px 0; }
+.pam-input::placeholder { color: #9a8f80; font-style: italic; }
+.pam-list { overflow-y: auto; padding: 6px; }
+.pam-section { padding: 8px 10px 4px; font-size: 11px; font-weight: 700; letter-spacing: .8px; text-transform: uppercase; color: var(--muted); }
+.pam-option { display: flex; align-items: center; gap: 10px; padding: 7px 10px; border-radius: 9px; cursor: pointer; min-height: 44px; }
+.pam-option.is-active { background: #e6eefa; box-shadow: inset 3px 0 0 var(--dm-blue); }
+.pam-icon { position: relative; flex: none; width: 30px; height: 30px; display: grid; place-items: center; }
+.pam-icon .portrait-sm { width: 30px; height: 30px; margin: 0; }
+.pam-glyph { width: 30px; height: 30px; border-radius: 8px; display: grid; place-items: center; background: #ece6da; color: #5d5446; font-weight: 700; }
+.kind-room .pam-glyph, .kind-place .pam-glyph { background: #e3edf9; color: var(--dm-blue-dark); }
+.pam-status { position: absolute; right: -1px; bottom: -1px; width: 10px; height: 10px; border-radius: 50%; border: 2px solid #fff; }
+.pam-text { flex: 1; min-width: 0; display: grid; line-height: 1.3; }
+.pam-label { font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pam-detail { font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pam-kind { flex: none; font-size: 10.5px; font-weight: 700; letter-spacing: .4px; text-transform: uppercase; color: #8a7f70; }
+.pam-alt { flex: none; font-size: 11.5px; color: var(--dm-blue); text-decoration: underline; text-underline-offset: 2px; }
+.pam-empty { margin: 0; padding: 18px 16px; color: var(--muted); font-size: 13.5px; }
+.pam-empty code { font-size: 12.5px; background: #ece6da; padding: 1px 5px; border-radius: 4px; }
+.pam-foot { display: flex; flex-wrap: wrap; gap: 6px 16px; padding: 8px 14px; border-top: 1px solid var(--line); font-size: 11.5px; color: var(--muted); background: #f6f3ec; }
+.pam-foot kbd { margin-right: 3px; }
+
+.shortcuts {
+  width: min(560px, 100%); max-height: 84vh; overflow-y: auto; padding: 6px 20px 18px; background: var(--paper);
+  border: 1px solid #cfc6b6; border-radius: 14px; box-shadow: var(--shadow); font-size: 13.5px;
+}
+.shortcuts-head { display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; padding: 10px 0 6px; background: var(--paper); }
+.shortcuts h2 { margin: 0; font-size: 16px; }
+.shortcuts h3 { margin: 12px 0 6px; font-size: 11px; letter-spacing: .8px; text-transform: uppercase; color: var(--muted); }
+.shortcuts dl { margin: 0; display: grid; gap: 5px; }
+.shortcut { display: grid; grid-template-columns: 150px 1fr; gap: 12px; align-items: baseline; }
+.shortcut dd { margin: 0; }
+.shortcuts .shortcuts-close { background: #ece6da; color: var(--ink); }
+
+.settings { position: relative; }
+.settings-panel {
+  position: absolute; right: -60px; top: 38px; width: 320px; z-index: 450; padding: 12px 16px 14px; color: var(--ink);
+  background: #fff; border-radius: 12px; box-shadow: var(--shadow); font-size: 13.5px;
+}
+.settings-panel h2 { margin: 0 0 4px; font-size: 14.5px; }
+.settings-panel fieldset { border: 0; margin: 10px 0 0; padding: 0; }
+.settings-panel legend { padding: 0; font-size: 11px; font-weight: 700; letter-spacing: .8px; text-transform: uppercase; color: var(--muted); }
+.switch { position: relative; padding: 6px 0 6px 46px; line-height: 1.35; }
+.switch input { position: absolute; z-index: 1; left: 0; top: 6px; width: 34px; height: 20px; margin: 0; opacity: 0; cursor: pointer; }
+.switch label { cursor: pointer; }
+.switch-track { position: absolute; left: 0; top: 6px; width: 34px; height: 20px; border-radius: 999px; background: #cfc6b6; transition: background .15s; }
+.switch-track::after { content: ''; position: absolute; top: 3px; left: 3px; width: 14px; height: 14px; border-radius: 50%; background: #fff; transition: transform .15s; box-shadow: 0 1px 2px rgba(0,0,0,.2); }
+.switch input:checked + label .switch-track { background: var(--dm-blue); }
+.switch input:checked + label .switch-track::after { transform: translateX(14px); }
+.switch input:focus-visible + label .switch-track { outline: 3px solid #f2b632; outline-offset: 2px; }
+.switch input:disabled + label { opacity: .5; }
+.switch small { display: block; font-size: 11.5px; color: var(--muted); }
+.reduce-motion .switch-track, .reduce-motion .switch-track::after { transition: none; }
+
+.filter-bar {
+  position: absolute; top: 12px; left: 50%; transform: translateX(-50%); z-index: 30; display: flex; align-items: center; gap: 10px;
+  max-width: calc(100% - 24px); padding: 5px 6px 5px 14px; background: #fff; border: 1px solid var(--line); border-radius: 999px;
+  box-shadow: 0 4px 14px rgba(40,32,20,.16); font-size: 13px; white-space: nowrap;
+}
+.filter-bar button { border: 0; background: var(--dm-blue); color: #fff; border-radius: 999px; padding: 4px 12px; font-weight: 600; font-size: 12.5px; }
+
+.away {
+  position: absolute; top: 12px; right: 12px; z-index: 350; width: min(350px, calc(100% - 24px)); padding: 10px 12px 12px;
+  background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--dm-blue); border-radius: 12px; box-shadow: var(--shadow); font-size: 13px;
+}
+.away-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 6px; }
+.away-close { margin-left: auto; width: 26px; height: 26px; border: 0; border-radius: 6px; background: #f1eee7; font-size: 16px; line-height: 1; }
+.away ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 5px; }
+.away li { display: flex; align-items: baseline; gap: 2px; }
+.away .link-btn { text-align: left; display: inline; color: var(--ink); text-decoration-color: #b9ab95; }
+.away-error .link-btn, .away-needs-you .link-btn { font-weight: 600; }
+.away-more { margin: 6px 0 0; }

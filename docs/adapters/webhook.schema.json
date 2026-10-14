@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dunder Mifflin OS webhook event",
+  "description": "The body of POST /api/ingest/:agentId. One event per request. Unknown fields are refused. Free text is scrubbed of tokens, chat ids, phone numbers and home paths before it reaches the browser.",
+  "$defs": {
+    "line": { "type": "string", "minLength": 1, "pattern": "^[^\\r\\n\\u0000-\\u0008\\u000b\\u000c\\u000e-\\u001f\\u007f]*$" },
+    "name": { "$ref": "#/$defs/line", "maxLength": 60, "description": "How the agent is called on the map (a temp's name, or the persona shown under a character)." },
+    "role": { "$ref": "#/$defs/line", "maxLength": 80, "description": "What the agent does, shown in its window." },
+    "at": { "type": "string", "format": "date-time", "description": "When it happened (ISO 8601). Default: when the server received it. Times in the future count as now." },
+    "room": { "type": "string", "pattern": "^[a-z][a-z0-9-]{0,40}$", "description": "A room id on the map, e.g. ops (Conference Room) or council." }
+  },
+  "oneOf": [
+    {
+      "title": "status",
+      "description": "The agent's status. A meeting status with a room draws the agent in that room.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "status"],
+      "properties": {
+        "type": { "const": "status" },
+        "status": { "enum": ["working", "idle", "offline", "error", "meeting", "needs-input"] },
+        "activity": { "$ref": "#/$defs/line", "maxLength": 200, "description": "What it is doing (or waiting on), shown in the chip above the character." },
+        "room": { "$ref": "#/$defs/room" },
+        "name": { "$ref": "#/$defs/name" },
+        "role": { "$ref": "#/$defs/role" },
+        "at": { "$ref": "#/$defs/at" }
+      }
+    },
+    {
+      "title": "activity",
+      "description": "What the agent is doing now. Marks it working.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "text"],
+      "properties": {
+        "type": { "const": "activity" },
+        "text": { "$ref": "#/$defs/line", "maxLength": 200 },
+        "name": { "$ref": "#/$defs/name" },
+        "role": { "$ref": "#/$defs/role" },
+        "at": { "$ref": "#/$defs/at" }
+      }
+    },
+    {
+      "title": "task",
+      "description": "Creates or updates one of the agent's tasks (by id). Shared tasks show in the Ops room.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "id", "title", "status"],
+      "properties": {
+        "type": { "const": "task" },
+        "id": { "type": "string", "pattern": "^[A-Za-z0-9._-]{1,64}$" },
+        "title": { "$ref": "#/$defs/line", "maxLength": 200 },
+        "status": { "enum": ["todo", "doing", "blocked", "done"] },
+        "room": { "$ref": "#/$defs/room" },
+        "shared": { "type": "boolean" },
+        "name": { "$ref": "#/$defs/name" },
+        "role": { "$ref": "#/$defs/role" },
+        "at": { "$ref": "#/$defs/at" }
+      }
+    },
+    {
+      "title": "message",
+      "description": "A message from the agent, shown in its direct line (the chat in its window).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "text"],
+      "properties": {
+        "type": { "const": "message" },
+        "text": { "type": "string", "minLength": 1, "maxLength": 4000 },
+        "name": { "$ref": "#/$defs/name" },
+        "role": { "$ref": "#/$defs/role" },
+        "at": { "$ref": "#/$defs/at" }
+      }
+    },
+    {
+      "title": "approval",
+      "description": "The agent is waiting on you: it shows in the approvals inbox (Toby's desk) and the agent is shown as needing you. With a callback, Approve/Reject POST the decision there (see webhook.md); without one, the item is shown only. Sending the same id again replaces it.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "id", "title"],
+      "properties": {
+        "type": { "const": "approval" },
+        "id": { "type": "string", "pattern": "^[A-Za-z0-9._-]{1,64}$", "description": "The agent's own id for this request; the decision quotes it." },
+        "title": { "$ref": "#/$defs/line", "maxLength": 200, "description": "What it wants, as a question or an action: \"Deploy v1.2 to production?\"" },
+        "detail": { "type": "string", "minLength": 1, "maxLength": 600, "description": "Why, or the exact command or change. Several lines are fine." },
+        "kind": { "enum": ["permission", "question", "task"], "description": "Default: permission." },
+        "risk": { "enum": ["low", "medium", "high"], "description": "How much damage saying yes could do. Default: medium." },
+        "callback": { "type": "string", "format": "uri", "maxLength": 500, "description": "Where the office POSTs your decision: an https URL, or http on 127.0.0.1/localhost. No credentials in the URL." },
+        "name": { "$ref": "#/$defs/name" },
+        "role": { "$ref": "#/$defs/role" },
+        "at": { "$ref": "#/$defs/at" }
+      }
+    },
+    {
+      "title": "approval-withdrawn",
+      "description": "The agent no longer waits for this request (answered elsewhere, timed out): it leaves the inbox.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "id"],
+      "properties": {
+        "type": { "const": "approval-withdrawn" },
+        "id": { "type": "string", "pattern": "^[A-Za-z0-9._-]{1,64}$" },
+        "name": { "$ref": "#/$defs/name" },
+        "role": { "$ref": "#/$defs/role" },
+        "at": { "$ref": "#/$defs/at" }
+      }
+    },
+    {
+      "title": "controls",
+      "description": "Lets the office pause, resume and stop this agent: it POSTs signed control events to the callback (see webhook.md). Send it again to change the verbs; verbs [] withdraws them. Without one, the agent can't be paused or stopped from the office.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "verbs"],
+      "properties": {
+        "type": { "const": "controls" },
+        "verbs": { "type": "array", "uniqueItems": true, "items": { "enum": ["pause", "stop"] }, "description": "What the office may do: pause (and resume) and/or stop." },
+        "callback": { "type": "string", "format": "uri", "maxLength": 500, "description": "Where the office POSTs control events: an https URL, or http on 127.0.0.1/localhost. No credentials in the URL. Required with verbs." },
+        "name": { "$ref": "#/$defs/name" },
+        "role": { "$ref": "#/$defs/role" },
+        "at": { "$ref": "#/$defs/at" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+node_modules/
+dist/
+dist-demo/
+coverage/
+playwright-report/
+test-results/
+*.tgz
+.DS_Store
+
+# Secrets and local settings never enter the repo.
+.env
+.env.*
+
+# Logs, including the approvals/control-verb audit log (DMOS_AUDIT_LOG) if it is pointed inside the tree.
+*.log
+audit.log*
+*.audit.jsonl
+
+# Live screenshots show real Hermes data (task titles, job names); keep them local.
+docs/screenshots/live-*.png
+
+# Staff photos and bot headshots never enter the repo: The Office's characters and photos are NBCUniversal's (personal
+# use only). They live outside it, in ~/.dunder-mifflin-os/portraits and ~/.dunder-mifflin-os/headshots
+# (DMOS_PORTRAITS_DIR, DMOS_HEADSHOTS_DIR). Ignore any copy that lands in the tree, and screenshots of the live app
+# with photos in them.
+portraits/
+headshots/
+.dunder-mifflin-os/
+portraits-*.png

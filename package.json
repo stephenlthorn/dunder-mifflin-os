@@ -1,0 +1,83 @@
+{
+  "name": "dunder-mifflin-os",
+  "version": "0.1.0",
+  "description": "A browser \"operating system\" for a Hermes bot fleet, drawn as an isometric office floor plan. Unofficial fan project; not affiliated with NBCUniversal or The Office.",
+  "keywords": [
+    "hermes",
+    "ai-agents",
+    "agents",
+    "dashboard",
+    "isometric",
+    "office",
+    "local-first"
+  ],
+  "license": "MIT",
+  "author": "Stephen Thorn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenlthorn/dunder-mifflin-os.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stephenlthorn/dunder-mifflin-os/issues"
+  },
+  "homepage": "https://github.com/stephenlthorn/dunder-mifflin-os#readme",
+  "type": "module",
+  "bin": {
+    "dunder-mifflin-os": "bin/dunder-mifflin-os.mjs"
+  },
+  "files": [
+    "bin/",
+    "server/src/",
+    "server/fixtures/",
+    "shared/contract.ts",
+    "shared/observability.ts",
+    "shared/controls.ts",
+    "shared/office.ts",
+    "shared/office/",
+    "shared/demo/",
+    "shared/schedule/",
+    "web/dist/",
+    "ASSETS-LICENSE",
+    "SECURITY.md",
+    "!**/*.test.ts"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "workspaces": [
+    "shared",
+    "web",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n server,web -c blue,green \"npm:dev:server\" \"npm:dev:web\"",
+    "dev:server": "npm run dev -w @dmos/server",
+    "dev:web": "npm run dev -w @dmos/web --",
+    "demo": "npm run build && node bin/dunder-mifflin-os.mjs --demo",
+    "demo:server": "concurrently -k -n server,web -c yellow,green \"npm run demo -w @dmos/server\" \"npm:dev:web\"",
+    "build": "npm run build -w @dmos/web",
+    "build:demo-static": "npm run build:demo-static -w @dmos/web",
+    "start": "npm run build && npm run serve -w @dmos/server",
+    "test": "npm run test:web && npm run test:server",
+    "test:web": "vitest run",
+    "test:server": "npm test -w @dmos/server",
+    "e2e": "playwright test -c web/playwright.config.ts",
+    "e2e:live": "playwright test -c web/playwright.live.config.ts",
+    "e2e:auth": "playwright test -c web/playwright.auth.config.ts",
+    "e2e:demo": "playwright test -c web/playwright.demo.config.ts",
+    "screenshots": "SCREENSHOTS=1 playwright test -c web/playwright.config.ts",
+    "portraits:check": "npm run portraits:check -w @dmos/server",
+    "typecheck": "tsc -p web/tsconfig.json --noEmit && npm run typecheck -w @dmos/server",
+    "prepack": "npm run build",
+    "pack:check": "npm pack --dry-run"
+  },
+  "dependencies": {
+    "tsx": "^4.23.15",
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "concurrently": "^9.2.5",
+    "vitest": "^5.0.4"
+  }
+}

@@ -1,0 +1,30 @@
+name: Feature request
+description: An idea for Dunder Mifflin OS.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Who needs it and what do they do today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you file
+      options:
+        - label: It keeps the safe defaults (local-only, read-only unless DMOS_ALLOW_WRITES=1), or explains why not.
+          required: true
+        - label: It needs no photos, logos, stills or audio from the show.
+          required: true

@@ -1,0 +1,6667 @@
+{
+ "meta": {
+  "recordedAt": "2026-10-13T16:11:03.000Z",
+  "hermesVersion": "0.21.6",
+  "note": "Recorded from the live timeline/usage readers and redacted by scripts/redactActivity.ts: ids, session titles, task titles, job names, MCP/custom tool names, log messages and message text are synthetic; times, counts, outcomes, models and token numbers are real. Times are moved to line up with hermes-fixture.json."
+ },
+ "recordedAt": "2026-10-13T16:11:03.000Z",
+ "profiles": {
+  "chief": {
+   "activity": {
+    "sessions": [
+     {
+      "id": "fx-s-d9a02006fe",
+      "startedAt": 1791893932.1032362,
+      "source": "cli",
+      "endedAt": 1791893960.377214,
+      "endReason": "cli_close",
+      "title": "Terminal session",
+      "messageCount": 4
+     }
+    ],
+    "messages": [
+     {
+      "id": "fx-m-62a9fe8811",
+      "source": "cli",
+      "role": "assistant",
+      "text": "The report is ready for review.",
+      "at": 1791893960.3159769
+     },
+     {
+      "id": "fx-m-a85b7bfa7c",
+      "source": "cli",
+      "role": "user",
+      "text": "Can you send me the summary?",
+      "at": 1791893956.290507
+     },
+     {
+      "id": "fx-m-8a65784632",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791893940.3753731
+     },
+     {
+      "id": "fx-m-a29daca6f0",
+      "source": "cli",
+      "role": "user",
+      "text": "How are the numbers looking today?",
+      "at": 1791893934.501515
+     },
+     {
+      "id": "fx-m-c52db05375",
+      "source": "kanban",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791886503.582825
+     },
+     {
+      "id": "fx-m-93d21dda98",
+      "source": "kanban",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791886208.659351
+     },
+     {
+      "id": "fx-m-471f0930cc",
+      "source": "kanban",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791878512.407897
+     },
+     {
+      "id": "fx-m-b5e505c323",
+      "source": "kanban",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791877242.921581
+     },
+     {
+      "id": "fx-m-794be7977e",
+      "source": "kanban",
+      "role": "assistant",
+      "text": "Nothing new since this morning.",
+      "at": 1791871903.143243
+     }
+    ],
+    "tools": [
+     {
+      "sessionId": "fx-s-b9c114d162",
+      "source": "kanban",
+      "count": 16,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 10
+       },
+       {
+        "name": "tool",
+        "count": 3
+       },
+       {
+        "name": "read_file",
+        "count": 1
+       },
+       {
+        "name": "search_files",
+        "count": 1
+       },
+       {
+        "name": "write_file",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791886500.449518
+     },
+     {
+      "sessionId": "fx-s-7c3284772a",
+      "source": "kanban",
+      "count": 17,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 12
+       },
+       {
+        "name": "tool",
+        "count": 4
+       },
+       {
+        "name": "read_file",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791886205.489968
+     },
+     {
+      "sessionId": "fx-s-2bdb9389d3",
+      "source": "kanban",
+      "count": 146,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 78
+       },
+       {
+        "name": "patch",
+        "count": 24
+       },
+       {
+        "name": "write_file",
+        "count": 16
+       },
+       {
+        "name": "read_file",
+        "count": 15
+       },
+       {
+        "name": "tool",
+        "count": 13
+       }
+      ],
+      "lastAt": 1791878499.9780412
+     },
+     {
+      "sessionId": "fx-s-85e7146acc",
+      "source": "kanban",
+      "count": 113,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 45
+       },
+       {
+        "name": "patch",
+        "count": 23
+       },
+       {
+        "name": "write_file",
+        "count": 15
+       },
+       {
+        "name": "read_file",
+        "count": 12
+       },
+       {
+        "name": "tool",
+        "count": 12
+       },
+       {
+        "name": "search_files",
+        "count": 6
+       }
+      ],
+      "lastAt": 1791877238.63936
+     },
+     {
+      "sessionId": "fx-s-9313595b14",
+      "source": "kanban",
+      "count": 265,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 174
+       },
+       {
+        "name": "write_file",
+        "count": 40
+       },
+       {
+        "name": "tool",
+        "count": 18
+       },
+       {
+        "name": "search_files",
+        "count": 13
+       },
+       {
+        "name": "read_file",
+        "count": 12
+       },
+       {
+        "name": "skill_view",
+        "count": 4
+       },
+       {
+        "name": "patch",
+        "count": 3
+       },
+       {
+        "name": "process_manage",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791871899.104736
+     }
+    ],
+    "tasks": [
+     {
+      "id": "fx-t-c942686758",
+      "title": "Audit the warehouse inventory",
+      "createdAt": 1791886267
+     },
+     {
+      "id": "fx-t-b31903455f",
+      "title": "Audit the warehouse inventory",
+      "createdAt": 1791885926
+     },
+     {
+      "id": "fx-t-5ee7d43662",
+      "title": "Update the price sheet",
+      "createdAt": 1791877109
+     },
+     {
+      "id": "fx-t-df02de3dff",
+      "title": "Audit the warehouse inventory",
+      "createdAt": 1791877011
+     },
+     {
+      "id": "fx-t-bb9e4390a4",
+      "title": "Draft the client follow-up",
+      "createdAt": 1791870612
+     }
+    ],
+    "runs": [
+     {
+      "id": "fx-r-decdbce70e",
+      "taskId": "fx-t-c942686758",
+      "title": "Audit the warehouse inventory",
+      "status": "done",
+      "outcome": "completed",
+      "startedAt": 1791886298,
+      "endedAt": 1791886500
+     },
+     {
+      "id": "fx-r-7992f1592b",
+      "taskId": "fx-t-b31903455f",
+      "title": "Audit the warehouse inventory",
+      "status": "done",
+      "outcome": "completed",
+      "startedAt": 1791885937,
+      "endedAt": 1791886205
+     },
+     {
+      "id": "fx-r-68c5107188",
+      "taskId": "fx-t-5ee7d43662",
+      "title": "Update the price sheet",
+      "status": "done",
+      "outcome": "completed",
+      "startedAt": 1791877148,
+      "endedAt": 1791878499
+     },
+     {
+      "id": "fx-r-fb71b67e62",
+      "taskId": "fx-t-df02de3dff",
+      "title": "Audit the warehouse inventory",
+      "status": "done",
+      "outcome": "completed",
+      "startedAt": 1791877027,
+      "endedAt": 1791877238
+     },
+     {
+      "id": "fx-r-fd209744cc",
+      "taskId": "fx-t-bb9e4390a4",
+      "title": "Draft the client follow-up",
+      "status": "done",
+      "outcome": "completed",
+      "startedAt": 1791870645,
+      "endedAt": 1791871899
+     },
+     {
+      "id": "fx-r-b1f3d41592",
+      "taskId": "fx-t-7eb29179ec",
+      "title": "Order toner for the copier",
+      "status": "crashed",
+      "outcome": "crashed",
+      "startedAt": 1791870525,
+      "endedAt": 1791870585
+     },
+     {
+      "id": "fx-r-7d27324332",
+      "taskId": "fx-t-7eb29179ec",
+      "title": "Order toner for the copier",
+      "status": "crashed",
+      "outcome": "crashed",
+      "startedAt": 1791870465,
+      "endedAt": 1791870525
+     }
+    ],
+    "cron": [
+     {
+      "id": "fx-c-84a2ec295b",
+      "jobId": "fx-j-d86052c03e",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791894417.5,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-bdd6457caf",
+      "jobId": "fx-j-d86052c03e",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791880017.568,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-484d0140c0",
+      "jobId": "fx-j-f9291108a6",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791874617.329,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-a117983137",
+      "jobId": "fx-j-d86052c03e",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791822417.176,
+      "delivery": "suppressed",
+      "error": null
+     }
+    ],
+    "errors": [
+     {
+      "at": 1791833863.939,
+      "logger": "gateway.run",
+      "message": "Network retry loop gave up"
+     },
+     {
+      "at": 1791833863.916,
+      "logger": "agent",
+      "message": "Unclosed client session"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "at": 1791907803,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 822679,
+     "outputTokens": 114176,
+     "cacheReadTokens": 15714661,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 275
+    },
+    {
+     "at": 1791843919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 226463,
+     "outputTokens": 88203,
+     "cacheReadTokens": 2721667,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 75
+    },
+    {
+     "at": 1791843919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 474,
+     "outputTokens": 24,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1791757519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 219217,
+     "outputTokens": 69949,
+     "cacheReadTokens": 7723585,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 142
+    },
+    {
+     "at": 1791498319,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 190378,
+     "outputTokens": 60836,
+     "cacheReadTokens": 4370252,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 107
+    },
+    {
+     "at": 1791498319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 716,
+     "outputTokens": 203,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 3
+    },
+    {
+     "at": 1791411919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 2250230,
+     "outputTokens": 250355,
+     "cacheReadTokens": 16652586,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 390
+    },
+    {
+     "at": 1791411919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 957,
+     "outputTokens": 258,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 4
+    },
+    {
+     "at": 1791325519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 403229,
+     "outputTokens": 106456,
+     "cacheReadTokens": 7661644,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 193
+    },
+    {
+     "at": 1791325519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 719,
+     "outputTokens": 172,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 3
+    },
+    {
+     "at": 1791239119,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 167064,
+     "outputTokens": 56420,
+     "cacheReadTokens": 3484248,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 88
+    },
+    {
+     "at": 1791239119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 240,
+     "outputTokens": 126,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1791152719,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 472202,
+     "outputTokens": 92699,
+     "cacheReadTokens": 6992712,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 184
+    },
+    {
+     "at": 1791152719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 153314,
+     "outputTokens": 103667,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 22
+    },
+    {
+     "at": 1791066319,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 1066294,
+     "outputTokens": 248555,
+     "cacheReadTokens": 13152111,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 346
+    },
+    {
+     "at": 1791066319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 16483,
+     "outputTokens": 9148,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 3
+    },
+    {
+     "at": 1790979919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 1444025,
+     "outputTokens": 316823,
+     "cacheReadTokens": 17164168,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 437
+    },
+    {
+     "at": 1790979919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 44778,
+     "outputTokens": 27474,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 12
+    },
+    {
+     "at": 1790979919,
+     "model": "gpt-6-astra",
+     "inputTokens": 15904,
+     "outputTokens": 23,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 16,
+     "calls": 1,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1790979919,
+     "model": "gpt-6.1-sol",
+     "inputTokens": 15906,
+     "outputTokens": 72,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 65,
+     "calls": 1,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1790893519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 52073,
+     "outputTokens": 597,
+     "cacheReadTokens": 561,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 3
+    },
+    {
+     "at": 1790893519,
+     "model": "claude-fable-5-1",
+     "inputTokens": 8,
+     "outputTokens": 8,
+     "cacheReadTokens": 20512,
+     "cacheWriteTokens": 27607,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1790893519,
+     "model": "claude-fable-5-1",
+     "inputTokens": 15817,
+     "outputTokens": 64,
+     "cacheReadTokens": 128,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790893519,
+     "model": "claude-fable-5.1",
+     "inputTokens": 15811,
+     "outputTokens": 91,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790893519,
+     "model": "claude-opus-5-5",
+     "inputTokens": 4,
+     "outputTokens": 4,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 24059,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790893519,
+     "model": "claude-opus-5-5",
+     "inputTokens": 15815,
+     "outputTokens": 85,
+     "cacheReadTokens": 128,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790893519,
+     "model": "claude-sonnet-5-5",
+     "inputTokens": 4,
+     "outputTokens": 4,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 24059,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790893519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 3138,
+     "outputTokens": 207,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 13
+    },
+    {
+     "at": 1790893519,
+     "model": "gpt-6-astra",
+     "inputTokens": 12694,
+     "outputTokens": 89,
+     "cacheReadTokens": 4096,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790893519,
+     "model": "gpt-6-luna",
+     "inputTokens": 15000,
+     "outputTokens": 5,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1790893519,
+     "model": "gpt-6-sol",
+     "inputTokens": 14997,
+     "outputTokens": 36,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 29,
+     "calls": 1,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1790893519,
+     "model": "gpt-6-sol",
+     "inputTokens": 16795,
+     "outputTokens": 77,
+     "cacheReadTokens": 128,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790807119,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 166719,
+     "outputTokens": 35786,
+     "cacheReadTokens": 1710514,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 58
+    },
+    {
+     "at": 1790807119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 240,
+     "outputTokens": 79,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790720719,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 989116,
+     "outputTokens": 87968,
+     "cacheReadTokens": 5349819,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 142
+    },
+    {
+     "at": 1790720719,
+     "model": "claude-sonnet-5",
+     "inputTokens": 18,
+     "outputTokens": 3328,
+     "cacheReadTokens": 186385,
+     "cacheWriteTokens": 272822,
+     "reasoningTokens": 0,
+     "calls": 9,
+     "recordedCost": {
+      "amount": 0.752648,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1790720719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 59804,
+     "outputTokens": 24423,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 8
+    },
+    {
+     "at": 1790634319,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 3894,
+     "outputTokens": 7861,
+     "cacheReadTokens": 272660,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 6
+    },
+    {
+     "at": 1790634319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 7109,
+     "outputTokens": 4078,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790375119,
+     "model": "MiniMax-M3",
+     "inputTokens": 164712,
+     "outputTokens": 12157,
+     "cacheReadTokens": 155264,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 13
+    },
+    {
+     "at": 1790288719,
+     "model": "MiniMax-M3",
+     "inputTokens": 100044,
+     "outputTokens": 3107,
+     "cacheReadTokens": 76020,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 7
+    },
+    {
+     "at": 1790202319,
+     "model": "MiniMax-M3",
+     "inputTokens": 898800,
+     "outputTokens": 66191,
+     "cacheReadTokens": 5865986,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 155
+    },
+    {
+     "at": 1790115919,
+     "model": "MiniMax-M3",
+     "inputTokens": 104865,
+     "outputTokens": 43210,
+     "cacheReadTokens": 2346537,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 43
+    }
+   ]
+  },
+  "cmo": {
+   "activity": {
+    "sessions": [
+     {
+      "id": "fx-s-41c5ab71ab",
+      "startedAt": 1791893932.064597,
+      "source": "cli",
+      "endedAt": 1791893967.356671,
+      "endReason": "cli_close",
+      "title": "Terminal session",
+      "messageCount": 4
+     }
+    ],
+    "messages": [
+     {
+      "id": "fx-m-14601a318a",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791893967.290103
+     },
+     {
+      "id": "fx-m-1d8bb376e6",
+      "source": "cli",
+      "role": "user",
+      "text": "Any replies from the prospects?",
+      "at": 1791893957.399016
+     },
+     {
+      "id": "fx-m-24c0ec1625",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791893945.3569012
+     },
+     {
+      "id": "fx-m-220b9ea270",
+      "source": "cli",
+      "role": "user",
+      "text": "Any replies from the prospects?",
+      "at": 1791893935.1526442
+     }
+    ],
+    "tools": [],
+    "tasks": [],
+    "runs": [],
+    "cron": [],
+    "errors": []
+   },
+   "usage": [
+    {
+     "at": 1791907803,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 16658,
+     "outputTokens": 10,
+     "cacheReadTokens": 15872,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1791843919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 20132,
+     "outputTokens": 389,
+     "cacheReadTokens": 34816,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 147,
+     "calls": 3,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1791498319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 74636,
+     "outputTokens": 3629,
+     "cacheReadTokens": 147456,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1217,
+     "calls": 13
+    },
+    {
+     "at": 1791411919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 116846,
+     "outputTokens": 36287,
+     "cacheReadTokens": 1947289,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 43
+    },
+    {
+     "at": 1791411919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 87416,
+     "outputTokens": 3775,
+     "cacheReadTokens": 210944,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1598,
+     "calls": 16
+    },
+    {
+     "at": 1791325519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 76875,
+     "outputTokens": 3878,
+     "cacheReadTokens": 195072,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1138,
+     "calls": 15
+    },
+    {
+     "at": 1791239119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 24397,
+     "outputTokens": 1133,
+     "cacheReadTokens": 35840,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 418,
+     "calls": 4
+    },
+    {
+     "at": 1791152719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 78951,
+     "outputTokens": 3190,
+     "cacheReadTokens": 157184,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 633,
+     "calls": 14
+    },
+    {
+     "at": 1791066319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 84241,
+     "outputTokens": 5361,
+     "cacheReadTokens": 303616,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1339,
+     "calls": 20
+    },
+    {
+     "at": 1790979919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 84691,
+     "outputTokens": 4393,
+     "cacheReadTokens": 188416,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 961,
+     "calls": 16
+    },
+    {
+     "at": 1790893519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 52363,
+     "outputTokens": 558,
+     "cacheReadTokens": 18432,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 290,
+     "calls": 6
+    },
+    {
+     "at": 1790807119,
+     "model": "MiniMax-M3",
+     "inputTokens": 122647,
+     "outputTokens": 10306,
+     "cacheReadTokens": 1452013,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 42
+    },
+    {
+     "at": 1790807119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 480,
+     "outputTokens": 153,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1790720719,
+     "model": "MiniMax-M3",
+     "inputTokens": 34899,
+     "outputTokens": 4870,
+     "cacheReadTokens": 62113,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 6
+    },
+    {
+     "at": 1790720719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 476,
+     "outputTokens": 158,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    }
+   ]
+  },
+  "campaigns": {
+   "activity": {
+    "sessions": [
+     {
+      "id": "fx-s-80c95c70b9",
+      "startedAt": 1791893932.1347451,
+      "source": "cli",
+      "endedAt": 1791893968.585343,
+      "endReason": "cli_close",
+      "title": "Terminal session",
+      "messageCount": 4
+     }
+    ],
+    "messages": [
+     {
+      "id": "fx-m-8e1b2a0ff1",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Nothing new since this morning.",
+      "at": 1791907307.342077
+     },
+     {
+      "id": "fx-m-03f29d21b7",
+      "source": "cron",
+      "role": "assistant",
+      "text": "The report is ready for review.",
+      "at": 1791905834.3817558
+     },
+     {
+      "id": "fx-m-e7ec6f59a6",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791899146.356089
+     },
+     {
+      "id": "fx-m-485e81e478",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791897149.511727
+     },
+     {
+      "id": "fx-m-69dbf065ed",
+      "source": "cron",
+      "role": "assistant",
+      "text": "The report is ready for review.",
+      "at": 1791895198.4080262
+     },
+     {
+      "id": "fx-m-0f7f4847d9",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791893968.523029
+     },
+     {
+      "id": "fx-m-6380b9fde0",
+      "source": "cli",
+      "role": "user",
+      "text": "How are the numbers looking today?",
+      "at": 1791893957.87621
+     },
+     {
+      "id": "fx-m-e307bb7093",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791893946.831912
+     },
+     {
+      "id": "fx-m-a764d570b0",
+      "source": "cli",
+      "role": "user",
+      "text": "Can you send me the summary?",
+      "at": 1791893935.6840699
+     },
+     {
+      "id": "fx-m-f5c6b85507",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791893311.4415722
+     },
+     {
+      "id": "fx-m-57c1ca3170",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791891419.862371
+     },
+     {
+      "id": "fx-m-2f98c485b3",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Nothing new since this morning.",
+      "at": 1791889503.665754
+     },
+     {
+      "id": "fx-m-693daaa9b0",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791887587.490588
+     },
+     {
+      "id": "fx-m-f63ed36bab",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791885405.297948
+     },
+     {
+      "id": "fx-m-c03c68b137",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791883384.207482
+     },
+     {
+      "id": "fx-m-6cb91c9f3e",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791881610.74913
+     },
+     {
+      "id": "fx-m-0a4cfc18c8",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791881480.389245
+     },
+     {
+      "id": "fx-m-0e8f984b45",
+      "source": "cron",
+      "role": "assistant",
+      "text": "The report is ready for review.",
+      "at": 1791881041.375941
+     },
+     {
+      "id": "fx-m-2a1c8ceadf",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791879531.425246
+     },
+     {
+      "id": "fx-m-423800f638",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791877470.772127
+     },
+     {
+      "id": "fx-m-e4fed45f4b",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Nothing new since this morning.",
+      "at": 1791876631.945826
+     },
+     {
+      "id": "fx-m-b08d4c6d09",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791875553.430161
+     },
+     {
+      "id": "fx-m-7304cdf5d3",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Nothing new since this morning.",
+      "at": 1791873684.826483
+     },
+     {
+      "id": "fx-m-50e2c9190d",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791872881.317745
+     },
+     {
+      "id": "fx-m-5e421cd3ff",
+      "source": "kanban",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791869976.829345
+     },
+     {
+      "id": "fx-m-d57cce2179",
+      "source": "cron",
+      "role": "assistant",
+      "text": "The report is ready for review.",
+      "at": 1791847905.200493
+     },
+     {
+      "id": "fx-m-90d03faf22",
+      "source": "kanban",
+      "role": "assistant",
+      "text": "The report is ready for review.",
+      "at": 1791839101.753827
+     },
+     {
+      "id": "fx-m-4a70eb3e84",
+      "source": "kanban",
+      "role": "assistant",
+      "text": "The report is ready for review.",
+      "at": 1791838775.3229802
+     },
+     {
+      "id": "fx-m-ec3fdb5e8e",
+      "source": "kanban",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791836421.983244
+     },
+     {
+      "id": "fx-m-020eca29d9",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791823678.34587
+     },
+     {
+      "id": "fx-m-38c05340a8",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791821705.021114
+     }
+    ],
+    "tools": [
+     {
+      "sessionId": "fx-s-8b153550eb",
+      "source": "cron",
+      "count": 119,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 55
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 24
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 15
+       },
+       {
+        "name": "mcp__crm__update_item",
+        "count": 11
+       },
+       {
+        "name": "tool",
+        "count": 11
+       },
+       {
+        "name": "mcp__crm__search",
+        "count": 3
+       }
+      ],
+      "lastAt": 1791907277.614791
+     },
+     {
+      "sessionId": "fx-s-2914743947",
+      "source": "cron",
+      "count": 118,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 62
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 23
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 15
+       },
+       {
+        "name": "tool",
+        "count": 12
+       },
+       {
+        "name": "mcp__crm__search",
+        "count": 6
+       }
+      ],
+      "lastAt": 1791905823.5540202
+     },
+     {
+      "sessionId": "fx-s-c8dac1a66e",
+      "source": "cron",
+      "count": 26,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 17
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 4
+       },
+       {
+        "name": "tool",
+        "count": 3
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 2
+       }
+      ],
+      "lastAt": 1791899140.606997
+     },
+     {
+      "sessionId": "fx-s-f548881ab9",
+      "source": "cron",
+      "count": 15,
+      "tools": [
+       {
+        "name": "mcp__crm__list_items",
+        "count": 7
+       },
+       {
+        "name": "tool",
+        "count": 4
+       },
+       {
+        "name": "terminal",
+        "count": 3
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791897143.423002
+     },
+     {
+      "sessionId": "fx-s-d214c89608",
+      "source": "cron",
+      "count": 20,
+      "tools": [
+       {
+        "name": "mcp__crm__get_item",
+        "count": 7
+       },
+       {
+        "name": "terminal",
+        "count": 5
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 4
+       },
+       {
+        "name": "tool",
+        "count": 3
+       },
+       {
+        "name": "mcp__crm__search",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791895190.358492
+     },
+     {
+      "sessionId": "fx-s-faff31463c",
+      "source": "cron",
+      "count": 10,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 6
+       },
+       {
+        "name": "tool",
+        "count": 2
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 1
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791893306.150578
+     },
+     {
+      "sessionId": "fx-s-144b8e0e5c",
+      "source": "cron",
+      "count": 7,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 3
+       },
+       {
+        "name": "tool",
+        "count": 2
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 2
+       }
+      ],
+      "lastAt": 1791891413.810539
+     },
+     {
+      "sessionId": "fx-s-57d9e009f9",
+      "source": "cron",
+      "count": 19,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 11
+       },
+       {
+        "name": "tool",
+        "count": 4
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 4
+       }
+      ],
+      "lastAt": 1791889498.418488
+     },
+     {
+      "sessionId": "fx-s-295644cd62",
+      "source": "cron",
+      "count": 73,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 43
+       },
+       {
+        "name": "tool",
+        "count": 13
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 10
+       },
+       {
+        "name": "mcp__crm__update_item",
+        "count": 4
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 3
+       }
+      ],
+      "lastAt": 1791887582.861297
+     },
+     {
+      "sessionId": "fx-s-6bc94fdd7d",
+      "source": "cron",
+      "count": 65,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 33
+       },
+       {
+        "name": "tool",
+        "count": 14
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 8
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 8
+       },
+       {
+        "name": "mcp__crm__search",
+        "count": 2
+       }
+      ],
+      "lastAt": 1791885398.847084
+     },
+     {
+      "sessionId": "fx-s-33f0f6e965",
+      "source": "cron",
+      "count": 19,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 7
+       },
+       {
+        "name": "tool",
+        "count": 4
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 4
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 3
+       },
+       {
+        "name": "mcp__crm__update_item",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791883378.270572
+     },
+     {
+      "sessionId": "fx-s-68eb1ac7c2",
+      "source": "cron",
+      "count": 30,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 21
+       },
+       {
+        "name": "tool",
+        "count": 6
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 3
+       }
+      ],
+      "lastAt": 1791881607.551507
+     },
+     {
+      "sessionId": "fx-s-c88bcf93dd",
+      "source": "cron",
+      "count": 18,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 13
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 2
+       },
+       {
+        "name": "tool",
+        "count": 2
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791881463.797976
+     },
+     {
+      "sessionId": "fx-s-3aa75d6d6d",
+      "source": "cron",
+      "count": 83,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 50
+       },
+       {
+        "name": "mcp__crm__update_item",
+        "count": 13
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 11
+       },
+       {
+        "name": "tool",
+        "count": 5
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 3
+       },
+       {
+        "name": "mcp__crm__search",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791880997.165217
+     },
+     {
+      "sessionId": "fx-s-3d66ef8050",
+      "source": "cron",
+      "count": 58,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 30
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 10
+       },
+       {
+        "name": "tool",
+        "count": 8
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 8
+       },
+       {
+        "name": "mcp__crm__search",
+        "count": 2
+       }
+      ],
+      "lastAt": 1791879524.314157
+     },
+     {
+      "sessionId": "fx-s-926bf4752d",
+      "source": "cron",
+      "count": 15,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 5
+       },
+       {
+        "name": "tool",
+        "count": 4
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 4
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 2
+       }
+      ],
+      "lastAt": 1791877457.373302
+     },
+     {
+      "sessionId": "fx-s-66a5d0ea52",
+      "source": "cron",
+      "count": 51,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 34
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 9
+       },
+       {
+        "name": "tool",
+        "count": 6
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 2
+       }
+      ],
+      "lastAt": 1791876609.563895
+     },
+     {
+      "sessionId": "fx-s-d8e1d15024",
+      "source": "cron",
+      "count": 9,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 3
+       },
+       {
+        "name": "tool",
+        "count": 3
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 2
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791875548.3451462
+     },
+     {
+      "sessionId": "fx-s-b3a2d22ea6",
+      "source": "cron",
+      "count": 44,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 22
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 10
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 8
+       },
+       {
+        "name": "tool",
+        "count": 4
+       }
+      ],
+      "lastAt": 1791873670.5644732
+     },
+     {
+      "sessionId": "fx-s-7a5977dfeb",
+      "source": "cron",
+      "count": 16,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 8
+       },
+       {
+        "name": "tool",
+        "count": 3
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 3
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 2
+       }
+      ],
+      "lastAt": 1791872867.147508
+     },
+     {
+      "sessionId": "fx-s-69023194f4",
+      "source": "kanban",
+      "count": 64,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 17
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 13
+       },
+       {
+        "name": "tool",
+        "count": 10
+       },
+       {
+        "name": "web_search",
+        "count": 7
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 6
+       },
+       {
+        "name": "search_files",
+        "count": 3
+       },
+       {
+        "name": "web_extract",
+        "count": 3
+       },
+       {
+        "name": "mcp__crm__search",
+        "count": 2
+       },
+       {
+        "name": "read_file",
+        "count": 2
+       },
+       {
+        "name": "write_file",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791869969.570219
+     },
+     {
+      "sessionId": "fx-s-c59774b4d7",
+      "source": "cron",
+      "count": 2,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 2
+       }
+      ],
+      "lastAt": 1791847896.556012
+     },
+     {
+      "sessionId": "fx-s-bccd787c94",
+      "source": "kanban",
+      "count": 140,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 52
+       },
+       {
+        "name": "search_files",
+        "count": 28
+       },
+       {
+        "name": "read_file",
+        "count": 24
+       },
+       {
+        "name": "patch",
+        "count": 16
+       },
+       {
+        "name": "tool",
+        "count": 9
+       },
+       {
+        "name": "write_file",
+        "count": 4
+       },
+       {
+        "name": "skill_view",
+        "count": 3
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 2
+       },
+       {
+        "name": "memory",
+        "count": 2
+       }
+      ],
+      "lastAt": 1791839089.6914098
+     },
+     {
+      "sessionId": "fx-s-1e02f42f2c",
+      "source": "kanban",
+      "count": 354,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 189
+       },
+       {
+        "name": "search_files",
+        "count": 53
+       },
+       {
+        "name": "patch",
+        "count": 25
+       },
+       {
+        "name": "tool",
+        "count": 21
+       },
+       {
+        "name": "read_file",
+        "count": 18
+       },
+       {
+        "name": "write_file",
+        "count": 16
+       },
+       {
+        "name": "process_manage",
+        "count": 14
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 6
+       },
+       {
+        "name": "web_search",
+        "count": 6
+       },
+       {
+        "name": "mcp__crm__update_item",
+        "count": 4
+       },
+       {
+        "name": "skill_view",
+        "count": 1
+       },
+       {
+        "name": "web_extract",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791838700.712887
+     },
+     {
+      "sessionId": "fx-s-2c28e9c1e8",
+      "source": "kanban",
+      "count": 124,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 60
+       },
+       {
+        "name": "tool",
+        "count": 17
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 13
+       },
+       {
+        "name": "read_file",
+        "count": 10
+       },
+       {
+        "name": "search_files",
+        "count": 9
+       },
+       {
+        "name": "mcp__crm__list_items",
+        "count": 9
+       },
+       {
+        "name": "patch",
+        "count": 2
+       },
+       {
+        "name": "execute_code",
+        "count": 1
+       },
+       {
+        "name": "skill_view",
+        "count": 1
+       },
+       {
+        "name": "web_search",
+        "count": 1
+       },
+       {
+        "name": "write_file",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791836414.048104
+     },
+     {
+      "sessionId": "fx-s-2c3b4f67bd",
+      "source": "cron",
+      "count": 22,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 18
+       },
+       {
+        "name": "mcp__crm__get_item",
+        "count": 2
+       },
+       {
+        "name": "tool",
+        "count": 2
+       }
+      ],
+      "lastAt": 1791823668.2803378
+     },
+     {
+      "sessionId": "fx-s-7af61f21d8",
+      "source": "cron",
+      "count": 14,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 13
+       },
+       {
+        "name": "mcp__crm__search",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791821695.311757
+     }
+    ],
+    "tasks": [
+     {
+      "id": "fx-t-54b0625f41",
+      "title": "Plan the Dundies agenda",
+      "createdAt": 1791869752
+     },
+     {
+      "id": "fx-t-d548444734",
+      "title": "Draft the client follow-up",
+      "createdAt": 1791836033
+     },
+     {
+      "id": "fx-t-2994c7baa8",
+      "title": "Reconcile the paper invoices",
+      "createdAt": 1791836023
+     }
+    ],
+    "runs": [
+     {
+      "id": "fx-r-75d0275352",
+      "taskId": "fx-t-54b0625f41",
+      "title": "Plan the Dundies agenda",
+      "status": "done",
+      "outcome": "completed",
+      "startedAt": 1791869802,
+      "endedAt": 1791869969
+     },
+     {
+      "id": "fx-r-81a201e140",
+      "taskId": "fx-t-d548444734",
+      "title": "Draft the client follow-up",
+      "status": "done",
+      "outcome": "completed",
+      "startedAt": 1791838811,
+      "endedAt": 1791839089
+     },
+     {
+      "id": "fx-r-8351d24ed2",
+      "taskId": "fx-t-2994c7baa8",
+      "title": "Reconcile the paper invoices",
+      "status": "done",
+      "outcome": "completed",
+      "startedAt": 1791836044,
+      "endedAt": 1791836413
+     },
+     {
+      "id": "fx-r-d4fbe341ad",
+      "taskId": "fx-t-d548444734",
+      "title": "Draft the client follow-up",
+      "status": "timed_out",
+      "outcome": "timed_out",
+      "startedAt": 1791836044,
+      "endedAt": 1791838775
+     }
+    ],
+    "cron": [
+     {
+      "id": "fx-c-3204236300",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791907642.61,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-cff9d8fe76",
+      "jobId": "fx-j-eafaac7177",
+      "jobName": "Lead digest",
+      "ok": true,
+      "at": 1791907309.018,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-1e9c5386e4",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791906538.753,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-37fa2f2b2b",
+      "jobId": "fx-j-d3c3111b5a",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791905835.651,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-2508e9c6e9",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791905778.94,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-16e0b0e93f",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791904679.038,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-400e2b6703",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791903934.992,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-579f99a738",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791902819.429,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-e7880b1689",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791902060.905,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-69e94f4415",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791900958.711,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-4db0b7fcd8",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791900199.361,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-1b08b8da11",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791899146.821,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-ef858d2ece",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791898341.198,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-6a2420b3dc",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791897149.666,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-41a61cb366",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791896479.535,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-9dd7222640",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791895198.626,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-8a160fc932",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791894625.888,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-7c10cd6e54",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791893311.802,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-ec777f876f",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791892759.999,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-fb91f12dbb",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791891419.977,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-beebabca8b",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791890907.309,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-4ab7993449",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791889504.073,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-4c01078241",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791889047.688,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-3c8b99db9b",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791887587.791,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-e70fd17675",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791887179.676,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-12956bec05",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791885405.815,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-5b0d0f5ef1",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791885319.403,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-fdcba8fd22",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791883458.713,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-bceb53828f",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791883385.188,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-bed5193132",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791881611.87,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-3eaa45a65b",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791881480.806,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-6cd0e11df9",
+      "jobId": "fx-j-0f61987dcb",
+      "jobName": "Health check",
+      "ok": true,
+      "at": 1791881042.864,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-9ec73a5734",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791879531.693,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-f34a3d2077",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791879499.037,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-9441562a0b",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791877638.866,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-6479cb770d",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791877470.957,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-84e07a2a30",
+      "jobId": "fx-j-a91e36b324",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791876632.973,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-c948942fe5",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791875778.922,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-8aa7fd9f86",
+      "jobId": "fx-j-4fdd8f4a7f",
+      "jobName": "Inbox sweep",
+      "ok": true,
+      "at": 1791875553.816,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-e3a1343f7a",
+      "jobId": "fx-j-39742ee931",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791873918.974,
+      "delivery": "suppressed",
+      "error": null
+     }
+    ],
+    "errors": [
+     {
+      "at": 1791890637.546,
+      "logger": "asyncio",
+      "message": "Network retry loop gave up"
+     },
+     {
+      "at": 1791876428.567,
+      "logger": "asyncio",
+      "message": "Network retry loop gave up"
+     },
+     {
+      "at": 1791871378.406,
+      "logger": "asyncio",
+      "message": "Network retry loop gave up"
+     },
+     {
+      "at": 1791871378.405,
+      "logger": "asyncio",
+      "message": "Network retry loop gave up"
+     },
+     {
+      "at": 1791833864.984,
+      "logger": "gateway.run",
+      "message": "Delivery failed"
+     },
+     {
+      "at": 1791833864.965,
+      "logger": "agent",
+      "message": "Request timed out"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "at": 1791907803,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 1074109,
+     "outputTokens": 337011,
+     "cacheReadTokens": 10571126,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 407
+    },
+    {
+     "at": 1791843919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 1430699,
+     "outputTokens": 501507,
+     "cacheReadTokens": 29982457,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 771
+    },
+    {
+     "at": 1791843919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 237,
+     "outputTokens": 11,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1791757519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 544704,
+     "outputTokens": 158702,
+     "cacheReadTokens": 6529746,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 146
+    },
+    {
+     "at": 1791671119,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 242331,
+     "outputTokens": 105168,
+     "cacheReadTokens": 3888189,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 114
+    },
+    {
+     "at": 1791584719,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 886769,
+     "outputTokens": 362570,
+     "cacheReadTokens": 9142898,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 400
+    },
+    {
+     "at": 1791498319,
+     "model": "MiniMax-M3",
+     "inputTokens": 80194,
+     "outputTokens": 25904,
+     "cacheReadTokens": 895885,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 45
+    },
+    {
+     "at": 1791498319,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 4497985,
+     "outputTokens": 588831,
+     "cacheReadTokens": 50933398,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1114
+    },
+    {
+     "at": 1791411919,
+     "model": "MiniMax-M3",
+     "inputTokens": 110453,
+     "outputTokens": 13149,
+     "cacheReadTokens": 1062333,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 38
+    },
+    {
+     "at": 1791411919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 1158466,
+     "outputTokens": 440013,
+     "cacheReadTokens": 13653654,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 508
+    },
+    {
+     "at": 1791411919,
+     "model": "claude-opus-5-5",
+     "inputTokens": 100,
+     "outputTokens": 36575,
+     "cacheReadTokens": 4891281,
+     "cacheWriteTokens": 1204547,
+     "reasoningTokens": 0,
+     "calls": 43
+    },
+    {
+     "at": 1791411919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 241,
+     "outputTokens": 20,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1791325519,
+     "model": "MiniMax-M3",
+     "inputTokens": 85660,
+     "outputTokens": 13471,
+     "cacheReadTokens": 1205678,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 57
+    },
+    {
+     "at": 1791325519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 1055628,
+     "outputTokens": 368988,
+     "cacheReadTokens": 20105812,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 560
+    },
+    {
+     "at": 1791325519,
+     "model": "claude-opus-5-5",
+     "inputTokens": 8,
+     "outputTokens": 1176,
+     "cacheReadTokens": 390888,
+     "cacheWriteTokens": 5310,
+     "reasoningTokens": 0,
+     "calls": 3
+    },
+    {
+     "at": 1791325519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 718,
+     "outputTokens": 107,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 3
+    },
+    {
+     "at": 1791239119,
+     "model": "MiniMax-M3",
+     "inputTokens": 44736,
+     "outputTokens": 7696,
+     "cacheReadTokens": 522987,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 28
+    },
+    {
+     "at": 1791239119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 382772,
+     "outputTokens": 217894,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 35
+    },
+    {
+     "at": 1791152719,
+     "model": "MiniMax-M3",
+     "inputTokens": 29408,
+     "outputTokens": 5231,
+     "cacheReadTokens": 71608,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 8
+    },
+    {
+     "at": 1791152719,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 537470,
+     "outputTokens": 85562,
+     "cacheReadTokens": 6174897,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 136
+    },
+    {
+     "at": 1791152719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 12812,
+     "outputTokens": 7412,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1791066319,
+     "model": "MiniMax-M3",
+     "inputTokens": 36364,
+     "outputTokens": 5220,
+     "cacheReadTokens": 130422,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 11
+    },
+    {
+     "at": 1790979919,
+     "model": "MiniMax-M3",
+     "inputTokens": 115570,
+     "outputTokens": 23924,
+     "cacheReadTokens": 499002,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 30
+    },
+    {
+     "at": 1790979919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 2578610,
+     "outputTokens": 412375,
+     "cacheReadTokens": 25184109,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 584
+    },
+    {
+     "at": 1790979919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 267193,
+     "outputTokens": 147925,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 30
+    },
+    {
+     "at": 1790979919,
+     "model": "gpt-6-luna",
+     "inputTokens": 50637,
+     "outputTokens": 2461,
+     "cacheReadTokens": 307200,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1684,
+     "calls": 13,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1790893519,
+     "model": "MiniMax-M3",
+     "inputTokens": 38685,
+     "outputTokens": 7210,
+     "cacheReadTokens": 313492,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 23
+    },
+    {
+     "at": 1790893519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 49890,
+     "outputTokens": 786,
+     "cacheReadTokens": 21947,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 4
+    },
+    {
+     "at": 1790893519,
+     "model": "claude-opus-5-5",
+     "inputTokens": 256,
+     "outputTokens": 100013,
+     "cacheReadTokens": 7204981,
+     "cacheWriteTokens": 2267489,
+     "reasoningTokens": 0,
+     "calls": 110
+    },
+    {
+     "at": 1790893519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 814,
+     "outputTokens": 237,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 3
+    },
+    {
+     "at": 1790807119,
+     "model": "MiniMax-M3",
+     "inputTokens": 122388,
+     "outputTokens": 22195,
+     "cacheReadTokens": 2575694,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 87
+    },
+    {
+     "at": 1790807119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 17595,
+     "outputTokens": 6810,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 6
+    },
+    {
+     "at": 1790720719,
+     "model": "MiniMax-M3",
+     "inputTokens": 39669,
+     "outputTokens": 6639,
+     "cacheReadTokens": 299592,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 19
+    },
+    {
+     "at": 1790720719,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 206486,
+     "outputTokens": 43239,
+     "cacheReadTokens": 2434664,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 64
+    },
+    {
+     "at": 1790720719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 9558,
+     "outputTokens": 6281,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 3
+    },
+    {
+     "at": 1790634319,
+     "model": "MiniMax-M3",
+     "inputTokens": 29871,
+     "outputTokens": 7023,
+     "cacheReadTokens": 299062,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 26
+    },
+    {
+     "at": 1790547919,
+     "model": "MiniMax-M3",
+     "inputTokens": 272524,
+     "outputTokens": 31690,
+     "cacheReadTokens": 2727338,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 101
+    },
+    {
+     "at": 1790547919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 234,
+     "outputTokens": 11,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790461519,
+     "model": "MiniMax-M3",
+     "inputTokens": 28337,
+     "outputTokens": 5694,
+     "cacheReadTokens": 76416,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 10
+    },
+    {
+     "at": 1790461519,
+     "model": "claude-opus-5",
+     "inputTokens": 404,
+     "outputTokens": 139975,
+     "cacheReadTokens": 30954418,
+     "cacheWriteTokens": 4381872,
+     "reasoningTokens": 0,
+     "calls": 201
+    },
+    {
+     "at": 1790461519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 231,
+     "outputTokens": 92,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790375119,
+     "model": "MiniMax-M3",
+     "inputTokens": 28933,
+     "outputTokens": 5779,
+     "cacheReadTokens": 80119,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 10
+    },
+    {
+     "at": 1790288719,
+     "model": "MiniMax-M3",
+     "inputTokens": 70802,
+     "outputTokens": 8285,
+     "cacheReadTokens": 88603,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 13
+    },
+    {
+     "at": 1790288719,
+     "model": "claude-opus-5",
+     "inputTokens": 20,
+     "outputTokens": 10443,
+     "cacheReadTokens": 1433492,
+     "cacheWriteTokens": 45299,
+     "reasoningTokens": 0,
+     "calls": 10
+    },
+    {
+     "at": 1790202319,
+     "model": "MiniMax-M3",
+     "inputTokens": 738583,
+     "outputTokens": 25340,
+     "cacheReadTokens": 5884390,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 129
+    },
+    {
+     "at": 1790115919,
+     "model": "MiniMax-M3",
+     "inputTokens": 27704,
+     "outputTokens": 2158,
+     "cacheReadTokens": 72576,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 4
+    },
+    {
+     "at": 1790029519,
+     "model": "MiniMax-M3",
+     "inputTokens": 17221,
+     "outputTokens": 10109,
+     "cacheReadTokens": 1231232,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 17
+    },
+    {
+     "at": 1789770319,
+     "model": "MiniMax-M3",
+     "inputTokens": 33492,
+     "outputTokens": 881,
+     "cacheReadTokens": 60863,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 6
+    }
+   ]
+  },
+  "cfo": {
+   "activity": {
+    "sessions": [
+     {
+      "id": "fx-s-d3341b7fd0",
+      "startedAt": 1791893932.064373,
+      "source": "cli",
+      "endedAt": 1791893961.3302028,
+      "endReason": "cli_close",
+      "title": "Terminal session",
+      "messageCount": 4
+     }
+    ],
+    "messages": [
+     {
+      "id": "fx-m-53fec9d174",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791893961.259671
+     },
+     {
+      "id": "fx-m-e18ed03d52",
+      "source": "cli",
+      "role": "user",
+      "text": "How are the numbers looking today?",
+      "at": 1791893956.480978
+     },
+     {
+      "id": "fx-m-df75915543",
+      "source": "cli",
+      "role": "assistant",
+      "text": "The report is ready for review.",
+      "at": 1791893945.2726028
+     },
+     {
+      "id": "fx-m-3c6bd55a5b",
+      "source": "cli",
+      "role": "user",
+      "text": "How are the numbers looking today?",
+      "at": 1791893935.348342
+     }
+    ],
+    "tools": [],
+    "tasks": [],
+    "runs": [],
+    "cron": [],
+    "errors": [
+     {
+      "at": 1791834000.756,
+      "logger": "gateway.run",
+      "message": "MCP call failed"
+     },
+     {
+      "at": 1791834000.743,
+      "logger": "agent",
+      "message": "MCP call failed"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "at": 1791907803,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 15723,
+     "outputTokens": 10,
+     "cacheReadTokens": 14848,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1791843919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 18745,
+     "outputTokens": 378,
+     "cacheReadTokens": 32768,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 65,
+     "calls": 3,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1791498319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 113689,
+     "outputTokens": 4270,
+     "cacheReadTokens": 120832,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1049,
+     "calls": 13
+    },
+    {
+     "at": 1791411919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 83827,
+     "outputTokens": 3630,
+     "cacheReadTokens": 172544,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1099,
+     "calls": 15
+    },
+    {
+     "at": 1791325519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 106494,
+     "outputTokens": 3962,
+     "cacheReadTokens": 211968,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1106,
+     "calls": 18
+    },
+    {
+     "at": 1791239119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 29427,
+     "outputTokens": 1253,
+     "cacheReadTokens": 60928,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 289,
+     "calls": 5
+    },
+    {
+     "at": 1791152719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 81890,
+     "outputTokens": 3626,
+     "cacheReadTokens": 149504,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 780,
+     "calls": 14
+    },
+    {
+     "at": 1791066319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 110820,
+     "outputTokens": 3439,
+     "cacheReadTokens": 136192,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 498,
+     "calls": 14
+    },
+    {
+     "at": 1790979919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 79592,
+     "outputTokens": 4158,
+     "cacheReadTokens": 194048,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 961,
+     "calls": 16
+    },
+    {
+     "at": 1790893519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 72643,
+     "outputTokens": 1087,
+     "cacheReadTokens": 40960,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 381,
+     "calls": 13
+    },
+    {
+     "at": 1790807119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 45435,
+     "outputTokens": 2081,
+     "cacheReadTokens": 93184,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 294,
+     "calls": 10
+    },
+    {
+     "at": 1790720719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 42335,
+     "outputTokens": 1892,
+     "cacheReadTokens": 76288,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 443,
+     "calls": 8
+    }
+   ]
+  },
+  "teacher": {
+   "activity": {
+    "sessions": [
+     {
+      "id": "fx-s-8e5a5a1464",
+      "startedAt": 1791893932.36566,
+      "source": "cli",
+      "endedAt": 1791893957.717524,
+      "endReason": "cli_close",
+      "title": "Terminal session",
+      "messageCount": 4
+     }
+    ],
+    "messages": [
+     {
+      "id": "fx-m-83a135ac2d",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Nothing new since this morning.",
+      "at": 1791893957.6346161
+     },
+     {
+      "id": "fx-m-a62b79c5ef",
+      "source": "cli",
+      "role": "user",
+      "text": "Good work. Keep going.",
+      "at": 1791893956.881875
+     },
+     {
+      "id": "fx-m-930b7f5c3c",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791893937.120072
+     },
+     {
+      "id": "fx-m-0ac27b88d5",
+      "source": "cli",
+      "role": "user",
+      "text": "Good work. Keep going.",
+      "at": 1791893934.816467
+     }
+    ],
+    "tools": [],
+    "tasks": [],
+    "runs": [],
+    "cron": [],
+    "errors": []
+   },
+   "usage": [
+    {
+     "at": 1791907803,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 17508,
+     "outputTokens": 14,
+     "cacheReadTokens": 17847,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1791843919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 48125,
+     "outputTokens": 3835,
+     "cacheReadTokens": 271217,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 12
+    },
+    {
+     "at": 1791066319,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 59781,
+     "outputTokens": 13941,
+     "cacheReadTokens": 749399,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 18
+    },
+    {
+     "at": 1791066319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 1589,
+     "outputTokens": 296,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 4
+    },
+    {
+     "at": 1790893519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 54895,
+     "outputTokens": 1415,
+     "cacheReadTokens": 502,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 4
+    },
+    {
+     "at": 1790375119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 13066,
+     "outputTokens": 8,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1790375119,
+     "model": "grok-4.7",
+     "inputTokens": 15120,
+     "outputTokens": 37,
+     "cacheReadTokens": 1152,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 33,
+     "calls": 1
+    },
+    {
+     "at": 1790375119,
+     "model": "kimi-k3",
+     "inputTokens": 107,
+     "outputTokens": 51,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 13824,
+     "reasoningTokens": 31,
+     "calls": 1
+    },
+    {
+     "at": 1790288719,
+     "model": "MiniMax-M3",
+     "inputTokens": 55096,
+     "outputTokens": 6951,
+     "cacheReadTokens": 185583,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 13
+    }
+   ]
+  },
+  "social": {
+   "activity": {
+    "sessions": [
+     {
+      "id": "fx-s-c16abfc5f5",
+      "startedAt": 1791893932.545931,
+      "source": "cli",
+      "endedAt": 1791893963.753844,
+      "endReason": "cli_close",
+      "title": "Terminal session",
+      "messageCount": 4
+     }
+    ],
+    "messages": [
+     {
+      "id": "fx-m-15e7b9699a",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791893963.638386
+     },
+     {
+      "id": "fx-m-696425c9a8",
+      "source": "cli",
+      "role": "user",
+      "text": "Good work. Keep going.",
+      "at": 1791893957.051451
+     },
+     {
+      "id": "fx-m-1436159c8c",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791893942.646111
+     },
+     {
+      "id": "fx-m-649f12687f",
+      "source": "cli",
+      "role": "user",
+      "text": "How are the numbers looking today?",
+      "at": 1791893934.830226
+     }
+    ],
+    "tools": [],
+    "tasks": [],
+    "runs": [],
+    "cron": [],
+    "errors": []
+   },
+   "usage": [
+    {
+     "at": 1791907803,
+     "model": "claude-sonnet-5",
+     "inputTokens": 4,
+     "outputTokens": 8,
+     "cacheReadTokens": 29491,
+     "cacheWriteTokens": 30069,
+     "reasoningTokens": 0,
+     "calls": 2,
+     "recordedCost": {
+      "amount": 0.0811587,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1791843919,
+     "model": "claude-sonnet-5",
+     "inputTokens": 120,
+     "outputTokens": 38932,
+     "cacheReadTokens": 2450252,
+     "cacheWriteTokens": 361027,
+     "reasoningTokens": 0,
+     "calls": 60,
+     "recordedCost": {
+      "amount": 1.7821779,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1791843919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 492,
+     "outputTokens": 25,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1791757519,
+     "model": "claude-sonnet-5",
+     "inputTokens": 64,
+     "outputTokens": 31043,
+     "cacheReadTokens": 2311809,
+     "cacheWriteTokens": 165817,
+     "reasoningTokens": 0,
+     "calls": 32,
+     "recordedCost": {
+      "amount": 1.1874623,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1791584719,
+     "model": "claude-sonnet-5",
+     "inputTokens": 50,
+     "outputTokens": 18271,
+     "cacheReadTokens": 1160746,
+     "cacheWriteTokens": 98307,
+     "reasoningTokens": 0,
+     "calls": 25,
+     "recordedCost": {
+      "amount": 0.6607266999999999,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1791498319,
+     "model": "claude-sonnet-5",
+     "inputTokens": 54,
+     "outputTokens": 13804,
+     "cacheReadTokens": 1267231,
+     "cacheWriteTokens": 95765,
+     "reasoningTokens": 0,
+     "calls": 27,
+     "recordedCost": {
+      "amount": 0.6310066999999999,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1791498319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 239,
+     "outputTokens": 73,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1791411919,
+     "model": "claude-sonnet-5",
+     "inputTokens": 240,
+     "outputTokens": 102283,
+     "cacheReadTokens": 7508424,
+     "cacheWriteTokens": 1515398,
+     "reasoningTokens": 0,
+     "calls": 120,
+     "recordedCost": {
+      "amount": 6.313489799999999,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1791411919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 238,
+     "outputTokens": 89,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1791325519,
+     "model": "claude-sonnet-5",
+     "inputTokens": 50,
+     "outputTokens": 15049,
+     "cacheReadTokens": 1364125,
+     "cacheWriteTokens": 124321,
+     "reasoningTokens": 0,
+     "calls": 25,
+     "recordedCost": {
+      "amount": 0.7342175,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1791325519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 240,
+     "outputTokens": 19,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1791239119,
+     "model": "claude-sonnet-5",
+     "inputTokens": 148,
+     "outputTokens": 44873,
+     "cacheReadTokens": 2582809,
+     "cacheWriteTokens": 664078,
+     "reasoningTokens": 0,
+     "calls": 74,
+     "recordedCost": {
+      "amount": 2.6257828,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1791239119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 720,
+     "outputTokens": 271,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 3
+    },
+    {
+     "at": 1790979919,
+     "model": "claude-sonnet-5",
+     "inputTokens": 488,
+     "outputTokens": 196203,
+     "cacheReadTokens": 12051867,
+     "cacheWriteTokens": 2039269,
+     "reasoningTokens": 0,
+     "calls": 244,
+     "recordedCost": {
+      "amount": 9.4715519,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1790979919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 130152,
+     "outputTokens": 68305,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 22
+    },
+    {
+     "at": 1790893519,
+     "model": "claude-sonnet-5",
+     "inputTokens": 4,
+     "outputTokens": 280,
+     "cacheReadTokens": 13093,
+     "cacheWriteTokens": 35109,
+     "reasoningTokens": 0,
+     "calls": 2,
+     "recordedCost": {
+      "amount": 0.0931991,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1790720719,
+     "model": "claude-sonnet-5",
+     "inputTokens": 422,
+     "outputTokens": 102865,
+     "cacheReadTokens": 8193628,
+     "cacheWriteTokens": 1737524,
+     "reasoningTokens": 0,
+     "calls": 211,
+     "recordedCost": {
+      "amount": 6.892465600000001,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1790720719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 100973,
+     "outputTokens": 47263,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 15
+    },
+    {
+     "at": 1790634319,
+     "model": "claude-sonnet-5",
+     "inputTokens": 12,
+     "outputTokens": 2494,
+     "cacheReadTokens": 257558,
+     "cacheWriteTokens": 34818,
+     "reasoningTokens": 0,
+     "calls": 6,
+     "recordedCost": {
+      "amount": 0.16352060000000002,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1790547919,
+     "model": "claude-sonnet-5",
+     "inputTokens": 2,
+     "outputTokens": 4,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 19374,
+     "reasoningTokens": 0,
+     "calls": 1,
+     "recordedCost": {
+      "amount": 0.048479,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1790202319,
+     "model": "claude-sonnet-5",
+     "inputTokens": 6,
+     "outputTokens": 1017,
+     "cacheReadTokens": 44538,
+     "cacheWriteTokens": 30299,
+     "reasoningTokens": 0,
+     "calls": 3,
+     "recordedCost": {
+      "amount": 0.09483710000000001,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1790115919,
+     "model": "claude-sonnet-5",
+     "inputTokens": 20,
+     "outputTokens": 5738,
+     "cacheReadTokens": 290908,
+     "cacheWriteTokens": 69372,
+     "reasoningTokens": 0,
+     "calls": 10,
+     "recordedCost": {
+      "amount": 0.28903160000000006,
+      "kind": "estimated"
+     }
+    },
+    {
+     "at": 1789770319,
+     "model": "claude-sonnet-5",
+     "inputTokens": 10,
+     "outputTokens": 1287,
+     "cacheReadTokens": 59603,
+     "cacheWriteTokens": 49365,
+     "reasoningTokens": 0,
+     "calls": 5,
+     "recordedCost": {
+      "amount": 0.1482231,
+      "kind": "estimated"
+     }
+    }
+   ]
+  },
+  "skool": {
+   "activity": {
+    "sessions": [
+     {
+      "id": "fx-s-742719f62b",
+      "startedAt": 1791893932.266606,
+      "source": "cli",
+      "endedAt": 1791893963.1912231,
+      "endReason": "cli_close",
+      "title": "Terminal session",
+      "messageCount": 4
+     }
+    ],
+    "messages": [
+     {
+      "id": "fx-m-e830d52ce3",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791893963.123182
+     },
+     {
+      "id": "fx-m-51dcb16488",
+      "source": "cli",
+      "role": "user",
+      "text": "Any replies from the prospects?",
+      "at": 1791893956.782176
+     },
+     {
+      "id": "fx-m-4423d3d5a3",
+      "source": "cli",
+      "role": "assistant",
+      "text": "The report is ready for review.",
+      "at": 1791893940.280664
+     },
+     {
+      "id": "fx-m-ef6a4d1ed1",
+      "source": "cli",
+      "role": "user",
+      "text": "How are the numbers looking today?",
+      "at": 1791893934.5015
+     }
+    ],
+    "tools": [],
+    "tasks": [],
+    "runs": [],
+    "cron": [
+     {
+      "id": "fx-c-de6f8fd155",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791905218.139,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-2ee3ccb4e7",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791901617.968,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-7e58038ff5",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791898017.992,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-5f59ea0006",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791894417.916,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-2c83dffae1",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791890817.975,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-ebea341cef",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791887217.875,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-86b823dd7f",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791883617.749,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-3a6a801ce6",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791880018.491,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-6eb8f0c54b",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791876417.841,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-5475af7052",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791872817.908,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-3b6ded87ce",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791869217.722,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-2e827ae744",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791865617.647,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-3ed361082e",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791862017.761,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-9cb965fff6",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791858417.902,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-7c643214bf",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791854817.684,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-2d4cc1dbb0",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791851217.709,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-6b4902d976",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791847617.545,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-acf6591c34",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791844017.647,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-532bac72d3",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791840417.658,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-8c3199fd63",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791836817.768,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-321beed647",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791833217.704,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-0fa7328f71",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791829617.586,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-b8d2474314",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791826017.848,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-634ad5ccde",
+      "jobId": "fx-j-3f25cd0e46",
+      "jobName": "Backup check",
+      "ok": true,
+      "at": 1791822417.559,
+      "delivery": "suppressed",
+      "error": null
+     }
+    ],
+    "errors": []
+   },
+   "usage": [
+    {
+     "at": 1791907803,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 16717,
+     "outputTokens": 32,
+     "cacheReadTokens": 16701,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1791843919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 72786,
+     "outputTokens": 10270,
+     "cacheReadTokens": 385289,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 18
+    },
+    {
+     "at": 1791843919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 238,
+     "outputTokens": 12,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790893519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 63106,
+     "outputTokens": 624,
+     "cacheReadTokens": 501,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 4
+    },
+    {
+     "at": 1790893519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 1068,
+     "outputTokens": 98,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 4
+    },
+    {
+     "at": 1790807119,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 108376,
+     "outputTokens": 23818,
+     "cacheReadTokens": 1815338,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 53
+    },
+    {
+     "at": 1790807119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 242,
+     "outputTokens": 125,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790720719,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 115352,
+     "outputTokens": 11281,
+     "cacheReadTokens": 908580,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 27
+    },
+    {
+     "at": 1790720719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 245249,
+     "outputTokens": 108626,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 17
+    },
+    {
+     "at": 1790720719,
+     "model": "qwen-memory-q8",
+     "inputTokens": 1081333,
+     "outputTokens": 126439,
+     "cacheReadTokens": 26258777,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 561
+    },
+    {
+     "at": 1790634319,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 328444,
+     "outputTokens": 23214,
+     "cacheReadTokens": 2972539,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 60
+    },
+    {
+     "at": 1790634319,
+     "model": "custom-model",
+     "inputTokens": 182567,
+     "outputTokens": 26113,
+     "cacheReadTokens": 2368350,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 53
+    },
+    {
+     "at": 1790634319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 6040,
+     "outputTokens": 990,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 4
+    },
+    {
+     "at": 1790634319,
+     "model": "qwen-memory-q8",
+     "inputTokens": 133,
+     "outputTokens": 4132,
+     "cacheReadTokens": 53822,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790547919,
+     "model": "MiniMax-M3",
+     "inputTokens": 1047402,
+     "outputTokens": 73721,
+     "cacheReadTokens": 5426560,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 125
+    },
+    {
+     "at": 1790375119,
+     "model": "MiniMax-M3",
+     "inputTokens": 56281,
+     "outputTokens": 8492,
+     "cacheReadTokens": 463744,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 10
+    },
+    {
+     "at": 1790202319,
+     "model": "MiniMax-M3",
+     "inputTokens": 128401,
+     "outputTokens": 6609,
+     "cacheReadTokens": 103217,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 13
+    },
+    {
+     "at": 1789770319,
+     "model": "MiniMax-M3",
+     "inputTokens": 29910,
+     "outputTokens": 1282,
+     "cacheReadTokens": 15081,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 3
+    }
+   ]
+  },
+  "ai-strategist": {
+   "activity": {
+    "sessions": [
+     {
+      "id": "fx-s-897f8f37ed",
+      "startedAt": 1791893932.428847,
+      "source": "cli",
+      "endedAt": 1791893966.287056,
+      "endReason": "cli_close",
+      "title": "Terminal session",
+      "messageCount": 4
+     }
+    ],
+    "messages": [
+     {
+      "id": "fx-m-d7fdaafb2a",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791893966.2266781
+     },
+     {
+      "id": "fx-m-4e448a9374",
+      "source": "cli",
+      "role": "user",
+      "text": "Good work. Keep going.",
+      "at": 1791893957.3672938
+     },
+     {
+      "id": "fx-m-b26508da07",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791893945.571073
+     },
+     {
+      "id": "fx-m-f2f19739cb",
+      "source": "cli",
+      "role": "user",
+      "text": "Any replies from the prospects?",
+      "at": 1791893935.336475
+     },
+     {
+      "id": "fx-m-2829f0a7f3",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Nothing new since this morning.",
+      "at": 1791863856.265099
+     }
+    ],
+    "tools": [
+     {
+      "sessionId": "fx-s-b492540114",
+      "source": "cron",
+      "count": 11,
+      "tools": [
+       {
+        "name": "web_search",
+        "count": 5
+       },
+       {
+        "name": "skill_view",
+        "count": 2
+       },
+       {
+        "name": "terminal",
+        "count": 2
+       },
+       {
+        "name": "tool",
+        "count": 1
+       },
+       {
+        "name": "write_file",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791863852.967823
+     }
+    ],
+    "tasks": [],
+    "runs": [],
+    "cron": [
+     {
+      "id": "fx-c-9f298d48f7",
+      "jobId": "fx-j-dffa985e64",
+      "jobName": "Weekly review",
+      "ok": true,
+      "at": 1791863856.401,
+      "delivery": "suppressed",
+      "error": null
+     }
+    ],
+    "errors": [
+     {
+      "at": 1791833885.881,
+      "logger": "telegram.ext",
+      "message": "Unclosed client session"
+     },
+     {
+      "at": 1791833855.622,
+      "logger": "telegram.ext",
+      "message": "Unclosed client session"
+     },
+     {
+      "at": 1791833835.373,
+      "logger": "telegram.ext.Updater",
+      "message": "MCP call failed"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "at": 1791907803,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 51114,
+     "outputTokens": 2017,
+     "cacheReadTokens": 177664,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 693,
+     "calls": 11,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1791843919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 19060,
+     "outputTokens": 321,
+     "cacheReadTokens": 32768,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 103,
+     "calls": 3,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1791584719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 42465,
+     "outputTokens": 1661,
+     "cacheReadTokens": 151040,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 493,
+     "calls": 6,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1791498319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 81966,
+     "outputTokens": 3795,
+     "cacheReadTokens": 217600,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1239,
+     "calls": 16
+    },
+    {
+     "at": 1791411919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 113079,
+     "outputTokens": 3700,
+     "cacheReadTokens": 185344,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 840,
+     "calls": 15
+    },
+    {
+     "at": 1791325519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 128815,
+     "outputTokens": 5872,
+     "cacheReadTokens": 338432,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1720,
+     "calls": 23
+    },
+    {
+     "at": 1791239119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 29259,
+     "outputTokens": 1320,
+     "cacheReadTokens": 75776,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 346,
+     "calls": 6
+    },
+    {
+     "at": 1791152719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 90905,
+     "outputTokens": 3201,
+     "cacheReadTokens": 179712,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1013,
+     "calls": 14
+    },
+    {
+     "at": 1791066319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 109138,
+     "outputTokens": 4036,
+     "cacheReadTokens": 168960,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 789,
+     "calls": 15
+    },
+    {
+     "at": 1790979919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 87489,
+     "outputTokens": 4028,
+     "cacheReadTokens": 183808,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 902,
+     "calls": 15
+    },
+    {
+     "at": 1790893519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 106092,
+     "outputTokens": 1642,
+     "cacheReadTokens": 62464,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 767,
+     "calls": 18
+    },
+    {
+     "at": 1790807119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 61588,
+     "outputTokens": 2100,
+     "cacheReadTokens": 77312,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 403,
+     "calls": 10
+    },
+    {
+     "at": 1790720719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 46419,
+     "outputTokens": 1833,
+     "cacheReadTokens": 97280,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 503,
+     "calls": 10
+    }
+   ]
+  },
+  "strategist": {
+   "activity": {
+    "sessions": [
+     {
+      "id": "fx-s-028944fc14",
+      "startedAt": 1791893933.334508,
+      "source": "cli",
+      "endedAt": 1791893967.698108,
+      "endReason": "cli_close",
+      "title": "Terminal session",
+      "messageCount": 4
+     }
+    ],
+    "messages": [
+     {
+      "id": "fx-m-649bebe5a4",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Nothing new since this morning.",
+      "at": 1791893967.64813
+     },
+     {
+      "id": "fx-m-30080cb32e",
+      "source": "cli",
+      "role": "user",
+      "text": "How are the numbers looking today?",
+      "at": 1791893958.0098639
+     },
+     {
+      "id": "fx-m-999f4f5c67",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791893945.3882082
+     },
+     {
+      "id": "fx-m-a7c16e4d41",
+      "source": "cli",
+      "role": "user",
+      "text": "Good work. Keep going.",
+      "at": 1791893935.585214
+     }
+    ],
+    "tools": [],
+    "tasks": [],
+    "runs": [],
+    "cron": [],
+    "errors": [
+     {
+      "at": 1791833855.505,
+      "logger": "telegram.ext",
+      "message": "Unclosed client session"
+     },
+     {
+      "at": 1791833825.15,
+      "logger": "telegram.ext",
+      "message": "Delivery failed"
+     },
+     {
+      "at": 1791833824.774,
+      "logger": "telegram.ext.Updater",
+      "message": "MCP call failed"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "at": 1791907803,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 16316,
+     "outputTokens": 10,
+     "cacheReadTokens": 15872,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1791843919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 19492,
+     "outputTokens": 304,
+     "cacheReadTokens": 34816,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 76,
+     "calls": 3,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1791498319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 90807,
+     "outputTokens": 3868,
+     "cacheReadTokens": 202752,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1208,
+     "calls": 15
+    },
+    {
+     "at": 1791411919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 84738,
+     "outputTokens": 4219,
+     "cacheReadTokens": 170496,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1438,
+     "calls": 14
+    },
+    {
+     "at": 1791325519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 16798,
+     "outputTokens": 3,
+     "cacheReadTokens": 189,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1791325519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 101701,
+     "outputTokens": 4071,
+     "cacheReadTokens": 141824,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1519,
+     "calls": 14
+    },
+    {
+     "at": 1791239119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 24081,
+     "outputTokens": 1139,
+     "cacheReadTokens": 55808,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 273,
+     "calls": 5
+    },
+    {
+     "at": 1791152719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 83851,
+     "outputTokens": 4237,
+     "cacheReadTokens": 148480,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1206,
+     "calls": 14
+    },
+    {
+     "at": 1791066319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 107649,
+     "outputTokens": 4725,
+     "cacheReadTokens": 202240,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 812,
+     "calls": 15
+    },
+    {
+     "at": 1790979919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 84577,
+     "outputTokens": 3835,
+     "cacheReadTokens": 161280,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 969,
+     "calls": 15
+    },
+    {
+     "at": 1790893519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 77190,
+     "outputTokens": 1389,
+     "cacheReadTokens": 31744,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 507,
+     "calls": 14
+    },
+    {
+     "at": 1790807119,
+     "model": "MiniMax-M3",
+     "inputTokens": 38898,
+     "outputTokens": 5862,
+     "cacheReadTokens": 142381,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 10
+    },
+    {
+     "at": 1790807119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 480,
+     "outputTokens": 181,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1790720719,
+     "model": "MiniMax-M3",
+     "inputTokens": 35863,
+     "outputTokens": 3175,
+     "cacheReadTokens": 78043,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 7
+    },
+    {
+     "at": 1790720719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 478,
+     "outputTokens": 36,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    }
+   ]
+  },
+  "tech": {
+   "activity": {
+    "sessions": [
+     {
+      "id": "fx-s-58faadbd5f",
+      "startedAt": 1791893933.269325,
+      "source": "cli",
+      "endedAt": 1791893967.356682,
+      "endReason": "cli_close",
+      "title": "Terminal session",
+      "messageCount": 4
+     }
+    ],
+    "messages": [
+     {
+      "id": "fx-m-e1b199ae73",
+      "source": "cli",
+      "role": "assistant",
+      "text": "The report is ready for review.",
+      "at": 1791893967.296275
+     },
+     {
+      "id": "fx-m-01b514e949",
+      "source": "cli",
+      "role": "user",
+      "text": "Good work. Keep going.",
+      "at": 1791893957.752008
+     },
+     {
+      "id": "fx-m-b250fd9909",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791893943.690054
+     },
+     {
+      "id": "fx-m-56b6089d31",
+      "source": "cli",
+      "role": "user",
+      "text": "Good work. Keep going.",
+      "at": 1791893934.989325
+     },
+     {
+      "id": "fx-m-943aa69aa5",
+      "source": "telegram",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791885941.451367
+     },
+     {
+      "id": "fx-m-d6329897db",
+      "source": "telegram",
+      "role": "user",
+      "text": "Can you send me the summary?",
+      "at": 1791885877
+     },
+     {
+      "id": "fx-m-749bc7cb48",
+      "source": "kanban",
+      "role": "assistant",
+      "text": "Nothing new since this morning.",
+      "at": 1791840042.6647491
+     },
+     {
+      "id": "fx-m-1bf640b455",
+      "source": "kanban",
+      "role": "assistant",
+      "text": "The report is ready for review.",
+      "at": 1791839360.641216
+     }
+    ],
+    "tools": [
+     {
+      "sessionId": "fx-s-78e556bde8",
+      "source": "telegram",
+      "count": 12,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 5
+       },
+       {
+        "name": "tool",
+        "count": 4
+       },
+       {
+        "name": "read_file",
+        "count": 2
+       },
+       {
+        "name": "search_files",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791885926.5433972
+     },
+     {
+      "sessionId": "fx-s-85b529db07",
+      "source": "kanban",
+      "count": 101,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 63
+       },
+       {
+        "name": "patch",
+        "count": 15
+       },
+       {
+        "name": "read_file",
+        "count": 13
+       },
+       {
+        "name": "search_files",
+        "count": 5
+       },
+       {
+        "name": "tool",
+        "count": 3
+       },
+       {
+        "name": "write_file",
+        "count": 2
+       }
+      ],
+      "lastAt": 1791840029.337282
+     },
+     {
+      "sessionId": "fx-s-5f6f7d7c30",
+      "source": "kanban",
+      "count": 351,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 190
+       },
+       {
+        "name": "search_files",
+        "count": 60
+       },
+       {
+        "name": "patch",
+        "count": 38
+       },
+       {
+        "name": "read_file",
+        "count": 37
+       },
+       {
+        "name": "tool",
+        "count": 11
+       },
+       {
+        "name": "write_file",
+        "count": 8
+       },
+       {
+        "name": "skill_view",
+        "count": 5
+       },
+       {
+        "name": "process_manage",
+        "count": 1
+       },
+       {
+        "name": "web_extract",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791839351.753553
+     }
+    ],
+    "tasks": [
+     {
+      "id": "fx-t-55213ac893",
+      "title": "Prep the quarterly sales deck",
+      "createdAt": 1791839314
+     },
+     {
+      "id": "fx-t-f0720a5f49",
+      "title": "Write the safety training memo",
+      "createdAt": 1791836013
+     }
+    ],
+    "runs": [
+     {
+      "id": "fx-r-0a5a66855f",
+      "taskId": "fx-t-55213ac893",
+      "title": "Prep the quarterly sales deck",
+      "status": "done",
+      "outcome": "completed",
+      "startedAt": 1791839353,
+      "endedAt": 1791840029
+     },
+     {
+      "id": "fx-r-b1be222aee",
+      "taskId": "fx-t-f0720a5f49",
+      "title": "Write the safety training memo",
+      "status": "done",
+      "outcome": "completed",
+      "startedAt": 1791836043,
+      "endedAt": 1791839351
+     }
+    ],
+    "cron": [
+     {
+      "id": "fx-c-f5825dd800",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791885418.57,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-748cb86996",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791883618.571,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-499a2953e6",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791881818.65,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-682e95dd7f",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791880018.723,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-6349b24c13",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791878218.603,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-129da8eda3",
+      "jobId": "fx-j-0f423ff728",
+      "jobName": "Evening wrap-up",
+      "ok": true,
+      "at": 1791876419.4,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-db24262b78",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791876418.668,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-7a24f6e27f",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791874618.431,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-e1197faed6",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791872818.553,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-bbed0c49d9",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791871018.58,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-0f2f1f9206",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791869218.532,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-f1577c6329",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791867418.472,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-3379d8cf3b",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791865618.4,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-643ade19dc",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791863818.59,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-168d987ec7",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791862018.573,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-264d8186ca",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791860218.46,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-71d48327c9",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791858418.512,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-0698580351",
+      "jobId": "fx-j-cb40103bfe",
+      "jobName": "Health check",
+      "ok": true,
+      "at": 1791857219.773,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-8c045b159d",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791856618.367,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-8afcadbb79",
+      "jobId": "fx-j-d3dce59524",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791856197.706,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-60a4ff22fa",
+      "jobId": "fx-j-96c9a71902",
+      "jobName": "Weekly review",
+      "ok": true,
+      "at": 1791855837.76,
+      "delivery": "suppressed",
+      "error": null
+     },
+     {
+      "id": "fx-c-911554d149",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791854818.481,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-280f31ebf5",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791853018.391,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-0ffd843cba",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791851218.411,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-9eb469b159",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791849418.453,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-258a8fb293",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791847618.323,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-f33b1d03cf",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791845818.256,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-a52960cb4e",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791844018.367,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-9c2ad94fcc",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791842218.482,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-126972cf0f",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791840418.486,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-9f7278260d",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791838618.338,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-1f7b2ef0e5",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791836818.312,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-9882511f69",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791835018.296,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-6031872b4c",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791833218.322,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-30ac91078f",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791831418.296,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-7500c1173c",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791829618.389,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-a7239be8af",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791827818.196,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-5f5fbeff49",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791826018.565,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-3f3b2ef125",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791824218.256,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-0ab3dc0402",
+      "jobId": "fx-j-dcb3361ffe",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791822418.349,
+      "delivery": "delivered",
+      "error": null
+     }
+    ],
+    "errors": [
+     {
+      "at": 1791833979.288,
+      "logger": "telegram.ext",
+      "message": "Unclosed client session"
+     },
+     {
+      "at": 1791833949.033,
+      "logger": "telegram.ext",
+      "message": "Delivery failed"
+     },
+     {
+      "at": 1791833948.638,
+      "logger": "telegram.ext.Updater",
+      "message": "MCP call failed"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "at": 1791907803,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 76884,
+     "outputTokens": 5636,
+     "cacheReadTokens": 220052,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 11
+    },
+    {
+     "at": 1791843919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 880356,
+     "outputTokens": 303125,
+     "cacheReadTokens": 44145851,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 633
+    },
+    {
+     "at": 1791843919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 732,
+     "outputTokens": 42,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 3
+    },
+    {
+     "at": 1791757519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 413210,
+     "outputTokens": 224376,
+     "cacheReadTokens": 21964706,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 325
+    },
+    {
+     "at": 1791584719,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 122042,
+     "outputTokens": 45941,
+     "cacheReadTokens": 2729413,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 57
+    },
+    {
+     "at": 1791498319,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 393978,
+     "outputTokens": 119261,
+     "cacheReadTokens": 7994709,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 207
+    },
+    {
+     "at": 1791498319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 1196,
+     "outputTokens": 377,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 5
+    },
+    {
+     "at": 1791411919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 1416053,
+     "outputTokens": 265524,
+     "cacheReadTokens": 43400574,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 572
+    },
+    {
+     "at": 1791411919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 365184,
+     "outputTokens": 177610,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 32
+    },
+    {
+     "at": 1791411919,
+     "model": "qwen-memory-q8",
+     "inputTokens": 1308336,
+     "outputTokens": 285799,
+     "cacheReadTokens": 52822829,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 609
+    },
+    {
+     "at": 1791325519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 540181,
+     "outputTokens": 173795,
+     "cacheReadTokens": 17412604,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 328
+    },
+    {
+     "at": 1791325519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 1196,
+     "outputTokens": 230,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 5
+    },
+    {
+     "at": 1791239119,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 894529,
+     "outputTokens": 210467,
+     "cacheReadTokens": 12230568,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 329
+    },
+    {
+     "at": 1791239119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 48312,
+     "outputTokens": 22167,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 12
+    },
+    {
+     "at": 1791152719,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 741019,
+     "outputTokens": 129260,
+     "cacheReadTokens": 10002083,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 244
+    },
+    {
+     "at": 1791152719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 119372,
+     "outputTokens": 44452,
+     "cacheReadTokens": 275968,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 220,
+     "calls": 16
+    },
+    {
+     "at": 1791066319,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 671965,
+     "outputTokens": 158662,
+     "cacheReadTokens": 14354356,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 321
+    },
+    {
+     "at": 1791066319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 159066,
+     "outputTokens": 6637,
+     "cacheReadTokens": 1017856,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 1723,
+     "calls": 25,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1790979919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 2702389,
+     "outputTokens": 278906,
+     "cacheReadTokens": 19955339,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 490
+    },
+    {
+     "at": 1790979919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 30727,
+     "outputTokens": 15158,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 17
+    },
+    {
+     "at": 1790979919,
+     "model": "qwen-memory-q8",
+     "inputTokens": 49708,
+     "outputTokens": 1606,
+     "cacheReadTokens": 194646,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 5
+    },
+    {
+     "at": 1790893519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 8554154,
+     "outputTokens": 725828,
+     "cacheReadTokens": 68775997,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1526
+    },
+    {
+     "at": 1790893519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 853390,
+     "outputTokens": 574601,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 115
+    },
+    {
+     "at": 1790807119,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 730561,
+     "outputTokens": 213988,
+     "cacheReadTokens": 13316589,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 322
+    },
+    {
+     "at": 1790807119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 35859,
+     "outputTokens": 20137,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 12
+    },
+    {
+     "at": 1790720719,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 1291918,
+     "outputTokens": 233457,
+     "cacheReadTokens": 12908801,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 346
+    },
+    {
+     "at": 1790720719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 57090,
+     "outputTokens": 34649,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 17
+    },
+    {
+     "at": 1790634319,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 349033,
+     "outputTokens": 96740,
+     "cacheReadTokens": 5903617,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 145
+    },
+    {
+     "at": 1790634319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 23498,
+     "outputTokens": 17160,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 5
+    },
+    {
+     "at": 1790375119,
+     "model": "MiniMax-M3",
+     "inputTokens": 426945,
+     "outputTokens": 3486,
+     "cacheReadTokens": 642477,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 27
+    },
+    {
+     "at": 1790288719,
+     "model": "MiniMax-M3",
+     "inputTokens": 751266,
+     "outputTokens": 71602,
+     "cacheReadTokens": 18413958,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 181
+    },
+    {
+     "at": 1790202319,
+     "model": "MiniMax-M3",
+     "inputTokens": 104152,
+     "outputTokens": 2341,
+     "cacheReadTokens": 139392,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 14
+    },
+    {
+     "at": 1790115919,
+     "model": "MiniMax-M3",
+     "inputTokens": 41652,
+     "outputTokens": 1655,
+     "cacheReadTokens": 142569,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 8
+    },
+    {
+     "at": 1789770319,
+     "model": "MiniMax-M3",
+     "inputTokens": 53370,
+     "outputTokens": 3839,
+     "cacheReadTokens": 187087,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 14
+    }
+   ]
+  },
+  "general": {
+   "activity": {
+    "sessions": [
+     {
+      "id": "fx-s-45bd73670c",
+      "startedAt": 1791888034.508426,
+      "source": "cli",
+      "endedAt": 1791893958.249629,
+      "endReason": "cli_close",
+      "title": "Terminal session",
+      "messageCount": 6
+     }
+    ],
+    "messages": [
+     {
+      "id": "fx-m-93edb2a09c",
+      "source": "kanban",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791894013.615259
+     },
+     {
+      "id": "fx-m-0b7a8f8ed3",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Nothing new since this morning.",
+      "at": 1791893958.1474571
+     },
+     {
+      "id": "fx-m-81d8ec2973",
+      "source": "cli",
+      "role": "user",
+      "text": "Can you send me the summary?",
+      "at": 1791893957.278656
+     },
+     {
+      "id": "fx-m-693916d9e3",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791893937.166094
+     },
+     {
+      "id": "fx-m-b16af489d0",
+      "source": "cli",
+      "role": "user",
+      "text": "Good work. Keep going.",
+      "at": 1791893935.0504398
+     },
+     {
+      "id": "fx-m-00bbaf8a5a",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791888038.286
+     },
+     {
+      "id": "fx-m-1a77132092",
+      "source": "cli",
+      "role": "user",
+      "text": "Can you send me the summary?",
+      "at": 1791888035.9102578
+     },
+     {
+      "id": "fx-m-53f506b97e",
+      "source": "telegram",
+      "role": "assistant",
+      "text": "Nothing new since this morning.",
+      "at": 1791869985.95804
+     },
+     {
+      "id": "fx-m-f60631cf84",
+      "source": "telegram",
+      "role": "assistant",
+      "text": "The report is ready for review.",
+      "at": 1791869758.745117
+     },
+     {
+      "id": "fx-m-0082252d55",
+      "source": "telegram",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791869738.131262
+     },
+     {
+      "id": "fx-m-2e0de4cba4",
+      "source": "telegram",
+      "role": "user",
+      "text": "Good work. Keep going.",
+      "at": 1791869623
+     },
+     {
+      "id": "fx-m-0075bd7cce",
+      "source": "telegram",
+      "role": "user",
+      "text": "Can you send me the summary?",
+      "at": 1791869623
+     },
+     {
+      "id": "fx-m-87ad096366",
+      "source": "telegram",
+      "role": "user",
+      "text": "Good work. Keep going.",
+      "at": 1791869623
+     },
+     {
+      "id": "fx-m-42aff13d6d",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Done. Three new leads, two follow-ups sent.",
+      "at": 1791869404.5698612
+     }
+    ],
+    "tools": [
+     {
+      "sessionId": "fx-s-757819c899",
+      "source": "kanban",
+      "count": 2,
+      "tools": [
+       {
+        "name": "tool",
+        "count": 2
+       }
+      ],
+      "lastAt": 1791894012.510658
+     },
+     {
+      "sessionId": "fx-s-bccaa41f40",
+      "source": "telegram",
+      "count": 33,
+      "tools": [
+       {
+        "name": "tool",
+        "count": 16
+       },
+       {
+        "name": "skill_view",
+        "count": 5
+       },
+       {
+        "name": "read_file",
+        "count": 4
+       },
+       {
+        "name": "terminal",
+        "count": 4
+       },
+       {
+        "name": "process_manage",
+        "count": 3
+       },
+       {
+        "name": "write_file",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791869983.408687
+     },
+     {
+      "sessionId": "fx-s-24fe215819",
+      "source": "cron",
+      "count": 99,
+      "tools": [
+       {
+        "name": "web_search",
+        "count": 72
+       },
+       {
+        "name": "terminal",
+        "count": 23
+       },
+       {
+        "name": "search_files",
+        "count": 2
+       },
+       {
+        "name": "skill_view",
+        "count": 2
+       }
+      ],
+      "lastAt": 1791869382.013797
+     }
+    ],
+    "tasks": [
+     {
+      "id": "fx-t-a6dc0a6ef2",
+      "title": "Order toner for the copier",
+      "createdAt": 1791893983
+     }
+    ],
+    "runs": [
+     {
+      "id": "fx-r-127b00eb2c",
+      "taskId": "fx-t-a6dc0a6ef2",
+      "title": "Order toner for the copier",
+      "status": "done",
+      "outcome": "completed",
+      "startedAt": 1791894006,
+      "endedAt": 1791894012
+     }
+    ],
+    "cron": [
+     {
+      "id": "fx-c-259ee7adf1",
+      "jobId": "fx-j-e573bc9e1c",
+      "jobName": "Morning report",
+      "ok": true,
+      "at": 1791869407.256,
+      "delivery": "delivered",
+      "error": null
+     }
+    ],
+    "errors": [
+     {
+      "at": 1791878880.874,
+      "logger": "gateway.run",
+      "message": "Request timed out"
+     },
+     {
+      "at": 1791878880.861,
+      "logger": "agent",
+      "message": "Network retry loop gave up"
+     },
+     {
+      "at": 1791863289.996,
+      "logger": "gateway.run",
+      "message": "Request timed out"
+     },
+     {
+      "at": 1791863289.987,
+      "logger": "agent",
+      "message": "Delivery failed"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "at": 1791907803,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 211806,
+     "outputTokens": 23210,
+     "cacheReadTokens": 1692113,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 38
+    },
+    {
+     "at": 1791907803,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 38432,
+     "outputTokens": 5338,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1791907803,
+     "model": "gpt-6-luna-900k",
+     "inputTokens": 2330734,
+     "outputTokens": 166569,
+     "cacheReadTokens": 21448704,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 143140,
+     "calls": 164,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1791843919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 152948,
+     "outputTokens": 15436,
+     "cacheReadTokens": 1125712,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 25
+    },
+    {
+     "at": 1791843919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 352137,
+     "outputTokens": 91231,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 131
+    },
+    {
+     "at": 1791843919,
+     "model": "qwen-memory-q8",
+     "inputTokens": 2049406,
+     "outputTokens": 129995,
+     "cacheReadTokens": 65264049,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 579
+    },
+    {
+     "at": 1791757519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 342904,
+     "outputTokens": 49832,
+     "cacheReadTokens": 3112646,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 55
+    },
+    {
+     "at": 1791757519,
+     "model": "qwen-memory-q8",
+     "inputTokens": 2141,
+     "outputTokens": 2757,
+     "cacheReadTokens": 751624,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 7
+    },
+    {
+     "at": 1791671119,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 78682,
+     "outputTokens": 6679,
+     "cacheReadTokens": 324927,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 9
+    },
+    {
+     "at": 1791584719,
+     "model": "MiniMax-M3",
+     "inputTokens": 14871,
+     "outputTokens": 1879,
+     "cacheReadTokens": 138520,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 11
+    },
+    {
+     "at": 1791584719,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 61821,
+     "outputTokens": 7063,
+     "cacheReadTokens": 287106,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 9
+    },
+    {
+     "at": 1791498319,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 56987,
+     "outputTokens": 4666,
+     "cacheReadTokens": 177702,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 7
+    },
+    {
+     "at": 1791411919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 38628,
+     "outputTokens": 2657,
+     "cacheReadTokens": 101248,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 5
+    },
+    {
+     "at": 1791411919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 81607,
+     "outputTokens": 103,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 65,
+     "calls": 1,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1791411919,
+     "model": "qwen-memory-q8",
+     "inputTokens": 549350,
+     "outputTokens": 44979,
+     "cacheReadTokens": 77193944,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 506
+    },
+    {
+     "at": 1791325519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 1473248,
+     "outputTokens": 108900,
+     "cacheReadTokens": 20448056,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 271
+    },
+    {
+     "at": 1791325519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 774,
+     "outputTokens": 71,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1791239119,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 58732,
+     "outputTokens": 5918,
+     "cacheReadTokens": 242472,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 7
+    },
+    {
+     "at": 1791239119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 14914,
+     "outputTokens": 6998,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1791152719,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 768398,
+     "outputTokens": 55402,
+     "cacheReadTokens": 2616018,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 76
+    },
+    {
+     "at": 1791152719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 27137,
+     "outputTokens": 12922,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 4
+    },
+    {
+     "at": 1791066319,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 1408989,
+     "outputTokens": 77060,
+     "cacheReadTokens": 12044883,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 223
+    },
+    {
+     "at": 1791066319,
+     "model": "custom-model",
+     "inputTokens": 123199,
+     "outputTokens": 28864,
+     "cacheReadTokens": 1419645,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 41
+    },
+    {
+     "at": 1791066319,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 530411,
+     "outputTokens": 284579,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 48
+    },
+    {
+     "at": 1790979919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 382026,
+     "outputTokens": 9782,
+     "cacheReadTokens": 797674,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 26
+    },
+    {
+     "at": 1790979919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 37280,
+     "outputTokens": 19579,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 6
+    },
+    {
+     "at": 1790979919,
+     "model": "qwen-memory-q8",
+     "inputTokens": 1250823,
+     "outputTokens": 240006,
+     "cacheReadTokens": 14573666,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 323
+    },
+    {
+     "at": 1790893519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 1031252,
+     "outputTokens": 45535,
+     "cacheReadTokens": 4553010,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 107
+    },
+    {
+     "at": 1790893519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 5096,
+     "outputTokens": 1899,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 5
+    },
+    {
+     "at": 1790893519,
+     "model": "qwen-memory-q8",
+     "inputTokens": 99463,
+     "outputTokens": 1198,
+     "cacheReadTokens": 432928,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 14
+    },
+    {
+     "at": 1790807119,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 838025,
+     "outputTokens": 112178,
+     "cacheReadTokens": 7268611,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 174
+    },
+    {
+     "at": 1790807119,
+     "model": "custom-model",
+     "inputTokens": 61168,
+     "outputTokens": 1499,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790807119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 79081,
+     "outputTokens": 59256,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 12
+    },
+    {
+     "at": 1790720719,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 22840,
+     "outputTokens": 2460,
+     "cacheReadTokens": 65498,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 4
+    },
+    {
+     "at": 1790720719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 13853,
+     "outputTokens": 6902,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1790634319,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 557184,
+     "outputTokens": 53847,
+     "cacheReadTokens": 3120281,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 73,
+     "recordedCost": {
+      "amount": 0,
+      "kind": "included"
+     }
+    },
+    {
+     "at": 1790547919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 14243,
+     "outputTokens": 2,
+     "cacheReadTokens": 187,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790547919,
+     "model": "custom-model",
+     "inputTokens": 13733,
+     "outputTokens": 30,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790547919,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 621480,
+     "outputTokens": 32172,
+     "cacheReadTokens": 5484544,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 11572,
+     "calls": 142
+    },
+    {
+     "at": 1790461519,
+     "model": "MiniMax-M3",
+     "inputTokens": 935255,
+     "outputTokens": 41263,
+     "cacheReadTokens": 5555791,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 142
+    },
+    {
+     "at": 1790461519,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 13357,
+     "outputTokens": 31,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 3
+    },
+    {
+     "at": 1790375119,
+     "model": "glm-4.5-flash",
+     "inputTokens": 14154,
+     "outputTokens": 153,
+     "cacheReadTokens": 43,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 1
+    },
+    {
+     "at": 1790375119,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 12626,
+     "outputTokens": 21,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1790375119,
+     "model": "grok-4.7",
+     "inputTokens": 14242,
+     "outputTokens": 36,
+     "cacheReadTokens": 1152,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 32,
+     "calls": 1
+    },
+    {
+     "at": 1790375119,
+     "model": "kimi-k3",
+     "inputTokens": 223,
+     "outputTokens": 64,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 13312,
+     "reasoningTokens": 21,
+     "calls": 2
+    },
+    {
+     "at": 1790288719,
+     "model": "MiniMax-M3",
+     "inputTokens": 77241,
+     "outputTokens": 715,
+     "cacheReadTokens": 29056,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 6
+    },
+    {
+     "at": 1790288719,
+     "model": "custom-model",
+     "inputTokens": 114810,
+     "outputTokens": 22306,
+     "cacheReadTokens": 3073547,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 34
+    },
+    {
+     "at": 1790202319,
+     "model": "MiniMax-M3",
+     "inputTokens": 263211,
+     "outputTokens": 7977,
+     "cacheReadTokens": 656421,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 45
+    },
+    {
+     "at": 1790115919,
+     "model": "MiniMax-M3",
+     "inputTokens": 41804,
+     "outputTokens": 4534,
+     "cacheReadTokens": 227494,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 9
+    },
+    {
+     "at": 1790029519,
+     "model": "qwen-memory-q8",
+     "inputTokens": 110992,
+     "outputTokens": 5897,
+     "cacheReadTokens": 1466687,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 13
+    },
+    {
+     "at": 1789856719,
+     "model": "MiniMax-M3",
+     "inputTokens": 193043,
+     "outputTokens": 18959,
+     "cacheReadTokens": 1768832,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 28
+    },
+    {
+     "at": 1789856719,
+     "model": "custom-model",
+     "inputTokens": 159860,
+     "outputTokens": 58331,
+     "cacheReadTokens": 8083946,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 93
+    },
+    {
+     "at": 1789770319,
+     "model": "MiniMax-M3",
+     "inputTokens": 190028,
+     "outputTokens": 10262,
+     "cacheReadTokens": 1118080,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 38
+    },
+    {
+     "at": 1789770319,
+     "model": "qwen-memory-q8",
+     "inputTokens": 47546,
+     "outputTokens": 417,
+     "cacheReadTokens": 60479,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 7
+    }
+   ]
+  },
+  "health": {
+   "activity": {
+    "sessions": [
+     {
+      "id": "fx-s-10c815464b",
+      "startedAt": 1791893933.581169,
+      "source": "cli",
+      "endedAt": 1791893966.250849,
+      "endReason": "cli_close",
+      "title": "Terminal session",
+      "messageCount": 4
+     }
+    ],
+    "messages": [
+     {
+      "id": "fx-m-91c51fe8c6",
+      "source": "cli",
+      "role": "assistant",
+      "text": "The report is ready for review.",
+      "at": 1791893966.0547998
+     },
+     {
+      "id": "fx-m-2511ee58ad",
+      "source": "cli",
+      "role": "user",
+      "text": "Any replies from the prospects?",
+      "at": 1791893957.405586
+     },
+     {
+      "id": "fx-m-c2708af5de",
+      "source": "cli",
+      "role": "assistant",
+      "text": "Nothing new since this morning.",
+      "at": 1791893946.086049
+     },
+     {
+      "id": "fx-m-43e82f3e4d",
+      "source": "cli",
+      "role": "user",
+      "text": "Good work. Keep going.",
+      "at": 1791893935.2335622
+     },
+     {
+      "id": "fx-m-d14d2ca6d5",
+      "source": "telegram",
+      "role": "assistant",
+      "text": "Nothing new since this morning.",
+      "at": 1791867125.016434
+     },
+     {
+      "id": "fx-m-b3468e61a4",
+      "source": "telegram",
+      "role": "user",
+      "text": "Can you send me the summary?",
+      "at": 1791867105
+     },
+     {
+      "id": "fx-m-c13181d8c2",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Nothing new since this morning.",
+      "at": 1791858449.371597
+     },
+     {
+      "id": "fx-m-2b4089d5f0",
+      "source": "cron",
+      "role": "assistant",
+      "text": "Summary sent to the Ops room.",
+      "at": 1791826031.920023
+     }
+    ],
+    "tools": [
+     {
+      "sessionId": "fx-s-89d7206f79",
+      "source": "telegram",
+      "count": 4,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 3
+       },
+       {
+        "name": "write_file",
+        "count": 1
+       }
+      ],
+      "lastAt": 1791867121.782144
+     },
+     {
+      "sessionId": "fx-s-adfaff4f0e",
+      "source": "cron",
+      "count": 6,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 6
+       }
+      ],
+      "lastAt": 1791858430.885692
+     },
+     {
+      "sessionId": "fx-s-0ec7348edd",
+      "source": "cron",
+      "count": 4,
+      "tools": [
+       {
+        "name": "terminal",
+        "count": 4
+       }
+      ],
+      "lastAt": 1791826027.4237828
+     }
+    ],
+    "tasks": [],
+    "runs": [],
+    "cron": [
+     {
+      "id": "fx-c-67f014f616",
+      "jobId": "fx-j-734f85c658",
+      "jobName": "Friday briefing",
+      "ok": true,
+      "at": 1791858450.298,
+      "delivery": "delivered",
+      "error": null
+     },
+     {
+      "id": "fx-c-263951f035",
+      "jobId": "fx-j-9df6aa189d",
+      "jobName": "Health check",
+      "ok": true,
+      "at": 1791826032.621,
+      "delivery": "delivered",
+      "error": null
+     }
+    ],
+    "errors": []
+   },
+   "usage": [
+    {
+     "at": 1791907803,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 992592,
+     "outputTokens": 38526,
+     "cacheReadTokens": 5206020,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 98
+    },
+    {
+     "at": 1791843919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 43244,
+     "outputTokens": 4937,
+     "cacheReadTokens": 102690,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 8
+    },
+    {
+     "at": 1791757519,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 24569,
+     "outputTokens": 2664,
+     "cacheReadTokens": 36937,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 3
+    },
+    {
+     "at": 1791584719,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 17244,
+     "outputTokens": 3295,
+     "cacheReadTokens": 31906,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 3
+    },
+    {
+     "at": 1791498319,
+     "model": "MiniMax-M3",
+     "inputTokens": 36791,
+     "outputTokens": 5755,
+     "cacheReadTokens": 162592,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 12
+    },
+    {
+     "at": 1791411919,
+     "model": "MiniMax-M3",
+     "inputTokens": 44547,
+     "outputTokens": 14912,
+     "cacheReadTokens": 259340,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 14
+    },
+    {
+     "at": 1791411919,
+     "model": "MiniMax-M3.1-Flash-Preview",
+     "inputTokens": 1127,
+     "outputTokens": 3116,
+     "cacheReadTokens": 155753,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1791325519,
+     "model": "MiniMax-M3",
+     "inputTokens": 38796,
+     "outputTokens": 5314,
+     "cacheReadTokens": 70334,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 6
+    },
+    {
+     "at": 1791239119,
+     "model": "MiniMax-M3",
+     "inputTokens": 31193,
+     "outputTokens": 7453,
+     "cacheReadTokens": 86053,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 8
+    },
+    {
+     "at": 1791152719,
+     "model": "MiniMax-M3",
+     "inputTokens": 16817,
+     "outputTokens": 1956,
+     "cacheReadTokens": 74326,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 6
+    },
+    {
+     "at": 1790893519,
+     "model": "MiniMax-M3",
+     "inputTokens": 63973,
+     "outputTokens": 7358,
+     "cacheReadTokens": 106754,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 9
+    },
+    {
+     "at": 1790807119,
+     "model": "MiniMax-M3",
+     "inputTokens": 37061,
+     "outputTokens": 3036,
+     "cacheReadTokens": 107435,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 9
+    },
+    {
+     "at": 1790720719,
+     "model": "MiniMax-M3",
+     "inputTokens": 40373,
+     "outputTokens": 5854,
+     "cacheReadTokens": 222868,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 16
+    },
+    {
+     "at": 1790720719,
+     "model": "gpt-5.6-luna",
+     "inputTokens": 14733,
+     "outputTokens": 9391,
+     "cacheReadTokens": 0,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    },
+    {
+     "at": 1790634319,
+     "model": "MiniMax-M3",
+     "inputTokens": 46232,
+     "outputTokens": 11858,
+     "cacheReadTokens": 157311,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 11
+    },
+    {
+     "at": 1790547919,
+     "model": "MiniMax-M3",
+     "inputTokens": 21590,
+     "outputTokens": 1857,
+     "cacheReadTokens": 126873,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 8
+    },
+    {
+     "at": 1790375119,
+     "model": "MiniMax-M3",
+     "inputTokens": 15566,
+     "outputTokens": 1535,
+     "cacheReadTokens": 28121,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 3
+    },
+    {
+     "at": 1790288719,
+     "model": "MiniMax-M3",
+     "inputTokens": 849999,
+     "outputTokens": 47031,
+     "cacheReadTokens": 5940845,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 144
+    },
+    {
+     "at": 1790202319,
+     "model": "MiniMax-M3",
+     "inputTokens": 81293,
+     "outputTokens": 10619,
+     "cacheReadTokens": 767079,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 36
+    },
+    {
+     "at": 1790115919,
+     "model": "MiniMax-M3",
+     "inputTokens": 74762,
+     "outputTokens": 7295,
+     "cacheReadTokens": 484120,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 23
+    },
+    {
+     "at": 1790029519,
+     "model": "MiniMax-M3",
+     "inputTokens": 73170,
+     "outputTokens": 15714,
+     "cacheReadTokens": 509824,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 27
+    },
+    {
+     "at": 1789770319,
+     "model": "MiniMax-M3",
+     "inputTokens": 12386,
+     "outputTokens": 104,
+     "cacheReadTokens": 12032,
+     "cacheWriteTokens": 0,
+     "reasoningTokens": 0,
+     "calls": 2
+    }
+   ]
+  }
+ }
+}

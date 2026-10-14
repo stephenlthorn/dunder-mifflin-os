@@ -1,0 +1,110 @@
+/* The delight layer: Kevin's chili, trophies, Creed's thought bubble, light through the windows, the bobblehead, the
+   Dundies window, Creed's corner, toasts, the Friday invitation and the credits. Every animation stops for reduced
+   motion (the system setting or Settings: the .reduce-motion class), and nothing here takes clicks it doesn't need. */
+
+/* Kevin's chili spill: plays once when the error starts, then lies there */
+.chili-spill .chili-puddle { transform-box: fill-box; transform-origin: 30% 40%; animation: dm-spill 1.4s cubic-bezier(.2,.8,.3,1) .35s both; }
+.chili-spill .chili-pot-tip { transform-box: fill-box; transform-origin: 50% 100%; animation: dm-tip .5s ease-in both; }
+@keyframes dm-spill { 0% { transform: scale(.15); opacity: 0; } 30% { opacity: 1; } 100% { transform: scale(1); opacity: 1; } }
+@keyframes dm-tip { 0% { transform: translate(-6px, -10px) rotate(0deg); } 100% { transform: translate(0, 0) rotate(-78deg); } }
+
+/* Creed knows something */
+.creed-note { animation: dm-think 3.2s ease-in-out infinite; }
+@keyframes dm-think { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-1px); } }
+
+/* Dwight's bobblehead nods when the bot at his desk finishes a run */
+.map-wrap.is-nodding .bobble-head { transform-box: fill-box; transform-origin: 50% 85%; animation: dm-nod .42s ease-in-out 6; }
+@keyframes dm-nod { 0%, 100% { transform: rotate(0deg) translateY(0); } 30% { transform: rotate(-14deg) translateY(.4px); } 70% { transform: rotate(12deg) translateY(.2px); } }
+
+/* light through the windows by the clock (the exterior windows; the office's own lights stay on) */
+.map-wrap .wall.glass.is-exterior .pane { transition: fill 1.2s; }
+.map-wrap[data-daylight='dawn'] .wall.glass.is-exterior .pane { fill: #f6c9a6; }
+.map-wrap[data-daylight='dusk'] .wall.glass.is-exterior .pane { fill: #e98f6b; }
+.map-wrap[data-daylight='night'] .wall.glass.is-exterior .pane { fill: #1d2a4d; opacity: .78; }
+/* ... and the world outside the building */
+.map-wrap[data-daylight='dawn'] .bg-in { stop-color: #f8eee6; }
+.map-wrap[data-daylight='dawn'] .bg-out { stop-color: #ecd6c6; }
+.map-wrap[data-daylight='dusk'] .bg-in { stop-color: #f5e1d2; }
+.map-wrap[data-daylight='dusk'] .bg-out { stop-color: #e2b49b; }
+.map-wrap[data-daylight='night'] .bg-in { stop-color: #4a5577; }
+.map-wrap[data-daylight='night'] .bg-out { stop-color: #222a44; }
+
+/* clickable eggs on the map: the boss mug, Stanley's crossword */
+.map-egg { cursor: pointer; }
+.map-egg:hover circle { fill: rgba(242, 182, 50, .22); }
+
+@media (prefers-reduced-motion: reduce) {
+  .chili-spill .chili-puddle, .chili-spill .chili-pot-tip, .creed-note, .map-wrap.is-nodding .bobble-head, .dundie { animation: none !important; }
+  .chili-spill .chili-pot-tip { transform: rotate(-78deg); }
+  .map-wrap .wall.glass.is-exterior .pane { transition: none; }
+}
+.reduce-motion .chili-spill .chili-puddle, .reduce-motion .chili-spill .chili-pot-tip, .reduce-motion .creed-note,
+.reduce-motion .map-wrap.is-nodding .bobble-head, .reduce-motion .dundie { animation: none !important; }
+.reduce-motion .chili-spill .chili-pot-tip { transform: rotate(-78deg); }
+.reduce-motion .map-wrap .wall.glass.is-exterior .pane { transition: none; }
+
+/* the Dundies */
+.dundies-stage { display: flex; align-items: center; gap: 10px; margin: -2px 0 6px; }
+.dundies-podium { width: 74px; height: 76px; flex: none; }
+.window-body .dundies-intro { position: relative; margin: 0; padding: 8px 11px; background: #fff; border: 1px solid var(--line); border-radius: 12px; font-weight: 600; }
+.window-body .dundies-week { margin: 6px 0 8px; color: var(--muted); font-size: 12.5px; }
+.dundie-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+.dundie { display: flex; gap: 10px; align-items: flex-start; padding: 8px 10px; background: #fff; border: 1px solid var(--line); border-left: 4px solid #d4a017; border-radius: 9px;
+  animation: dm-reveal .5s ease-out both; }
+.dundie.is-warning { border-left-color: #d64545; }
+.is-plain .dundie { border-left-color: var(--dm-blue); animation: none; }
+@keyframes dm-reveal { 0% { opacity: 0; transform: translateY(6px); } 100% { opacity: 1; transform: none; } }
+.dundie-icon { width: 26px; height: 32px; flex: none; }
+.dundie-text { min-width: 0; display: grid; gap: 2px; }
+.window-body .dundie-text h3 { margin: 0; font-size: 13.5px; letter-spacing: 0; text-transform: none; color: var(--ink); }
+.dundie-winner { justify-self: start; color: var(--ink); text-decoration-color: #b9ab95; }
+.window-body .dundie-reason { margin: 0; color: #4b453d; font-size: 12.5px; }
+.window-body .dundies-foot { margin-top: 10px; font-size: 11.5px; }
+
+/* Creed's corner */
+.window-body .creed-intro { color: #4b453d; margin-bottom: 8px; }
+.creed-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.creed-item { display: flex; gap: 9px; align-items: flex-start; padding: 8px 10px; background: #fff; border: 1px solid var(--line); border-left: 4px solid #5b3f8c; border-radius: 9px; }
+.creed-kind { flex: none; font-size: 10.5px; font-weight: 700; padding: 1px 7px; border-radius: 4px; background: #ece4f6; color: #5b3f8c; text-transform: uppercase; letter-spacing: .4px; }
+.creed-body { display: grid; gap: 2px; min-width: 0; }
+.creed-detail { color: #4b453d; font-size: 12.5px; }
+.creed-raw { font-size: 11px; color: var(--muted); overflow-wrap: anywhere; }
+.window-body .creed-foot { margin-top: 10px; font-size: 11.5px; }
+.toby-mode .creed-item { border-left-color: #8b9097; }
+.toby-mode .creed-kind { background: #eef0f2; color: #4f555c; }
+
+/* toasts: above the taskbar, never in the way of a click */
+.delight-toasts { position: fixed; left: 50%; bottom: calc(var(--taskbar-h) + 14px); transform: translateX(-50%); z-index: 700; display: grid; gap: 8px;
+  width: min(440px, calc(100vw - 24px)); pointer-events: none; }
+.delight-toast { display: grid; gap: 2px; padding: 9px 14px; background: #2d2a26; color: #fff; border-radius: 12px; box-shadow: var(--shadow); font-size: 13px;
+  animation: dm-toast .25s ease-out both; }
+.delight-toast strong { font-size: 14px; }
+.delight-toast span { color: #e8e2d6; }
+@keyframes dm-toast { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.reduce-motion .delight-toast { animation: none; }
+@media (prefers-reduced-motion: reduce) { .delight-toast { animation: none; } }
+
+/* the Friday-evening invitation */
+.dundies-invite { position: absolute; right: 12px; bottom: 12px; z-index: 340; width: min(330px, calc(100% - 24px)); padding: 10px 12px 12px; background: #fff;
+  border: 1px solid var(--line); border-left: 4px solid #d4a017; border-radius: 12px; box-shadow: var(--shadow); font-size: 13px; }
+.dundies-invite p { margin: 4px 0 8px; color: #4b453d; }
+.dundies-invite-actions { display: flex; gap: 8px; }
+.dundies-invite-actions button { border: 1px solid var(--line); background: #f6f3ec; border-radius: 7px; padding: 5px 11px; font-weight: 600; }
+.dundies-invite-actions .primary { background: var(--dm-blue); border-color: var(--dm-blue); color: #fff; }
+
+/* "Threat Level Midnight" credits: clicks pass through to the office, except Close */
+.credits { position: fixed; inset: 0; z-index: 800; pointer-events: none; display: flex; justify-content: center; overflow: hidden;
+  background: linear-gradient(180deg, rgba(10,10,14,.92), rgba(10,10,14,.86)); color: #f4efe2; }
+.credits-close { position: absolute; top: 14px; right: 16px; pointer-events: auto; border: 1px solid rgba(255,255,255,.4); background: transparent; color: #fff;
+  border-radius: 7px; padding: 5px 12px; }
+.credits-roll { width: min(520px, calc(100vw - 32px)); padding: 60px 0; text-align: center; font-family: Georgia, 'Times New Roman', serif; }
+.credits.is-rolling .credits-roll { animation: dm-roll 26s linear both; }
+@keyframes dm-roll { from { transform: translateY(100vh); } to { transform: translateY(-100%); } }
+.credits-kicker { letter-spacing: 2px; text-transform: uppercase; font-size: 12px; color: #c9bfa8; }
+.credits h2 { font-size: 34px; margin: 6px 0 28px; letter-spacing: 1px; }
+.credits h3 { margin: 26px 0 10px; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; color: #c9bfa8; }
+.credits dl { margin: 0; display: grid; gap: 6px; }
+.credits dl div { display: grid; }
+.credits dt { font-size: 17px; }
+.credits dd { margin: 0; font-style: italic; color: #d9d1bf; font-size: 13.5px; }
+.credits-end { margin-top: 40px; font-style: italic; color: #c9bfa8; }

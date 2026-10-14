@@ -1,0 +1,61 @@
+.map-wrap { position: absolute; inset: 0; }
+.office-map { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; user-select: none; }
+.office-map:active { cursor: grabbing; }
+
+.map-controls { position: absolute; right: 16px; bottom: 16px; display: flex; flex-direction: column; gap: 6px; z-index: 20; }
+.map-controls button {
+  min-width: 40px; height: 36px; border-radius: 8px; border: 1px solid var(--line); background: #fff; font-weight: 700; font-size: 15px;
+  box-shadow: 0 2px 6px rgba(40,32,20,.12);
+}
+.map-controls button:hover { background: #f3f6fb; }
+
+.person { cursor: pointer; outline: none; }
+.person .focus-ring { fill: none; stroke: #f2b632; stroke-width: 2.5; opacity: 0; }
+.person:focus-visible .focus-ring, .person:hover .focus-ring { opacity: 1; }
+.person:hover .focus-ring { stroke: rgba(31,95,174,.5); }
+.area-floor.is-clickable { cursor: pointer; }
+
+.sign .sign-plate { fill: #fbf8f1; stroke: #cbbfa8; stroke-width: 0.8; filter: drop-shadow(0 1px 1px rgba(60,45,25,.18)); }
+.sign.is-room { cursor: pointer; }
+.sign.is-room .sign-plate { stroke: #8fb0dc; }
+.sign.is-room g:hover .sign-plate { fill: #eef4fc; }
+.sign g:focus-visible { outline: none; }
+.sign g:focus-visible .sign-plate { stroke: #f2b632; stroke-width: 2.4; }
+.chip { cursor: pointer; filter: drop-shadow(0 1px 1.5px rgba(40,30,20,.22)); }
+
+@keyframes dm-walk-in {
+  0% { opacity: 0; transform: translate(-18px, 10px); }
+  30% { opacity: 1; }
+  45% { transform: translate(-10px, 4px); }
+  60% { transform: translate(-8px, 7px); }
+  75% { transform: translate(-3px, 1px); }
+  100% { opacity: 1; transform: translate(0, 0); }
+}
+.person.walk-in { animation: dm-walk-in 1.3s ease-out both; }
+@keyframes dm-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-0.8px); } }
+.person.status-working .head { animation: dm-bob 2.6s ease-in-out infinite; }
+@keyframes dm-pulse { 0%, 100% { stroke-opacity: .95; } 50% { stroke-opacity: .35; } }
+.status-ring.ring-working, .status-ring.ring-error { animation: dm-pulse 2.4s ease-in-out infinite; }
+@keyframes dm-blink { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
+.robot-light { animation: dm-blink 2s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .person.walk-in, .person.status-working .head, .status-ring, .robot-light { animation: none !important; }
+}
+
+.person-tip {
+  position: absolute; z-index: 15; pointer-events: none; display: flex; gap: 8px; align-items: center; max-width: 280px;
+  padding: 5px 12px 5px 5px; background: #fff; border: 1px solid var(--line); border-radius: 26px; box-shadow: 0 4px 14px rgba(40,32,20,.18);
+  transform: translate(-50%, calc(-100% - 8px)); font-size: 12.5px; line-height: 1.3; color: var(--ink);
+}
+.person-tip.is-below { transform: translate(-50%, 8px); }
+.person-tip-text { display: grid; min-width: 0; }
+.person-tip-text strong { white-space: nowrap; }
+.person-tip-text span { font-size: 11.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* fleet filters dim everyone who doesn't match */
+.seat.is-dimmed { opacity: .18; }
+.seat { transition: opacity .2s; }
+.reduce-motion .person.walk-in, .reduce-motion .person.status-working .head, .reduce-motion .status-ring,
+.reduce-motion .robot-light, .reduce-motion .dots i { animation: none !important; }
+.reduce-motion .seat { transition: none; }

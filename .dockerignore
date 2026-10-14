@@ -1,0 +1,19 @@
+# Keep the build context to what `npm pack` needs; never send local data, secrets or build output.
+**/node_modules
+**/dist
+**/dist-demo
+.git
+.github
+.env
+.env.*
+*.log
+coverage
+playwright-report
+test-results
+docs
+portraits
+headshots
+.dunder-mifflin-os
+**/*.tgz
+Dockerfile
+docker-compose.yml

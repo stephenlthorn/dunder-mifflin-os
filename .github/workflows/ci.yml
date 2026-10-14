@@ -1,0 +1,70 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Typecheck, unit and e2e (demo data)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install
+        run: npm ci
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Unit tests
+        run: npm test
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+      - name: E2E (mocked APIs, built-in demo data)
+        run: npm run e2e
+      - name: E2E sign-in (real server, fixture data)
+        run: npm run e2e:auth
+      - name: E2E demo day (static build from a sub-path, and the server with DMOS_SOURCE=demo)
+        run: npm run e2e:demo
+      - name: Package contents
+        run: npm pack --dry-run
+      - name: Upload Playwright traces
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-traces
+          path: web/test-results/
+          retention-days: 7
+
+  docker:
+    name: Docker image builds and starts
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - name: Build
+        run: docker build -t dunder-mifflin-os:ci .
+      - name: Demo container (no token, no keys) serves the demo day
+        run: |
+          docker run -d --name dmos --read-only --cap-drop ALL -p 127.0.0.1:4318:4318 dunder-mifflin-os:ci --demo
+          for _ in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:4318/api/demo/clock | grep -q 'Threat Level Midnight'; then exit 0; fi
+            sleep 1
+          done
+          docker logs dmos
+          exit 1
+      - name: Live container refuses to start without an access token
+        run: |
+          docker run --name dmos-live --read-only --cap-drop ALL dunder-mifflin-os:ci && exit 1
+          docker logs dmos-live 2>&1 | grep -q DMOS_ACCESS_TOKEN

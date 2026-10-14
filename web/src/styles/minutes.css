@@ -1,0 +1,53 @@
+/* The Conference Room's Minutes tab and the memo view (printable). */
+.minutes-filters { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; margin: 8px 0 10px; }
+.minutes-filters [role='group'] { display: flex; gap: 4px; }
+.mtg-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.mtg-row {
+  display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 2px 10px; width: 100%; padding: 8px 10px; text-align: left;
+  border: 1px solid var(--line); border-radius: 8px; background: #fff;
+}
+.mtg-row:hover { border-color: #8fb0dc; background: #f6f9fd; }
+.mtg-title { font-weight: 700; }
+.mtg-meta, .mtg-people { grid-column: 2; font-size: 12px; }
+.mtg-people { color: var(--ink); }
+.mtg-pill {
+  grid-row: 1 / span 3; align-self: start; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px;
+  padding: 2px 7px; border-radius: 999px; white-space: nowrap;
+}
+.mtg-live { background: #dceafc; color: #174a88; }
+.mtg-blocked { background: #fbe1e1; color: #a12d2d; }
+.mtg-waiting { background: #ece6da; color: #5d5446; }
+.mtg-done { background: #e6e9ee; color: #59606b; }
+
+.memo-actions { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.memo {
+  padding: 22px 26px 18px; border: 1px solid #ddd3bf; background: #fffef9; box-shadow: 0 2px 8px rgba(40, 32, 20, .12);
+  font-family: 'Courier New', Courier, monospace; font-size: 13px; line-height: 1.5; color: #2b2721;
+}
+.window-body .memo p { margin: 4px 0; }
+.memo .memo-letterhead {
+  margin: 0 0 10px; padding-bottom: 6px; border-bottom: 3px double var(--dm-blue); font-family: var(--font); font-size: 12px;
+  font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; color: var(--dm-blue);
+}
+.window-body .memo h3 { margin: 0 0 10px; text-align: center; font-size: 19px; letter-spacing: 6px; text-transform: uppercase; color: #2b2721; }
+.memo-fields { display: grid; grid-template-columns: 54px 1fr; gap: 2px 8px; margin: 0 0 10px; padding-bottom: 10px; border-bottom: 1px solid #cfc4ae; }
+.memo-fields dt { font-weight: 700; text-transform: uppercase; }
+.memo-fields dd { margin: 0; }
+.window-body .memo h4 {
+  margin: 14px 0 4px; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: #2b2721; border-bottom: 1px dotted #cfc4ae;
+}
+.memo .mtg-pill { font-family: var(--font); vertical-align: 1px; }
+.memo-agenda { margin: 0; padding-left: 24px; }
+.memo-lines { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; }
+.memo-line { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 8px; }
+.memo-line time { color: #7a705f; font-variant-numeric: tabular-nums; }
+.memo-line.line-result span { color: #1d4f2e; }
+.memo-line.line-closed { font-weight: 700; }
+.memo-results { margin: 0; padding-left: 0; list-style: none; display: grid; gap: 3px; }
+.memo-foot { margin-top: 16px; padding-top: 8px; border-top: 1px solid #e6dcc8; font-size: 11px; font-style: italic; text-align: center; color: #8a806e; }
+
+@media print {
+  body * { visibility: hidden !important; }
+  .memo, .memo * { visibility: visible !important; }
+  .memo { position: fixed; inset: 0; border: 0; box-shadow: none; padding: 12mm; }
+}
