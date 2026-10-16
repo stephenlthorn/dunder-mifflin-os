@@ -35,8 +35,11 @@ export default defineConfig(({ mode }) => {
     server: { host: '127.0.0.1', port: 5173, proxy: apiProxy },
     preview: { host: '127.0.0.1', port: 4173, proxy: apiProxy },
     // relative asset paths, so the site works from any sub-path (e.g. https://<you>.github.io/dunder-mifflin-os/)
+    // web/public-demo is copied as-is into the static site only (og.png, the link-preview image); the app build and
+    // the npm package don't carry it.
     ...(staticDemo ? {
       base: './',
+      publicDir: fileURLToPath(new URL('./public-demo', import.meta.url)),
       build: { outDir: 'dist-demo', emptyOutDir: true, rollupOptions: { input: fileURLToPath(new URL('./demo.html', import.meta.url)) } },
     } : {}),
   };

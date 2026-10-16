@@ -5,6 +5,8 @@
 > NBCUniversal or The Office.** "The Office", "Dunder Mifflin" and the show's characters belong to their owners. The
 > project ships no photos, logos, stills or audio from the show; the characters are original drawings.
 
+[![The demo day at 60x: the Council walks to the Conference Room, Kevin's import spills chili, Dwight raises his hand and clicking him opens his window. Click to open the live demo.](docs/media/dmos-demo.gif)](https://stephenlthorn.github.io/dunder-mifflin-os/)
+
 **[Try the demo in your browser](https://stephenlthorn.github.io/dunder-mifflin-os/)**: a scripted, fictional day at
 the office, running entirely in the page (no server, no keys, no data leaves your browser).
 
