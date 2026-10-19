@@ -33,7 +33,13 @@ task creation stay off until you turn them on. How it fits together: [docs/ARCHI
 
 ## Try it in 10 seconds
 
-Open the [static demo](https://stephenlthorn.github.io/dunder-mifflin-os/), or run it locally:
+Open the [static demo](https://stephenlthorn.github.io/dunder-mifflin-os/), or run it locally (Node 22.13+):
+
+```sh
+npx dunder-mifflin-os --demo --open
+```
+
+Or from a checkout:
 
 ```sh
 git clone https://github.com/stephenlthorn/dunder-mifflin-os.git
@@ -50,14 +56,14 @@ branch at 60x (a day in nine minutes; the top bar switches to 10x or 1x), then s
 
 Message any bot for a canned, in-character reply, or give one a shared task from the Ops room: ten office minutes
 later it walks to the Conference Room to work on it. The ten staff without a bot stay "No bot yet". The same day runs
-from `npm run demo` in a checkout, `docker compose --profile demo up demo`, or a static copy with no server at all
+from `npx dunder-mifflin-os --demo`, `npm run demo` in a checkout, `docker compose --profile demo up demo`, or a static copy with no server at all
 (the [online demo](https://stephenlthorn.github.io/dunder-mifflin-os/); see [Demo mode](#demo-mode-threat-level-midnight)).
 
 ## Quick start
 
 You need Node 22.13+ (for npx and from source) or Docker.
 
-**npx** (once the package is published to npm; it ships the built app):
+**npx** ([on npm](https://www.npmjs.com/package/dunder-mifflin-os); it ships the built app):
 
 ```sh
 npx dunder-mifflin-os --demo --open   # the demo day: scripted bots, nothing read from Hermes
